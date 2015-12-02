@@ -1,5 +1,8 @@
 $icon-font-path: '../fonts/';
 
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Cantarell);
+
 @import "_variables.scss";
 
 // bower:scss
@@ -40,6 +43,11 @@ h3 {
   color: $gray-lighter;
 }
 
+h4 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
 ul {
   list-style-position: inside;
   padding: 0;
@@ -55,13 +63,12 @@ strong {
 
 .logo {
   img {
-    width: 100%;
+    width: 90%;
   }
 }
 
 .title {
   text-align: left;
-  padding-top: 4%;
   img {
     padding-right: 2%;
   }
@@ -72,7 +79,7 @@ strong {
     width: 30%;
   }
   h1 {
-    font-size: floor(($font-size-base * 5.5));
+    font-size: floor(($font-size-base * 5.0));
   }
   h2 {
     font-size: floor(($font-size-base * 4.0));
@@ -96,6 +103,21 @@ strong {
     h3 {
       font-size: floor(($font-size-base * 1.5));
     }
+  }
+  h1 {
+    font-size: floor(($font-size-h1 * 0.8));
+  }
+
+  h2 {
+    font-size: floor(($font-size-h2 * 0.8));
+  }
+
+  h3 {
+    font-size: floor(($font-size-h3 * 0.8));
+  }
+
+  h4 {
+    font-size: floor(($font-size-h4 * 0.8));
   }
 }
 
