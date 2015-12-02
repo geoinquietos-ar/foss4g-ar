@@ -54,29 +54,48 @@ strong {
 }
 
 .logo {
-  text-align: right;
   img {
-    width: 50%;
+    width: 100%;
   }
 }
 
 .title {
   text-align: left;
-  padding-top: 3%;
+  padding-top: 4%;
   img {
     padding-right: 2%;
   }
   .geoinquietos-logo {
-    width: 30%;
+    width: 50%;
   }
   .ign-logo {
-    width: 20%;
+    width: 30%;
+  }
+  h1 {
+    font-size: floor(($font-size-base * 5.5));
+  }
+  h2 {
+    font-size: floor(($font-size-base * 4.0));
+  }
+  h3 {
+    font-size: floor(($font-size-base * 2.5));
   }
 }
 
 @media (max-width: $screen-sm-max) {
   .logo, .title {
     text-align: center;
+  }
+  .title {
+    h1 {
+      font-size: floor(($font-size-base * 3.0));
+    }
+    h2 {
+      font-size: floor(($font-size-base * 2.5));
+    }
+    h3 {
+      font-size: floor(($font-size-base * 1.5));
+    }
   }
 }
 
