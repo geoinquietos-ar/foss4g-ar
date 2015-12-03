@@ -29,6 +29,9 @@ section {
 
 nav {
   font-family: $font-family-special;
+  .btn {
+    border: none;
+  }
 }
 
 h1 {
@@ -37,6 +40,13 @@ h1 {
 
 h2 {
   color: $brand-primary;
+  a {
+    color: $brand-warning;
+    font-size: floor(($font-size-h2 * 0.8));
+  }
+  a:hover {
+    color: darken($brand-warning, 15%);
+  }
 }
 
 h3 {
