@@ -99,6 +99,46 @@ strong {
   }
 }
 
+#main {
+  background-image: url('../images/patagonia-bg.png');
+  background-position: top;
+  background-size: cover;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#main h1,
+#main h2,
+#main h3 {
+  line-height: 1.1;
+}
+
+#about {
+}
+
+#program {
+  background-image: url('../images/litoral-bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#map {
+  height: 450px;
+  margin-bottom: 20px;
+}
+
+#organizers {
+  background-image: url('../images/cuyo-bg.png');
+  background-position: bottom;
+  background-size: cover;
+  background-color: rgba(white, 0.25);
+
+  img {
+    max-height: 130px;
+  }
+}
+
 @media (max-width: $screen-sm-max) {
   .logo, .title {
     text-align: center;
@@ -129,43 +169,14 @@ strong {
   h4 {
     font-size: floor(($font-size-h4 * 0.8));
   }
-}
 
-#main {
-  background-image: url('../images/patagonia-bg.png');
-  background-position: top;
-  background-size: cover;
+  #map {
+    height: 300px;
+  }
 
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-#main h1,
-#main h2,
-#main h3 {
-  line-height: 1.1;
-}
-
-#about {
-}
-
-#program {
-  background-image: url('../images/litoral-bg.png');
-  background-position: center;
-  background-size: cover;
-}
-
-#map {
-  height: 350px;
-}
-
-#organizers {
-  background-image: url('../images/cuyo-bg.png');
-  background-position: bottom;
-  background-size: cover;
-  background-color: rgba(white, 0.25);
-  img {
-    max-height: 130px;
-    padding: 10px;
+  #organizers {
+    img {
+      max-height: 80px;
+    }
   }
 }
