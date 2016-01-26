@@ -21,10 +21,22 @@ body {
 }
 
 section {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 60px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  ul {
+    font-size: ceil(($font-size-small * 0.9));
+    li {
+      margin-bottom: 10px;
+    }
+  }
 }
 
 nav {
@@ -131,8 +143,11 @@ strong {
   background-size: cover;
 }
 
-#organizadores {
+#organizadores, #transporte {
   background-color: darken($brand-primary, 25%);
+  img {
+    max-height: 120px;
+  }
 }
 
 @media (max-width: $screen-sm-max) {
@@ -166,7 +181,18 @@ strong {
     font-size: floor(($font-size-h4 * 0.8));
   }
 
+  section {
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+
   #map {
     height: 300px;
+  }
+
+  #organizadores, #transporte {
+    img {
+      max-height: 70px;
+    }
   }
 }
