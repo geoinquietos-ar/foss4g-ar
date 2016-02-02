@@ -143,7 +143,7 @@ strong {
   background-size: cover;
 }
 
-#organizadores, #transporte {
+#organizadores, #auspiciantes, #transporte {
   background-color: darken($brand-primary, 25%);
   img {
     max-height: 120px;
@@ -190,9 +190,10 @@ strong {
     height: 300px;
   }
 
-  #organizadores, #transporte {
+  #organizadores, #auspiciantes, #transporte {
     img {
-      max-height: 70px;
+      margin-top: 20px;
+      margin-bottom: 30px;
     }
   }
 }
