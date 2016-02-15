@@ -162,6 +162,16 @@ section.logos {
   }
 }
 
+table.talleres {
+  td:first-child {
+    white-space: nowrap;
+    margin-right: 50px;
+  }
+  td:not(:first-child) {
+    width: 33%;
+  }
+}
+
 @media (max-width: $screen-sm-max) {
   .logo, .title {
     text-align: center;
