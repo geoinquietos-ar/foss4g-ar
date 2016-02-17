@@ -162,13 +162,12 @@ section.logos {
   }
 }
 
-table.talleres {
-  td:first-child {
-    white-space: nowrap;
-    margin-right: 50px;
-  }
-  td:not(:first-child) {
-    width: 33%;
+.talleres {
+  .row {
+    border-bottom: 1px solid $gray-lighter;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
