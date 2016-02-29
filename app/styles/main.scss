@@ -30,6 +30,9 @@ section {
 footer {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-image: url('../images/cuyo-bg.png');
+  background-position: bottom;
+  background-size: cover;
 
   ul {
     font-size: ceil(($font-size-small * 0.9));
@@ -115,7 +118,7 @@ strong {
   margin-top: 20px;
 
   a.btn {
-    font-size: $font-size-h5;
+    font-size: $font-size-h4;
     font-family: $font-family-base;
   }
 }
@@ -135,7 +138,7 @@ strong {
   line-height: 1.1;
 }
 
-#programa {
+#lugar {
   background-image: url('../images/litoral-bg.png');
   background-position: center;
   background-size: cover;
@@ -144,12 +147,6 @@ strong {
 #map {
   height: 450px;
   margin-bottom: 20px;
-}
-
-#calendario {
-  background-image: url('../images/cuyo-bg.png');
-  background-position: bottom;
-  background-size: cover;
 }
 
 section.logos {
@@ -162,7 +159,7 @@ section.logos {
   }
 }
 
-.talleres {
+#programme {
   .row {
     border-bottom: 1px solid $gray-lighter;
     text-align: center;
