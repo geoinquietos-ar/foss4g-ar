@@ -13,3 +13,7 @@ $(function() {
       console.log(error);
     });
 });
+
+Handlebars.registerHelper('columnSize', function(content) {
+  return Math.round(10 / content.rooms.length);
+});

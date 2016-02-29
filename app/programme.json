@@ -120,7 +120,7 @@
       "agenda": [
         {
           "time": "09:00 - 10:00",
-          "tracks": [ { "title": "Acreditación" }, { "title": "Acreditación" } ]
+          "single": "Acreditación"
         },
         {
           "time": "10:00 - 10:30",
@@ -132,7 +132,7 @@
         },
         {
           "time": "11:00 - 11:30",
-          "tracks": [ { "title": "Coffee Break" }, { "title": "Coffee Break" } ]
+          "single": "Coffee Break"
         },
         {
           "time": "11:30 - 12:00",
@@ -148,7 +148,7 @@
         },
         {
           "time": "13:00 - 14:30",
-          "tracks": [ { "title": "Almuerzo" }, { "title": "Almuerzo" } ]
+          "single": "Almuerzo"
         },
         {
           "time": "14:30 - 15:00",
@@ -164,7 +164,7 @@
         },
         {
           "time": "16:00 - 16:30",
-          "tracks": [ { "title": "Coffee Break" }, { "title": "Coffee Break" } ]
+          "single": "Coffee Break"
         },
         {
           "time": "16:30 - 17:00",
@@ -172,7 +172,7 @@
         },
         {
           "time": "17:00 - 17:30",
-          "tracks": [ { "title": "Integración PostGIS X R" }, { "title": "Novedades gvSIG Desktop" } ]
+          "tracks": [ { "title": "Integración de PostGIS con R" }, { "title": "Novedades gvSIG Desktop" } ]
         }
       ]
     }
@@ -188,7 +188,7 @@
       "agenda": [
         {
           "time": "09:00 - 10:00",
-          "tracks": [ { "title": "Acreditación" }, { "title": "Acreditación" } ]
+          "single": "Acreditación"
         },
         {
           "time": "10:00 - 10:30",
@@ -200,7 +200,7 @@
         },
         {
           "time": "11:00 - 11:30",
-          "tracks": [ { "title": "Coffee Break" }, { "title": "Coffee Break" } ]
+          "single": "Coffee Break"
         },
         {
           "time": "11:30 - 12:00",
@@ -216,7 +216,7 @@
         },
         {
           "time": "13:00 - 14:30",
-          "tracks": [ { "title": "Almuerzo" }, { "title": "Almuerzo" } ]
+          "single": "Almuerzo"
         },
         {
           "time": "14:30 - 15:00",
@@ -232,7 +232,7 @@
         },
         {
           "time": "16:00 - 16:30",
-          "tracks": [ { "title": "Coffee Break" }, { "title": "Coffee Break" } ]
+          "single": "Coffee Break"
         },
         {
           "time": "16:30 - 17:00",
