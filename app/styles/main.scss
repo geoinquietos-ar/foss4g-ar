@@ -157,6 +157,10 @@ section.logos {
   h3 {
     color: $brand-primary;
   }
+  [class*="col-"] {
+    @extend .pull-left;
+    margin-bottom: 30px;
+  }
 }
 
 .agenda {
