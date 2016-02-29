@@ -192,7 +192,7 @@
         },
         {
           "time": "10:00 - 10:30",
-          "tracks": [ { "title": "Gestión y planificación integral de la movilidad a través de las IDEs" }, { "title": "---" } ]
+          "tracks": [ { "title": "Gestión y planificación integral de la movilidad a través de las IDEs" }, { "title": "Software libre en teledeteccion" } ]
         },
         {
           "time": "10:30 - 11:00",
@@ -212,7 +212,7 @@
         },
         {
           "time": "12:30 - 13:00",
-          "tracks": [ { "title": "Uso de FOSS4G en la Gestión Territorial" }, { "title": "Implementacion de un Sistema de Informacion Forestal" } ]
+          "tracks": [ { "title": "Introducción a GeoGig: versionado distribuído de datos geoespaciales" }, { "title": "Implementacion de un Sistema de Informacion Forestal" } ]
         },
         {
           "time": "13:00 - 14:30",
@@ -220,7 +220,7 @@
         },
         {
           "time": "14:30 - 15:00",
-          "tracks": [ { "title": "Software libre en teledeteccion" }, { "title": "Análisis del crecimiento demográfico y la relación entre espacios verdes y edificados en Darregueira" } ]
+          "tracks": [ { "title": "Uso de FOSS4G en la Gestión Territorial" }, { "title": "Análisis del crecimiento demográfico y la relación entre espacios verdes y edificados en Darregueira" } ]
         },
         {
           "time": "15:00 - 15:30",
