@@ -1,7 +1,6 @@
 [
   {
     "title": "Martes",
-    "description": "",
     "content": {
       "rooms": [
         { "title": "Aula 1" },
@@ -56,7 +55,6 @@
   },
   {
     "title": "Miércoles",
-    "description": "",
     "content": {
       "rooms": [
         { "title": "Aula 1" },
@@ -111,7 +109,6 @@
   },
   {
     "title": "Jueves",
-    "description": "",
     "content": {
       "rooms": [
         { "title": "Sala 1" },
@@ -179,7 +176,6 @@
   },
   {
     "title": "Viernes",
-    "description": "",
     "content": {
       "rooms": [
         { "title": "Sala 1" },

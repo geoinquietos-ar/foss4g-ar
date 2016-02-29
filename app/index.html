@@ -128,7 +128,7 @@
     <section id="programa">
       <div class="container">
         <div class="row">
-          <div id="programme" class="col-md-12">
+          <div class="col-md-12">
             <h1>Programa</h1>
           </div>
         </div>
@@ -270,38 +270,44 @@
 
     <!-- Handlebars templates -->
     <script id="programme-template" type="text/x-handlebars-template">
-      <h3>{{title}}</h3>
-      <p>{{description}}</p>
-      {{#if content}}
-        <div class="container">
-          <div class="row hidden-sm hidden-xs">
-            <div class="col-md-2 col-sm-12"></div>
-            {{#each content.rooms}}
-              <div class="col-md-{{columnSize ../content}} col-sm-12"><strong>{{title}}</strong></div>
-            {{/each}}
-          </div>
-          {{#each content.agenda}}
-            <div class="row">
-              <div class="col-md-2 col-sm-12"><strong>{{time}}</strong></div>
-              {{#if single}}
-                <div class="col-md-10 col-sm-12">{{single}}</div>
-              {{/if}}
-              {{#each tracks}}
-                <div class="col-md-{{columnSize ../../content}} col-sm-12">
-                  {{#with (lookup ../../content.rooms @index)}}
-                    <span class="visible-sm visible-xs">{{title}}: </span>
-                  {{/with}}
-                  {{#if link}}
-                    <a target="_blank" href="{{link}}">{{title}}</a>
-                  {{else}}
-                    <span>{{title}}</span>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>{{title}}</h3>
+          {{#if description}}
+            <p>{{description}}</p>
+          {{/if}}
+          {{#if content}}
+            <div class="container agenda">
+              <div class="row hidden-sm hidden-xs">
+                <div class="col-md-2 col-sm-12"></div>
+                {{#each content.rooms}}
+                  <div class="col-md-{{columnSize ../content}} col-sm-12"><strong>{{title}}</strong></div>
+                {{/each}}
+              </div>
+              {{#each content.agenda}}
+                <div class="row">
+                  <div class="col-md-2 col-sm-12"><strong>{{time}}</strong></div>
+                  {{#if single}}
+                    <div class="col-md-10 col-sm-12">{{single}}</div>
                   {{/if}}
+                  {{#each tracks}}
+                    <div class="col-md-{{columnSize ../../content}} col-sm-12">
+                      {{#with (lookup ../../content.rooms @index)}}
+                        <span class="visible-sm visible-xs">{{title}}: </span>
+                      {{/with}}
+                      {{#if link}}
+                        <a target="_blank" href="{{link}}">{{title}}</a>
+                      {{else}}
+                        <span>{{title}}</span>
+                      {{/if}}
+                    </div>
+                  {{/each}}
                 </div>
               {{/each}}
             </div>
-          {{/each}}
+          {{/if}}
         </div>
-      {{/if}}
+      </div>
     </script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

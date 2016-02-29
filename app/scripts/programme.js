@@ -6,7 +6,7 @@ $(function() {
       var source = $('#programme-template').html();
       var template = Handlebars.compile(source);
       $.each(data, function(dayIndex, day) {
-        $('#programme').append(template(day));
+        $('#programa > div.container').append(template(day));
       });
     })
     .fail(function(error) {
