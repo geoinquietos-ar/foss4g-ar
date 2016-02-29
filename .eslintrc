@@ -1,5 +1,8 @@
 {
   "globals": {
     "L": true,
+    "$": true,
+    "Handlebars": true,
+    "console": true
   }
 }
