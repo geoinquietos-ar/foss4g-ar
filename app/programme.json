@@ -17,14 +17,23 @@
           "tracks": [
             {
               "title": "Introducción a Leaflet",
+              "speaker": "Iván Sánchez Ortega",
+              "from": "Madrid, España",
+              "works": "MazeMap",
               "link": "https://www.eventbrite.com.ar/e/taller-introduccion-a-leaflet-tickets-21638142266"
             },
             {
               "title": "Introducción a GeoNetwork",
+              "speaker": "María Arias de Reyna",
+              "from": "España",
+              "works": "GeoCat bv",
               "link": "https://www.eventbrite.com.ar/e/taller-introduccion-a-geonetwork-tickets-21638320800"
             },
             {
               "title": "Introducción a CartoDB",
+              "speaker": "Jorge Sanz",
+              "from": "España",
+              "works": "CartoDB",
               "link": "https://www.eventbrite.com.ar/e/taller-introduccion-a-cartodb-tickets-21638921597"
             }
           ]
@@ -38,14 +47,23 @@
           "tracks": [
             {
               "title": "QGIS I - Introducción",
+              "speaker": "Horacio Castellaro",
+              "from": "Buenos Aires",
+              "works": "IGN",
               "link": "https://www.eventbrite.com.ar/e/taller-qgis-i-introduccion-tickets-21639027915"
             },
             {
               "title": "Introducción a GeoServer",
+              "speaker": "Cristian Zamar",
+              "from": "Formosa, Argentina",
+              "works": "IDE Formosa",
               "link": "https://www.eventbrite.com.ar/e/taller-introduccion-a-geoserver-tickets-21639084083"
             },
             {
               "title": "TGRASS - Procesamiento de series de tiempo en GRASS GIS",
+              "speaker": "Veronica Andreo",
+              "from": "Rio Cuarto, Cordoba",
+              "works": "INMeT - Instituto Nacional de Medicina Tropical",
               "link": "https://www.eventbrite.com.ar/e/taller-tgrass-procesamiento-de-series-de-tiempo-en-grass-gis-tickets-21639103140"
             }
           ]
@@ -71,14 +89,23 @@
           "tracks": [
             {
               "title": "Leaflet Avanzado - Cómo hacer plugins",
+              "speaker": "Iván Sánchez Ortega",
+              "from": "Madrid, España",
+              "works": "MazeMap",
               "link": "https://www.eventbrite.com.ar/e/taller-leaflet-avanzado-como-hacer-plugins-tickets-21639198425"
             },
             {
               "title": "GeoNetwork Avanzado",
+              "speaker": "María Arias de Reyna",
+              "from": "España",
+              "works": "GeoCat bv",
               "link": "https://www.eventbrite.com.ar/e/taller-geonetwork-avanzado-tickets-21639234533"
             },
             {
               "title": "QGIS II - Creación de datos geoespaciales",
+              "speaker": "Horacio Castellaro",
+              "from": "Buenos Aires",
+              "works": "IGN",
               "link": "https://www.eventbrite.com.ar/e/taller-qgis-ii-creacion-de-datos-geoespaciales-tickets-21639255596"
             }
           ]
@@ -92,14 +119,23 @@
           "tracks": [
             {
               "title": "Geoinformática aplicada a la cartografía",
+              "speaker": "Esteban Federico D.",
+              "from": "Buenos Aires",
+              "works": "Instituto de Geociencias Básicas, Aplicadas y Ambientales de Buenos Aires - IGEBA (UBA-CONICET)",
               "link": "https://www.eventbrite.com.ar/e/taller-geoinformatica-aplicada-a-la-cartografia-tickets-21639279668"
             },
             {
               "title": "Análisis espacial con R",
+              "speaker": "Felipe Sodré Mendes Barros",
+              "from": "Rio de Janeiro, Brasil",
+              "works": "Instituto Internacional para Sustentabilidade",
               "link": "https://www.eventbrite.com.ar/e/taller-analisis-espacial-con-r-tickets-21639358905"
             },
             {
               "title": "QGIS III - Geoprocesos",
+              "speaker": "Horacio Castellaro",
+              "from": "Buenos Aires",
+              "works": "IGN",
               "link": "https://www.eventbrite.com.ar/e/taller-qgis-iii-geoprocesos-tickets-21639395013"
             }
           ]
@@ -133,15 +169,47 @@
         },
         {
           "time": "11:30 - 12:00",
-          "tracks": [ { "title": "Cartografía y SIG para la política social" }, { "title": "Utilización didáctica de gvSIG en el aula" } ]
+          "tracks": [
+            {
+              "title": "Cartografía y SIG para la política social",
+              "speaker": "Cuahutemoc Gutierrez Perez",
+              "from": "Lerma, Estado de México, México",
+              "works": "Ayuntamiento de Lerma"
+            },
+            {
+              "title": "Utilización didáctica de gvSIG en el aula",
+              "speaker": "Adriana y Ulises",
+              "from": "Berisso - Provincia Buenos Aires",
+              "works": "Escuelas de Educación Secundaria Públicas"
+            }
+          ]
         },
         {
           "time": "12:00 - 12:30",
-          "tracks": [ { "title": "SIGs abiertos para la gestión de políticas sociales" }, { "title": "Los Software libres dentro de la Universidad" } ]
+          "tracks": [
+            {
+              "title": "SIGs abiertos para la gestión de políticas sociales",
+              "speaker": "Guillermo D'Angelo",
+              "from": "Uruguay",
+              "works": "Ministerio de Desarrollo Social"
+            }, { "title": "Los Software libres dentro de la Universidad" } ]
         },
         {
           "time": "12:30 - 13:00",
-          "tracks": [ { "title": "GeoNetwork: el catálogo de datos espaciales libre" }, { "title": "Utilización del software gvSIG para el análisis acústico urbano." } ]
+          "tracks": [
+            {
+              "title": "GeoNetwork: el catálogo de datos espaciales libre",
+              "speaker": "María Arias de Reyna",
+              "from": "España",
+              "works": "GeoCat bv"
+            },
+            {
+              "title": "Utilización del software gvSIG para el análisis acústico urbano.",
+              "speaker": "Mario Fèvre",
+              "from": "Ciudad de Buenos Aires",
+              "works": "TReCC SA, Ciudad de Buenos Aires"
+            }
+          ]
         },
         {
           "time": "13:00 - 14:30",
@@ -149,15 +217,54 @@
         },
         {
           "time": "14:30 - 15:00",
-          "tracks": [ { "title": "Plan de manejo ambiental sobre cuenta del Río Tunjuelo (Bogotá-Colombia)" }, { "title": "Evaluación de la calidad de suelos mediante gvSIG" } ]
+          "tracks": [
+            {
+              "title": "Plan de manejo ambiental sobre cuenta del Río Tunjuelo (Bogotá-Colombia)",
+              "speaker": "Edgar David Mendez Medellin",
+              "from": "Bogota-Colombia",
+              "works": "Universidad Distrital Francisco Jose de Caldas (Bogotá-Colombia)"
+            },
+            {
+              "title": "Evaluación de la calidad de suelos mediante gvSIG",
+              "speaker": "Rodriguez, Maria Jimena",
+              "from": "Villa Maria",
+              "works": "Universidad Nacional de Villa Maria"
+            }
+          ]
         },
         {
           "time": "15:00 - 15:30",
-          "tracks": [ { "title": "Casos de uso de FOSS4G en el sector azucarero Colombiano" }, { "title": "Caracterización ambiental de la zona periurbana de Villa María, Córdoba para la conformación de Indicadores Ambientales" } ]
+          "tracks": [
+            {
+              "title": "Casos de uso de FOSS4G en el sector azucarero Colombiano",
+              "speaker": "Fabio Andres Herrera",
+              "from": "Colombia",
+              "works": "Centro de Investigación de la Caña de Azucar de Colombia"
+            },
+            {
+              "title": "Caracterización ambiental de la zona periurbana de Villa María, Córdoba para la conformación de Indicadores Ambientales",
+              "speaker": "Guzman, Leticia Ana",
+              "from": "Villa Maria (Córdoba)",
+              "works": "Universidad Nacional de Villa Maria"
+            }
+          ]
         },
         {
           "time": "15:30 - 16:00",
-          "tracks": [ { "title": "IndoorGML, pros y contras" }, { "title": "gvSIG Online, solución integral para Infraestructuras de Datos Espaciales" } ]
+          "tracks": [
+            {
+              "title": "IndoorGML, pros y contras",
+              "speaker": "Iván Sánchez Ortega",
+              "from": "Madrid, España",
+              "works": "MazeMap"
+            },
+            {
+              "title": "gvSIG Online, solución integral para Infraestructuras de Datos Espaciales",
+              "speaker": "Ricardo Castro",
+              "from": "Villa María (Córdoba)",
+              "works": "Comunidad gvSIG"
+            }
+          ]
         },
         {
           "time": "16:00 - 16:30",
@@ -165,11 +272,36 @@
         },
         {
           "time": "16:30 - 17:00",
-          "tracks": [ { "title": "Democratizando la publicación de datos geográficos" }, { "title": "gvSIG Roads, solución integral para la gestión del inventario y conservación de carreteras" } ]
+          "tracks": [
+            {
+              "title": "Democratizando la publicación de datos geográficos",
+              "speaker": "Jorge Sanz",
+              "from": "España",
+              "works": "CartoDB"
+            },
+            { "title": "gvSIG Roads, solución integral para la gestión del inventario y conservación de carreteras",
+              "speaker": "Ricardo Castro",
+              "from": "Villa María (Córdoba)",
+              "works": "Comunidad gvSIG"
+            }
+          ]
         },
         {
           "time": "17:00 - 17:30",
-          "tracks": [ { "title": "Integración de PostGIS con R" }, { "title": "Novedades gvSIG Desktop" } ]
+          "tracks": [
+            {
+              "title": "Integración de PostGIS con R",
+              "speaker": "Felipe Sodré Mendes Barros",
+              "from": "Rio de Janeiro, Brasil",
+              "works": "Instituto Internacional para Sustentabilidade"
+            },
+            {
+              "title": "Novedades gvSIG Desktop",
+              "speaker": "Ricardo Castro",
+              "from": "Villa María (Córdoba)",
+              "works": "Comunidad gvSIG"
+            }
+          ]
         }
       ]
     }
@@ -188,11 +320,37 @@
         },
         {
           "time": "10:00 - 10:30",
-          "tracks": [ { "title": "Gestión y planificación integral de la movilidad a través de las IDEs" }, { "title": "Software libre en teledeteccion" } ]
+          "tracks": [
+            {
+              "title": "Gestión y planificación integral de la movilidad a través de las IDEs",
+              "speaker": "Griselda Galeano, Juan Ruarte, Javier Díaz",
+              "from": "Argentina",
+              "works": "Ministerio de Transporte de la Nación. Argentina"
+            },
+            {
+              "title": "Software libre en teledetección",
+              "speaker": "Nestor Barrionuevo",
+              "from": "Hurlingham, Buenos Aires",
+              "works": "INTA"
+            }
+          ]
         },
         {
           "time": "10:30 - 11:00",
-          "tracks": [ { "title": "Procesamiento de datos DGPS de un glaciar antártico con QGIS" }, { "title": "Crear aplicaciones móviles SIG sin conocimientos avanzados" } ]
+          "tracks": [
+            {
+              "title": "Procesamiento de datos DGPS de un glaciar antártico con QGIS",
+              "speaker": "Hernan Sala",
+              "from": "Ciudad de Buenos Aires",
+              "works": "Instituto Antártico Argentino - Dirección Nacional del Antártico"
+            },
+            {
+              "title": "Crear aplicaciones móviles SIG sin conocimientos avanzados",
+              "speaker": "Carlos Nelson Jimenez",
+              "from": "Buenos Aires, Argentina",
+              "works": "Universidad Nacional de General Sarmiento"
+            }
+          ]
         },
         {
           "time": "11:00 - 11:30",
@@ -200,15 +358,54 @@
         },
         {
           "time": "11:30 - 12:00",
-          "tracks": [ { "title": "Leaflet y tecnologías web emergentes" }, { "title": "Información geográfica para pensar Suramérica" } ]
+          "tracks": [
+            {
+              "title": "Leaflet y tecnologías web emergentes",
+              "speaker": "Iván Sánchez Ortega",
+              "from": "Madrid, España",
+              "works": "MazeMap"
+            },
+            {
+              "title": "Información geográfica para pensar Suramérica",
+              "speaker": "Julio César Benedetti",
+              "from": "Ciudad de Buenos Aires, Argentina",
+              "works": "Universidad de Buenos Aires, Universidad del Salvador. (Referido a la presentación UNASUR)"
+            }
+          ]
         },
         {
           "time": "12:00 - 12:30",
-          "tracks": [ { "title": "Ordenamiento territorial y conflictos de uso del suelo entre canteras y urbanizaciones en sector de Vía a la Costa (Guayaquil)" }, { "title": "Herramientas libres para hacer mapas con drones" } ]
+          "tracks": [
+            {
+              "title": "Ordenamiento territorial y conflictos de uso del suelo entre canteras y urbanizaciones en sector de Vía a la Costa (Guayaquil)",
+              "speaker": "Jorge Alberto Coronel Quevedo",
+              "from": "Guayaquil - Ecuador",
+              "works": "Universidad Agraria del Ecuador"
+            },
+            {
+              "title": "Herramientas libres para hacer mapas con drones",
+              "speaker": "Erik de badts",
+              "from": "CABA",
+              "works": "Fotoaerea.com.ar"
+            }
+          ]
         },
         {
           "time": "12:30 - 13:00",
-          "tracks": [ { "title": "Introducción a GeoGig: versionado distribuído de datos geoespaciales" }, { "title": "Implementacion de un Sistema de Informacion Forestal" } ]
+          "tracks": [
+            {
+              "title": "Introducción a GeoGig: versionado distribuído de datos geoespaciales",
+              "speaker": "Gabriel Roldán",
+              "from": "Rosario",
+              "works": "BoundlessGeo"
+            },
+            {
+              "title": "Implementacion de un Sistema de Informacion Forestal",
+              "speaker": "Matias Carlos Gaute",
+              "from": "Buenos Aires",
+              "works": "Ministerio de Agroindustria"
+            }
+          ]
         },
         {
           "time": "13:00 - 14:30",
@@ -216,15 +413,54 @@
         },
         {
           "time": "14:30 - 15:00",
-          "tracks": [ { "title": "Uso de FOSS4G en la Gestión Territorial" }, { "title": "Análisis del crecimiento demográfico y la relación entre espacios verdes y edificados en Darregueira" } ]
+          "tracks": [
+            {
+              "title": "Uso de FOSS4G en la Gestión Territorial",
+              "speaker": "Juan Carlos Méndez",
+              "from": "Colombia",
+              "works": "Kudos gkudos.com"
+            },
+            {
+              "title": "Análisis del crecimiento demográfico y la relación entre espacios verdes y edificados en Darregueira",
+              "speaker": "Magalí Vicente y Patricia Rosell",
+              "from": "Darregueira, Bs As, ARG",
+              "works": "-"
+            }
+          ]
         },
         {
           "time": "15:00 - 15:30",
-          "tracks": [ { "title": "GeoINTA. Una opción para móviles aprovechando la IDE" }, { "title": "Geoelectoral" } ]
+          "tracks": [
+            {
+              "title": "GeoINTA. Una opción para móviles aprovechando la IDE",
+              "speaker": "Santiago Banchero",
+              "from": "Buenos Aires",
+              "works": "INTA"
+            },
+            {
+              "title": "Geoelectoral",
+              "speaker": "Raul Fernando Molina Rodriguez",
+              "from": "Bolivia",
+              "works": "Agencia De Gobierno Electronico Y Tecnologías De Información Y Comunicación - GeoBolivia"
+            }
+          ]
         },
         {
           "time": "15:30 - 16:00",
-          "tracks": [ { "title": "Aplicaciones geoespaciales con Django: un panorama" }, { "title": "Clasificación Supervisada de Imagenes Satelitales en QGIS" } ]
+          "tracks": [
+            {
+              "title": "Aplicaciones geoespaciales con Django: un panorama",
+              "speaker": "Wille Marcel Lima Malheiro",
+              "from": "Brasília, Brasil",
+              "works": "OpenStreetMap Brasil"
+            },
+            {
+              "title": "Clasificación Supervisada de Imagenes Satelitales en QGIS",
+              "speaker": "Nestor Barrionuevo",
+              "from": "Hurlingham, Buenos Aires",
+              "works": "INTA"
+            }
+          ]
         },
         {
           "time": "16:00 - 16:30",
@@ -232,7 +468,20 @@
         },
         {
           "time": "16:30 - 17:00",
-          "tracks": [ { "title": "Introducción a GDAL" }, { "title": "Monitoreando servicios IDE con Nagios" } ]
+          "tracks": [
+            {
+              "title": "Introducción a GDAL",
+              "speaker": "Hernan Sala",
+              "from": "Ciudad de Buenos Aires",
+              "works": "Instituto Antártico Argentino - Dirección Nacional del Antártico"
+            },
+            {
+              "title": "Monitoreando servicios IDE con Nagios",
+              "speaker": "Santiago Banchero",
+              "from": "Buenos Aires",
+              "works": "INTA"
+            }
+          ]
         },
         {
           "time": "17:00 - 17:30",
