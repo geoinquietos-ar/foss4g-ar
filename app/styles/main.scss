@@ -174,6 +174,11 @@ section.logos {
   }
 }
 
+.popover-content {
+  text-align: center;
+  font-size: 14px;
+}
+
 @media (max-width: $screen-sm-max) {
   .logo, .title {
     text-align: center;

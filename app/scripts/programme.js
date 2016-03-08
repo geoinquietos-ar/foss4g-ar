@@ -8,6 +8,7 @@ $(function() {
       $.each(data, function(dayIndex, day) {
         $('#programa > div.container').append(template(day));
       });
+      $('[data-toggle="popover"]').popover({html: true});
     })
     .fail(function(error) {
       console.log(error);

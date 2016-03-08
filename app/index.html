@@ -301,9 +301,19 @@
                         <span class="visible-sm visible-xs">{{title}}: </span>
                       {{/with}}
                       {{#if link}}
-                        <a target="_blank" href="{{link}}">{{title}}</a>
+                        <a target="_blank" href="{{link}}"
+                        {{#if speaker}}
+                          data-toggle="popover" data-trigger="hover" data-placement="bottom"
+                          data-content="<b>{{speaker}}</b><br>{{works}}<br><i>{{from}}</i>"
+                        {{/if}}
+                        >{{title}}</a>
                       {{else}}
-                        <span>{{title}}</span>
+                        <span
+                        {{#if speaker}}
+                          data-toggle="popover" data-trigger="hover" data-placement="bottom"
+                          data-content="<b>{{speaker}}</b><br>{{works}}<br><i>{{from}}</i>"
+                        {{/if}}
+                        >{{title}}</span>
                       {{/if}}
                     </div>
                   {{/each}}
