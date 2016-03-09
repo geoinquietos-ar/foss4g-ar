@@ -176,7 +176,8 @@ section.logos {
 
 .popover-content {
   text-align: center;
-  font-size: 14px;
+  font-size: $font-size-small;
+  color: $brand-primary;
 }
 
 @media (max-width: $screen-sm-max) {
