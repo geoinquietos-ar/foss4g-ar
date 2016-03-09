@@ -449,12 +449,6 @@
           "time": "15:30 - 16:00",
           "tracks": [
             {
-              "title": "Aplicaciones geoespaciales con Django: un panorama",
-              "speaker": "Wille Marcel Lima Malheiro",
-              "from": "Brasília, Brasil",
-              "works": "OpenStreetMap Brasil"
-            },
-            {
               "title": "Clasificación Supervisada de Imagenes Satelitales en QGIS",
               "speaker": "Nestor Barrionuevo",
               "from": "Hurlingham, Buenos Aires",
