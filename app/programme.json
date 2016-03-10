@@ -192,7 +192,12 @@
               "speaker": "Guillermo D'Angelo",
               "from": "Uruguay",
               "works": "Ministerio de Desarrollo Social"
-            }, { "title": "Los Software libres dentro de la Universidad" } ]
+            }, 
+            { "title": "Los Software libres dentro de la Universidad" 
+              "speaker": "Natalia Alvarez, Cecilia Berón",
+              "from": "Argentina",
+              "works": "Instituto Geográfico Nacional"
+            } ]
         },
         {
           "time": "12:30 - 13:00",
@@ -448,12 +453,6 @@
         {
           "time": "15:30 - 16:00",
           "tracks": [
-            {
-              "title": "Aplicaciones geoespaciales con Django: un panorama",
-              "speaker": "Wille Marcel Lima Malheiro",
-              "from": "Brasília, Brasil",
-              "works": "OpenStreetMap Brasil"
-            },
             {
               "title": "Clasificación Supervisada de Imagenes Satelitales en QGIS",
               "speaker": "Nestor Barrionuevo",
