@@ -180,6 +180,10 @@ section.logos {
   color: $brand-primary;
 }
 
+.twitter-widget {
+  margin-top: 105px;
+}
+
 @media (max-width: $screen-sm-max) {
   .logo, .title {
     text-align: center;

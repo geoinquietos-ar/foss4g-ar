@@ -279,7 +279,8 @@
               "from": "España",
               "works": "CartoDB"
             },
-            { "title": "gvSIG Roads, solución integral para la gestión del inventario y conservación de carreteras",
+            {
+              "title": "Novedades gvSIG Desktop",
               "speaker": "Ricardo Castro",
               "from": "Villa María (Córdoba)",
               "works": "Comunidad gvSIG"
@@ -295,12 +296,7 @@
               "from": "Rio de Janeiro, Brasil",
               "works": "Instituto Internacional para Sustentabilidade"
             },
-            {
-              "title": "Novedades gvSIG Desktop",
-              "speaker": "Ricardo Castro",
-              "from": "Villa María (Córdoba)",
-              "works": "Comunidad gvSIG"
-            }
+            { "title": "---" }
           ]
         }
       ]
@@ -322,10 +318,7 @@
           "time": "10:00 - 10:30",
           "tracks": [
             {
-              "title": "Gestión y planificación integral de la movilidad a través de las IDEs",
-              "speaker": "Griselda Galeano, Juan Ruarte, Javier Díaz",
-              "from": "Argentina",
-              "works": "Ministerio de Transporte de la Nación. Argentina"
+              "title": "---"
             },
             {
               "title": "Software libre en teledetección",
