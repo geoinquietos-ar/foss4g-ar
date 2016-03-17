@@ -3,6 +3,7 @@
     "L": true,
     "$": true,
     "Handlebars": true,
-    "console": true
+    "console": true,
+    "moment": true
   }
 }

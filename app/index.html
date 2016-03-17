@@ -17,7 +17,7 @@
     <!-- endbuild -->
 
     <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/index.css">
     <!-- endbuild -->
 
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -102,7 +102,7 @@
           </div>
           <div class="col-md-3 hidden-sm hidden-xs">
             <div class="twitter-widget">
-              <a class="twitter-timeline" href="https://twitter.com/foss4gAR" data-widget-id="709852705347473408">Tweets por el @foss4gAR.</a>
+              <a class="twitter-timeline" href="https://twitter.com/foss4gAR" data-widget-id="709852705347473408">Tweets by @foss4gAR.</a>
             </div>
           </div>
         </div>
@@ -296,7 +296,7 @@
               </div>
               {{#each content.agenda}}
                 <div class="row">
-                  <div class="col-md-2 col-sm-12"><strong>{{time}}</strong></div>
+                  <div class="col-md-2 col-sm-12"><strong>{{time this}}</strong></div>
                   {{#if single}}
                     <div class="col-md-10 col-sm-12">{{single}}</div>
                   {{/if}}
@@ -345,6 +345,7 @@
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/leaflet/dist/leaflet-src.js"></script>
     <script src="/bower_components/handlebars/handlebars.js"></script>
+    <script src="/bower_components/moment/moment.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -366,6 +367,7 @@
     <!-- build:js scripts/main.js -->
     <script src="scripts/map.js"></script>
     <script src="scripts/programme.js"></script>
+    <script src="scripts/main.js"></script>
     <!-- endbuild -->
 
     <!-- Twitter Widget -->
