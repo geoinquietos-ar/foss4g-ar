@@ -206,7 +206,12 @@
               "speaker": "Guillermo D'Angelo",
               "from": "Uruguay",
               "works": "Ministerio de Desarrollo Social"
-            }, { "title": "Los Software libres dentro de la Universidad" } ]
+            }, 
+            { "title": "Los Software libres dentro de la Universidad" 
+              "speaker": "Natalia Alvarez, Cecilia Berón",
+              "from": "Argentina",
+              "works": "Instituto Geográfico Nacional"
+            } ]
         },
         {
           "start": "2016-04-07 12:30:00",
