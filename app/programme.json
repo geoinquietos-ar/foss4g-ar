@@ -166,13 +166,35 @@
         },
         {
           "start": "2016-04-07 10:00:00",
-          "end": "2016-04-07 10:30:00",
-          "tracks": [ { "title": "Apertura" }, { "title": "---" } ]
+          "end": "2016-04-07 10:20:00",
+          "tracks": [
+            {
+              "title": "Apertura",
+              "speaker": "Ariel Anthieni (Geoinquietos), Sergio Cimbaro (IGN)"
+            },
+            { "title": "---" } ]
         },
         {
-          "start": "2016-04-07 10:30:00",
+          "start": "2016-04-07 10:20:00",
+          "end": "2016-04-07 10:40:00",
+          "tracks": [
+            {
+              "title": "OSGeo: Your Open Source Compass",
+              "speaker": "Vasile Crâciunescu",
+              "from": "Rumania",
+              "works": "OSGeo Foundation"
+            },
+            { "title": "---" } ]
+        },
+        {
+          "start": "2016-04-07 10:40:00",
           "end": "2016-04-07 11:00:00",
-          "tracks": [ { "title": "Plenaria" }, { "title": "---" } ]
+          "tracks": [
+            {
+              "title": "Geoinquietos: dinamizando las comunidades locales",
+              "speaker": "Geoinquietos"
+            },
+            { "title": "---" } ]
         },
         {
           "start": "2016-04-07 11:00:00",
@@ -236,7 +258,7 @@
           "end": "2016-04-07 15:00:00",
           "tracks": [
             {
-              "title": "Plan de manejo ambiental sobre cuenta del Río Tunjuelo",
+              "title": "Plan de manejo ambiental sobre cuenca del Río Tunjuelo",
               "speaker": "Edgar David Mendez Medellin",
               "from": "Bogota, Colombia",
               "works": "Universidad Distrital Francisco Jose de Caldas (Bogotá-Colombia)"
@@ -518,6 +540,6 @@
   },
   {
     "title": "Sábado",
-    "description": "Hackatón + Mapatón"
+    "description": "Desconferencia: Datos libres + Hackatón + Mapatón"
   }
 ]
