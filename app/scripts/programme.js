@@ -20,7 +20,7 @@ var programmeTemplate = function(data) {
   var source = $('#programme-template').html();
   var template = Handlebars.compile(source);
   $.each(data, function(dayIndex, day) {
-    $('#programa > div.container').append(template(day));
+    $('#programme').append(template(day));
   });
   $('[data-toggle="popover"]').popover({html: true});
 };
