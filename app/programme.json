@@ -484,10 +484,10 @@
           "end": "2016-04-08 15:30:00",
           "tracks": [
             {
-              "title": "GeoINTA. Una opción para móviles aprovechando la IDE",
-              "speaker": "Santiago Banchero",
-              "from": "Buenos Aires",
-              "works": "INTA"
+              "title": "IGN, estándares abiertos para la producción y publicación de la información geoespacial",
+              "speaker": "Horacio Castellaro",
+              "from": "Buenos Aires, Argentina",
+              "works": "Instituto Geográfico Nacional"
             },
             {
               "title": "Geoelectoral",
@@ -528,10 +528,7 @@
               "works": "Instituto Antártico Argentino - Dirección Nacional del Antártico"
             },
             {
-              "title": "Monitoreando servicios IDE con Nagios",
-              "speaker": "Santiago Banchero",
-              "from": "Buenos Aires",
-              "works": "INTA"
+              "title": "---"
             }
           ]
         },
