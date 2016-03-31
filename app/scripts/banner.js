@@ -3,6 +3,7 @@
 $(function() {
   var section = $('section:first');
   var intervalTime = 5000;
+  var interval;
 
   var rotate = function () {
     clearInterval(interval);
@@ -19,5 +20,5 @@ $(function() {
     interval = setInterval(rotate, intervalTime);
   };
 
-  var interval = setInterval(rotate, intervalTime);
+  interval = setInterval(rotate, intervalTime);
 });
