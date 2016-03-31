@@ -148,9 +148,11 @@
         {{#if currentBlock}}
           <div class="col-xs-8 current-block">
             <h1>Ahora <span class="text-capitalize">{{day currentBlock}} {{time currentBlock}}</span></h1>
-            {{#if single}}
+            {{#if currentBlock.single}}
               <div class="row">
-                <div class="col-xs-12">{{single}}</div>
+                <div class="col-xs-12">
+                  <h2>{{currentBlock.single}}</h2>
+                </div>
               </div>
             {{/if}}
             {{#each currentBlock.tracks}}
@@ -173,8 +175,10 @@
               <div class="col-xs-12 col-full next-block">
                 <h1>Próximo <span class="text-capitalize">{{day nextBlock}} {{time nextBlock}}</span></h1>
                 {{#if nextBlock.single}}
-                  <div class="col-xs-12">
-                    <h3>{{nextBlock.single}}</h3>
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <h3>{{nextBlock.single}}</h3>
+                    </div>
                   </div>
                 {{/if}}
                 {{#each nextBlock.tracks}}

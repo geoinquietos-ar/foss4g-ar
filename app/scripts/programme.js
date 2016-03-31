@@ -25,9 +25,7 @@ var programmeTemplate = function(data) {
   $('[data-toggle="popover"]').popover({html: true});
 };
 
-var blocksTemplate = function(data) {
-  var timestamp = moment('2016-04-07 14:31:00');
-  // var timestamp = moment();
+var blocksTemplate = function(data, timestamp) {
   var blocks = {};
   var source = $('#blocks-template').html();
   var template = Handlebars.compile(source);
@@ -48,7 +46,7 @@ var blocksTemplate = function(data) {
       return false;
     }
   });
-  $('#blocks > div:first').append(template(blocks));
+  $('#blocks > div:first').html(template(blocks));
 };
 
 var getProgramme = function() {
@@ -57,7 +55,10 @@ var getProgramme = function() {
       if ($('#programme-template').length) {
         programmeTemplate(data);
       } else if ($('#blocks-template').length) {
-        blocksTemplate(data);
+        blocksTemplate(data, moment());
+        setInterval(function () {
+          blocksTemplate(data, moment());
+        }, 60000);
       }
     })
     .fail(function(error) {
