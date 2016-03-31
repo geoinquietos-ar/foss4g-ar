@@ -4,6 +4,8 @@
     "$": true,
     "Handlebars": true,
     "console": true,
-    "moment": true
+    "moment": true,
+    "clearInterval": true,
+    "setInterval": true
   }
 }

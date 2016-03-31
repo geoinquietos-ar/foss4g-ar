@@ -1,22 +1,23 @@
 'use strict';
 
-var section;
-
 $(function() {
-  section = $('section:first');
+  var section = $('section:first');
+  var intervalTime = 5000;
 
-  setInterval(function () {
+  var rotate = function () {
+    clearInterval(interval);
     section = section.next('section');
-    if (!section.is('section')) {
-      $('body').fadeOut(1000, function (){
-        $('body').scrollTop(0);
-        $('body').fadeIn(1000);
-        section = $('section:first');
-      });
-    } else {
-      $('body').animate({
-        scrollTop: section.offset().top
-      }, 2000);
+    if (typeof section === 'undefined' || !section.is('section')) {
+      section = $('section:first');
     }
-  }, 5000);
+    if (section.attr('id') === 'blocks') {
+      intervalTime = 15000;
+    } else {
+      intervalTime = 5000;
+    }
+    $('body').scrollTop(section[0].offsetTop);
+    interval = setInterval(rotate, intervalTime);
+  };
+
+  var interval = setInterval(rotate, intervalTime);
 });
