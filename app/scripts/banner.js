@@ -16,7 +16,7 @@ $(function() {
     } else {
       intervalTime = 5000;
     }
-    $('body').scrollTop(section[0].offsetTop);
+    $(window).scrollTop(section[0].offsetTop);
     interval = setInterval(rotate, intervalTime);
   };
 
