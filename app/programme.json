@@ -369,7 +369,10 @@
           "end": "2016-04-08 10:30:00",
           "tracks": [
             {
-              "title": "---"
+              "title": "Del acceso a la información a la apertura por defecto: un nuevo comienzo para la política de datos abiertos",
+              "speaker": "Gonzalo Iglesias",
+              "from": "Buenos Aires, Argentina",
+              "works": "Subsecretaría de Innovación Pública y Gobierno Abierto"
             },
             {
               "title": "Software libre en teledetección",
@@ -508,7 +511,10 @@
               "works": "INTA"
             },
             {
-              "title": "---"
+              "title": "Introducción a GDAL",
+              "speaker": "Hernan Sala",
+              "from": "Ciudad de Buenos Aires",
+              "works": "Instituto Antártico Argentino - Dirección Nacional del Antártico"
             }
           ]
         },
@@ -520,21 +526,6 @@
         {
           "start": "2016-04-08 16:30:00",
           "end": "2016-04-08 17:00:00",
-          "tracks": [
-            {
-              "title": "Introducción a GDAL",
-              "speaker": "Hernan Sala",
-              "from": "Ciudad de Buenos Aires",
-              "works": "Instituto Antártico Argentino - Dirección Nacional del Antártico"
-            },
-            {
-              "title": "---"
-            }
-          ]
-        },
-        {
-          "start": "2016-04-08 17:00:00",
-          "end": "2016-04-08 17:30:00",
           "tracks": [ { "title": "Cierre" }, { "title": "---" } ]
         }
       ]
