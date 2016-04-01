@@ -1,5 +1,9 @@
 @import "main.scss";
 
+body {
+  overflow: hidden;
+}
+
 .container-fluid, .row-full, .col-full {
   height: 100%;
 }
