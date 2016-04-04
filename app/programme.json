@@ -192,7 +192,8 @@
           "tracks": [
             {
               "title": "Geoinquietos: dinamizando las comunidades locales",
-              "speaker": "Geoinquietos"
+              "speaker": "Geoinquietos",
+              "from": "Anywhere, Everywhere"
             },
             { "title": "---" } ]
         },
@@ -345,7 +346,12 @@
               "from": "Río de Janeiro, Brasil",
               "works": "Instituto Internacional para Sustentabilidade"
             },
-            { "title": "---" }
+            {
+              "title": "Integración de OSM al Mapa Interactivo de Buenos Aires",
+              "speaker": "Lucio Salta, Pablo Cecconi",
+              "from": "Buenos Aires, Argentina",
+              "works": "USIG, Gobierno Ciudad de Buenos Aires"
+            }
           ]
         }
       ]
