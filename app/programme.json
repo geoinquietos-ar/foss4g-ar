@@ -282,10 +282,10 @@
           "end": "2016-04-07 15:30:00",
           "tracks": [
             {
-              "title": "Casos de uso de FOSS4G en el sector azucarero Colombiano",
-              "speaker": "Fabio Andres Herrera",
-              "from": "Colombia",
-              "works": "Centro de Investigación de la Caña de Azucar de Colombia"
+              "title": "Integración de OSM al Mapa Interactivo de Buenos Aires",
+              "speaker": "Lucio Salta, Pablo Cecconi",
+              "from": "Buenos Aires, Argentina",
+              "works": "USIG, Gobierno Ciudad de Buenos Aires"
             },
             {
               "title": "Caracterización ambiental de la zona periurbana de Villa María para la conformación de Indicadores Ambientales",
@@ -347,10 +347,7 @@
               "works": "Instituto Internacional para Sustentabilidade"
             },
             {
-              "title": "Integración de OSM al Mapa Interactivo de Buenos Aires",
-              "speaker": "Lucio Salta, Pablo Cecconi",
-              "from": "Buenos Aires, Argentina",
-              "works": "USIG, Gobierno Ciudad de Buenos Aires"
+              "title": "---"
             }
           ]
         }
