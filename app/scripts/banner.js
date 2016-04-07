@@ -2,7 +2,7 @@
 
 $(function() {
   var section = $('section:first');
-  var intervalTime = 5000;
+  var intervalTime = 3000;
   var interval;
 
   var rotate = function () {
@@ -12,9 +12,9 @@ $(function() {
       section = $('section:first');
     }
     if (section.attr('id') === 'blocks') {
-      intervalTime = 15000;
+      intervalTime = 20000;
     } else {
-      intervalTime = 5000;
+      intervalTime = 3000;
     }
     $(window).scrollTop(section[0].offsetTop);
     interval = setInterval(rotate, intervalTime);
