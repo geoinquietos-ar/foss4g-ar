@@ -3,5 +3,5 @@
 ### Cómo hacerlo andar localmente:
 
 1. `git clone https://github.com/geoinquietos-ar/foss4g-ar.git`
-1. `yarn install`
-1. `yarn run serve`
+1. `npm install`
+1. `npm run serve`
