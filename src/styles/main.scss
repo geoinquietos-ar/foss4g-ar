@@ -1,0 +1,47 @@
+@import url(//fontlibrary.org/face/glacial-indifference);
+@import url(//fontlibrary.org/face/orkney);
+
+@import '_variables.scss';
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  background-color: $primary-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: $accent-color;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: $info-color;
+}
+
+h3 {
+  font-size: 2em;
+  color: $light-color;
+}
+
+h4 {
+  font-size: 1.5em;
+  color: $soft-color;
+}
+
+.banner {
+  text-align: center;
+  .logo {
+    width: 12em;
+  }
+}

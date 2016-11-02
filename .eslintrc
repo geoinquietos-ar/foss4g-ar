@@ -1,11 +1,12 @@
 {
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
   "globals": {
-    "L": true,
-    "$": true,
     "Handlebars": true,
-    "console": true,
-    "moment": true,
-    "clearInterval": true,
-    "setInterval": true
-  }
+  },
 }
