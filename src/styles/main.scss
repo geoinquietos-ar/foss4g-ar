@@ -65,3 +65,17 @@ a {
     color: $info-color;
   }
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: $font-size-base * 0.75;
+  }
+
+  section {
+    padding-left: 2em;
+  }
+
+  .navbar {
+    display: none;
+  }
+}
