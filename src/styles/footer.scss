@@ -1,0 +1,14 @@
+@import '_variables.scss';
+
+footer {
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-color: $dark-color;
+  background-position: top center;
+
+  padding: 1em 2em 1em 4em;
+
+  ul {
+    font-size: 0.8em;
+  }
+}

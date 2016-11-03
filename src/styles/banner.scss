@@ -1,0 +1,29 @@
+@import '_variables.scss';
+
+.banner {
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-color: $dark-color;
+  background-position: center;
+
+  text-align: center;
+
+  .logo {
+    width: 12em;
+  }
+
+  .organizers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    img {
+      max-height: 7em;
+      padding: 1em;
+    }
+
+    .osm-ar {
+      margin-top: 0.8em;
+    }
+  }
+}
