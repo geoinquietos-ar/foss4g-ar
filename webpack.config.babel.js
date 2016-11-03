@@ -6,7 +6,8 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 const plugins = [
   new ExtractTextPlugin('main.css'),
   new HtmlWebpackPlugin({
-    title: 'FOSS4G+SOTM Argentina 2017',
+    template: './src/templates/index.hbs',
+    favicon: './src/images/favicon.png',
   }),
 ];
 
