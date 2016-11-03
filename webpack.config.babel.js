@@ -2,6 +2,7 @@
 import webpack from 'webpack';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
+import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 const plugins = [
   new ExtractTextPlugin('main.css'),
@@ -13,13 +14,12 @@ const plugins = [
 
 if (process.env.NODE_ENV === 'production') {
   plugins.push(new webpack.optimize.UglifyJsPlugin({
-    compress: {
-      warnings: false,
-    },
-    output: {
-      comments: false,
-    },
+    compress: { warnings: false },
+    output: { comments: false },
   }));
+  plugins.push(new CopyWebpackPlugin([
+    { from: './src/CNAME' },
+  ]));
 }
 
 module.exports = {
