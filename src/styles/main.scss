@@ -15,7 +15,6 @@ body {
   background-color: $primary-color;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -25,23 +24,42 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2.6em;
   color: $info-color;
 }
 
 h3 {
-  font-size: 2em;
-  color: $light-color;
+  font-size: 2.2em;
+  color: $soft-color;
 }
 
 h4 {
-  font-size: 1.5em;
-  color: $soft-color;
+  font-size: 1.8em;
+  color: $light-color;
+}
+
+section {
+  padding: 2em;
 }
 
 .banner {
   text-align: center;
   .logo {
     width: 12em;
+  }
+
+  .organizers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    img {
+      max-height: 7em;
+      padding: 1em;
+    }
+
+    .osm-ar {
+      margin-top: 0.8em;
+    }
   }
 }
