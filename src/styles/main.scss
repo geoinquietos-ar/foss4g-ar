@@ -66,16 +66,12 @@ a {
   }
 }
 
-@media only screen and (max-device-width: 480px) {
+@include tablet {
   body {
     font-size: $font-size-base * 0.75;
   }
 
   section {
     padding-left: 2em;
-  }
-
-  .navbar {
-    display: none;
-  }
+  }  
 }

@@ -1,0 +1,37 @@
+@import '_variables.scss';
+@import '~leafletCSS';
+
+.venue {
+  .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: -1em 0 0 -1em;
+
+    .text, .map {
+      margin: 1em 0 0 1em;
+      flex: 1;
+      min-width: 400px;
+    }
+
+    .text {
+      p:first-child {
+        margin-top: 0;
+      }
+    }
+
+    .map {
+      min-height: 400px;
+    }
+  }
+}
+
+@include mobile {
+  .venue {
+    .content {
+      .text, .map {
+        min-width: 300px;
+      }
+    }
+  }
+}

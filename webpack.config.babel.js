@@ -3,6 +3,7 @@ import webpack from 'webpack';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
+import path from 'path';
 
 const plugins = [
   new ExtractTextPlugin('main.css'),
@@ -23,12 +24,18 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 module.exports = {
-  entry: './src/scripts/main.js',
+  entry: path.join(__dirname, 'src/scripts/main.js'),
   output: {
-    path: './dist',
+    path: path.join(__dirname, 'dist'),
     filename: 'main.js',
   },
   devtool: 'source-map',
+  resolve: {
+    extensions: ['', '.js', '.css', '.scss'],
+    alias: {
+      leafletCSS: path.join(__dirname, '/node_modules/leaflet/dist/leaflet.css'),
+    },
+  },
   module: {
     loaders: [
       {

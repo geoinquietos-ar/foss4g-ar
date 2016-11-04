@@ -97,3 +97,9 @@ $hover-color:       $primary-color;
     background-color: rgba(0, 0, 0, 0.2);
   }
 }
+
+@include tablet {
+  .navbar {
+    display: none;
+  }
+}

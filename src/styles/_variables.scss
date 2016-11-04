@@ -10,3 +10,26 @@ $font-family-alt:  'OrkneyRegular', Sans-Serif !default;
 $font-size-base:   18px !default;
 
 $border-radius: 0.25em;
+
+$mobile-width: 640px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$large-desktop-width: 1600px;
+
+@mixin mobile {
+  @media (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin large-desktop {
+  @media (min-width: #{$large-desktop-width}) {
+    @content;
+  }
+}
