@@ -3,8 +3,6 @@
 
 @import '_variables.scss';
 
-$dark-shadow: rgba($dark-color, 0.3);
-
 html, body {
   height: 100%;
   padding: 0;
@@ -18,15 +16,18 @@ body {
   align-items: center;
   background-color: $dark-color;
   background-image: url(../images/iso.svg);
-  background-size: 150% auto;
+  background-size: 120% auto;
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  justify-content: center;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-family: $font-family-alt;
   line-height: 1em;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 h1 {
@@ -40,15 +41,12 @@ h2 {
 }
 
 h3 {
-  font-size: 2.5em;
+  font-size: 2em;
   color: $dark-color;
-  background-color: rgba($info-color, 0.5);
-  background: linear-gradient(to right, rgba($info-color, 1) 30%, rgba($info-color, 0) 90%);
-  padding-left: 3em;
-  margin-left: -3em;
-  padding-top: 1em;
-  padding-bottom: 0.2em;
+  background-color: $accent-color;
+  padding: 0.2em 0.3em 0.4em 0.3em;
   margin-top: 0;
+  text-align: center;
 }
 
 h4 {
@@ -59,22 +57,38 @@ h4 {
 h5 {
   font-size: 1.5em;
   color: $light-color;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: $default-spacing * 2;
+  margin-bottom: $default-spacing * 2;
 }
 
 section {
-  padding: 0 3em 2em 6em;
+  padding: 0 $default-spacing * 6 $default-spacing * 4 $default-spacing * 6;
+  border-top: $default-spacing / 2 solid $accent-color;
+
+  & > * {
+    padding-left: $default-spacing * 2;
+    padding-right: $default-spacing * 2;
+  }
+
+  ul {
+    list-style-position: inside;
+
+    li:before {
+      content: '';
+      display: inline-block;
+      margin-left: -$default-spacing * 2;
+    }
+  }
 }
 
 p, ul {
-  font-family: $font-family-alt;
   color: $light-color;
 
   strong {
     color: $accent-color;
   }
 }
+
 
 a {
   color: $info-color;
@@ -86,8 +100,10 @@ a {
 }
 
 @include tablet {
+
   body {
     font-size: $font-size-base * 0.5;
+    background-size: auto 150%;
   }
 
   h1 {
@@ -95,6 +111,12 @@ a {
   }
 
   section {
-    padding-left: 3em;
+    padding-left: $default-spacing;
+    padding-right: $default-spacing;
+
+    & > * {
+      padding-left: $default-spacing;
+      padding-right: $default-spacing;
+    }
   }
 }
