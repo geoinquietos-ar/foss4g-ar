@@ -13,9 +13,10 @@ import '../styles/about.scss';
 import '../styles/venue.scss';
 import '../styles/footer.scss';
 
-import logo from '../images/iso.png';
+import logo from '../images/iso.svg';
 import geoinquietosLogo from '../images/geoinquietos-ar.png';
 import osmArLogo from '../images/osm-ar.png';
+import ignLogo from '../images/ign.png';
 
 document.body.insertAdjacentHTML('beforeend', navbar({
   logo,
@@ -25,6 +26,7 @@ document.body.insertAdjacentHTML('beforeend', banner({
   logo,
   geoinquietosLogo,
   osmArLogo,
+  ignLogo,
 }));
 
 document.body.insertAdjacentHTML('beforeend', about());
@@ -45,11 +47,3 @@ L.circle([-34.57158, -58.43926], 200, {
 }).addTo(map);
 
 document.body.insertAdjacentHTML('beforeend', footer());
-
-window.addEventListener('scroll', () => {
-  if (document.body.scrollTop > 300) {
-    document.getElementById('homeMenu').style.display = 'block';
-  } else {
-    document.getElementById('homeMenu').style.display = 'none';
-  }
-});

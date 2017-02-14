@@ -11,6 +11,7 @@ $hover-color:       $primary-color;
   left: 0;
   text-align: center;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
 
   ul {
     list-style-type: none;
@@ -28,8 +29,7 @@ $hover-color:       $primary-color;
       justify-content: center;
 
       &:first-child {
-        display: none;
-
+        animation: spin 8s linear infinite;
         img {
           width: 1.5em;
           padding-left: 0.05em;
@@ -58,7 +58,7 @@ $hover-color:       $primary-color;
           color: $hover-color;
           left: -3000px;
           opacity: 0;
-          padding: 0.2em 0.5em 0 0.5em;
+          padding: 0 0.5em 0 0.5em;
           position: absolute;
           top: -0.5em;
           white-space: nowrap;
@@ -94,7 +94,7 @@ $hover-color:       $primary-color;
 
   &:hover {
     transition: background-color 0.5s ease;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.8);
   }
 }
 
@@ -102,4 +102,9 @@ $hover-color:       $primary-color;
   .navbar {
     display: none;
   }
+}
+
+@keyframes spin {
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }

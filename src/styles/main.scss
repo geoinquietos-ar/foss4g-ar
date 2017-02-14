@@ -3,6 +3,8 @@
 
 @import '_variables.scss';
 
+$dark-shadow: rgba($dark-color, 0.3);
+
 html, body {
   height: 100%;
   padding: 0;
@@ -12,40 +14,57 @@ html, body {
 body {
   font-family: $font-family-base;
   font-size: $font-size-base;
-  background-color: $primary-color;
   flex-direction: column;
   align-items: center;
+  background-color: $dark-color;
+  background-image: url(../images/iso.svg);
+  background-size: 150% auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4 {
+  font-family: $font-family-alt;
+  line-height: 1em;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4.5em;
   color: $accent-color;
 }
 
 h2 {
-  font-size: 2.6em;
+  font-size: 3.2em;
   color: $info-color;
 }
 
 h3 {
-  font-size: 2.2em;
-  color: $soft-color;
+  font-size: 2.5em;
+  color: $light-color;
+  background-color: rgba($info-color, 0.5);
+  background: linear-gradient(to right, rgba($info-color, 0.5) 30%, rgba($info-color, 0) 90%);
+  padding-left: 3em;
+  margin-left: -3em;
+  padding-top: 1em;
+  padding-bottom: 0.2em;
+  margin-top: 0;
 }
 
 h4 {
-  font-size: 1.8em;
-  color: $info-color;
-  margin: 1em 0 1em 0;
+  font-size: 2em;
+  color: $soft-color;
 }
 
 h5 {
   font-size: 1.5em;
   color: $light-color;
-  margin: 0.5em 0 0.5em 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 section {
-  padding: 2em 2em 2em 4em;
+  padding: 0 3em 2em 6em;
 }
 
 p, ul {
@@ -68,10 +87,14 @@ a {
 
 @include tablet {
   body {
-    font-size: $font-size-base * 0.75;
+    font-size: $font-size-base * 0.5;
+  }
+
+  h1 {
+    font-size: 4em;
   }
 
   section {
-    padding-left: 2em;
-  }  
+    padding-left: 3em;
+  }
 }

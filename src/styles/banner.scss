@@ -1,15 +1,20 @@
 @import '_variables.scss';
 
 .banner {
-  background-image: url(../images/background.png);
-  background-size: cover;
-  background-color: $dark-color;
-  background-position: center;
-
+  background-color: rgba($dark-color, 0.75);
   text-align: center;
 
+  h1 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
   .logo {
-    width: 12em;
+    position: absolute;
+    right: -20em;
+    top: -20em;
+    width: 50em;
+    opacity: 0.5;
   }
 
   .organizers {
@@ -24,6 +29,16 @@
 
     .osm-ar {
       margin-top: 0.8em;
+    }
+  }
+}
+
+@include tablet {
+  .banner {
+    .organizers {
+      img {
+        max-height: 5em;
+      }
     }
   }
 }

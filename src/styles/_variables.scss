@@ -5,9 +5,9 @@ $soft-color:    #A4D6D5 !default;
 $light-color:   #EEEEEE !default;
 $dark-color:    #333333 !default;
 
-$font-family-base: 'GlacialIndifferenceRegular', Sans-Serif !default;
-$font-family-alt:  'OrkneyRegular', Sans-Serif !default;
-$font-size-base:   18px !default;
+$font-family-base: 'OrkneyRegular', Sans-Serif !default;
+$font-family-alt: 'GlacialIndifferenceRegular', Sans-Serif !default;
+$font-size-base: 22px !default;
 
 $border-radius: 0.25em;
 
@@ -32,4 +32,15 @@ $large-desktop-width: 1600px;
   @media (min-width: #{$large-desktop-width}) {
     @content;
   }
+}
+
+@mixin stroke($width, $color) {
+  $shadow: ();
+  @for $i from -$width through $width {
+    $shadow: append($shadow,#{$width}px #{$i}px $color, comma);
+    $shadow: append($shadow,#{-$width}px #{$i}px $color, comma);
+    $shadow: append($shadow,#{$i}px #{$width}px $color, comma);
+    $shadow: append($shadow,#{$i}px #{-$width}px $color, comma);
+  }
+  text-shadow: $shadow;
 }

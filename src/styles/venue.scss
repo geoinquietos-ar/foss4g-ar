@@ -2,11 +2,13 @@
 @import '~leafletCSS';
 
 .venue {
+  background-color: rgba($dark-color, 0.95);
+
   .content {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: -1em 0 0 -1em;
+    margin: -1em 0 0 -0.5em;
 
     .text, .map {
       margin: 1em 0 0 1em;

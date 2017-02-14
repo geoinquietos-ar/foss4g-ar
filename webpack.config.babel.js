@@ -53,7 +53,7 @@ module.exports = {
         loader: ExtractTextPlugin.extract(['css?sourceMap', 'sass?sourceMap']),
       },
       {
-        test: /\.(jpg|jpeg|gif|png|ico)$/,
+        test: /\.(jpg|jpeg|gif|png|ico|svg)$/,
         exclude: /node_modules/,
         loader: 'file-loader',
       },
