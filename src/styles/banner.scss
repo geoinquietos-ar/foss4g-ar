@@ -1,7 +1,7 @@
 @import '_variables.scss';
 
 .banner {
-  height: 100%;
+  min-height: 100%;
   background-color: rgba($dark-color, 0.75);
   text-align: center;
   justify-content: center;
