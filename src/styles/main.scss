@@ -61,6 +61,53 @@ h5 {
   margin-bottom: $default-spacing * 2;
 }
 
+.button {
+	padding:10px 40px;
+	text-decoration:none;
+	transition-duration:0.3s;
+	font-size:$font-size-base;
+	font-family:$font-family-base;
+	&:hover{
+		box-shadow: $button-shadow
+	}
+	&:active{
+	  position:relative;
+	  top:1px;
+	}
+	.button-big{
+		font-size:2em;
+	}
+	.button-primary{
+	  background: linear-gradient(to bottom, $primary-color 85%, $primary-button-color 86%);
+  	  color:$light-color;
+  	  &:hover{
+  	  background:$primary-button-color;
+  	  }
+	}
+	.button-accent{
+	  background: linear-gradient(to bottom, $accent-button-color 85%, $accent-color 86%);
+  	  color:$light-color;
+  	  &:hover{
+  	  background:$accent-color;
+  	  color:$dark-color;
+	  }
+  	}
+	.button-info{
+	  background: linear-gradient(to bottom, $info-color 85%, $info-button-color 86%);
+  	  color:$dark-color;
+  	  &:hover{
+  	  background:$info-button-color;
+	  }
+	}
+	.button-info{
+	  background: linear-gradient(to bottom, $soft-color 85%, $soft-button-color 86%);
+  	  color:$dark-color;
+  	  &:hover{
+  	  background:$soft-button-color;
+	  }
+  	}
+}
+
 section {
   padding: 0 $default-spacing * 6 $default-spacing * 6 $default-spacing * 6;
   border-top: $default-spacing / 2 solid $accent-color;
