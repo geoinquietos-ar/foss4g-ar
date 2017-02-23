@@ -5,10 +5,16 @@ $soft-color:    #A4D6D5 !default;
 $light-color:   #EEEEEE !default;
 $dark-color:    #333333 !default;
 
+$primary-button-color: #726E97 !default;
+$accent-button-color:  #AF9B46 !default;
+$info-button-color:    #EAF2E3 !default;
+$soft-button-color:    #E8FCC2 !default;
+$button-shadow:        0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 $font-family-base: 'OrkneyRegular', Sans-Serif !default;
 $font-family-alt: 'GlacialIndifferenceRegular', Sans-Serif !default;
 $font-size-base: 22px !default;
-
+ 
 $default-spacing: 10px;
 $border-radius: 0.25em;
 
