@@ -47,6 +47,8 @@ h3 {
   padding: 0.1em 0.3em 0.3em 0.3em;
   margin-top: 0;
   text-align: center;
+  border-bottom-left-radius: $border-radius * 2;
+  border-bottom-right-radius: $border-radius * 2;
 }
 
 h4 {
@@ -62,50 +64,56 @@ h5 {
 }
 
 .button {
-	padding:10px 40px;
-	text-decoration:none;
-	transition-duration:0.3s;
-	font-size:$font-size-base;
-	font-family:$font-family-base;
-	&:hover{
-		box-shadow: $button-shadow
-	}
-	&:active{
-	  position:relative;
-	  top:1px;
-	}
-	.button-big{
-		font-size:2em;
-	}
-	.button-primary{
-	  background: linear-gradient(to bottom, $primary-color 85%, $primary-button-color 86%);
-  	  color:$light-color;
-  	  &:hover{
-  	  background:$primary-button-color;
-  	  }
-	}
-	.button-accent{
-	  background: linear-gradient(to bottom, $accent-button-color 85%, $accent-color 86%);
-  	  color:$light-color;
-  	  &:hover{
-  	  background:$accent-color;
-  	  color:$dark-color;
-	  }
-  	}
-	.button-info{
-	  background: linear-gradient(to bottom, $info-color 85%, $info-button-color 86%);
-  	  color:$dark-color;
-  	  &:hover{
-  	  background:$info-button-color;
-	  }
-	}
-	.button-info{
-	  background: linear-gradient(to bottom, $soft-color 85%, $soft-button-color 86%);
-  	  color:$dark-color;
-  	  &:hover{
-  	  background:$soft-button-color;
-	  }
-  	}
+  padding: $default-spacing;
+  padding-bottom: $default-spacing / 2;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  border-bottom: $default-spacing / 2 solid;
+  color: $dark-color;
+  border-radius: $border-radius;
+
+  &:hover {
+    border-color: $dark-color;
+  }
+}
+
+.button-primary {
+  background: $primary-color;
+  border-color: $primary-dark;
+  color: $light-color;
+
+  &:hover {
+    background: $primary-dark;
+    border-color: $light-color;
+  }
+
+}
+
+.button-accent {
+  background: $accent-color;
+  border-color: $accent-dark;
+
+  &:hover {
+    background: $accent-dark;
+  }
+}
+
+.button-info {
+  background: $info-color;
+  border-color: $info-dark;
+
+  &:hover {
+    background: $info-dark;
+  }
+}
+
+.button-soft {
+  background: $soft-color;
+  border-color: $soft-dark;
+
+  &:hover {
+    background: $soft-dark;
+  }
 }
 
 section {
@@ -126,6 +134,14 @@ section {
       margin-left: -$default-spacing * 2;
     }
   }
+
+  &:nth-child(odd) {
+    background-color: rgba($dark-color, 0.85);
+  }
+
+  &:nth-child(even) {
+    background-color: $dark-color;
+  }
 }
 
 p, ul {
@@ -136,14 +152,9 @@ p, ul {
   }
 }
 
-
 a {
   color: $info-color;
   text-decoration: none;
-
-  &:visited {
-    color: $info-color;
-  }
 }
 
 @include tablet {

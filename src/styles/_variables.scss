@@ -5,18 +5,17 @@ $soft-color:    #A4D6D5 !default;
 $light-color:   #EEEEEE !default;
 $dark-color:    #333333 !default;
 
-$primary-button-color: #726E97 !default;
-$accent-button-color:  #AF9B46 !default;
-$info-button-color:    #EAF2E3 !default;
-$soft-button-color:    #E8FCC2 !default;
-$button-shadow:        0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+$primary-dark: darken($primary-color, 10%) !default;
+$accent-dark:  darken($accent-color, 20%) !default;
+$info-dark:    darken($info-color, 20%) !default;
+$soft-dark:    darken($soft-color, 30%) !default;
 
 $font-family-base: 'OrkneyRegular', Sans-Serif !default;
 $font-family-alt: 'GlacialIndifferenceRegular', Sans-Serif !default;
-$font-size-base: 22px !default;
- 
+$font-size-base: 20px !default;
+
 $default-spacing: 10px;
-$border-radius: 0.25em;
+$border-radius: $default-spacing / 2;
 
 $mobile-width: 640px;
 $tablet-width: 768px;
@@ -39,15 +38,4 @@ $large-desktop-width: 1600px;
   @media (min-width: #{$large-desktop-width}) {
     @content;
   }
-}
-
-@mixin stroke($width, $color) {
-  $shadow: ();
-  @for $i from -$width through $width {
-    $shadow: append($shadow,#{$width}px #{$i}px $color, comma);
-    $shadow: append($shadow,#{-$width}px #{$i}px $color, comma);
-    $shadow: append($shadow,#{$i}px #{$width}px $color, comma);
-    $shadow: append($shadow,#{$i}px #{-$width}px $color, comma);
-  }
-  text-shadow: $shadow;
 }

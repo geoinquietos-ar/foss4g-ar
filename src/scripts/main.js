@@ -9,7 +9,6 @@ import footer from '../templates/footer.hbs';
 import '../styles/main.scss';
 import '../styles/navbar.scss';
 import '../styles/banner.scss';
-import '../styles/about.scss';
 import '../styles/venue.scss';
 import '../styles/footer.scss';
 
@@ -17,6 +16,8 @@ import logo from '../images/iso.svg';
 import geoinquietosLogo from '../images/geoinquietos-ar.png';
 import osmArLogo from '../images/osm-ar.png';
 import ignLogo from '../images/ign.png';
+import osgeoLogo from '../images/osgeo.png';
+import cacLogo from '../images/cac.png';
 
 document.body.insertAdjacentHTML('beforeend', navbar({
   logo,
@@ -27,6 +28,8 @@ document.body.insertAdjacentHTML('beforeend', banner({
   geoinquietosLogo,
   osmArLogo,
   ignLogo,
+  osgeoLogo,
+  cacLogo,
 }));
 
 document.body.insertAdjacentHTML('beforeend', about());

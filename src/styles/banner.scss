@@ -1,8 +1,6 @@
 @import '_variables.scss';
 
 .banner {
-  min-height: 100%;
-  background-color: rgba($dark-color, 0.75);
   text-align: center;
   justify-content: center;
 
@@ -30,6 +28,17 @@
       margin-top: 0.8em;
     }
   }
+
+  .supporters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    img {
+      max-height: 5em;
+      padding: 1em;
+    }
+  }
 }
 
 @include tablet {
@@ -37,6 +46,12 @@
     .organizers {
       img {
         max-height: 5em;
+      }
+    }
+
+    .supporters {
+      img {
+        max-height: 3em;
       }
     }
   }
