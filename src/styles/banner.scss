@@ -30,14 +30,6 @@
       margin-top: 0.8em;
     }
   }
-
-  .boton {
-    padding: 15px;
-    box-shadow: 10px 10px 5px $dark-color;
-    background-color: $info-color;
-    color: $dark-color;
-    font-size: 2em;
-  }
 }
 
 @include tablet {
