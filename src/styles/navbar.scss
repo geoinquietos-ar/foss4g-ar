@@ -15,7 +15,7 @@ $hover-color:       $primary-color;
   ul {
     list-style-type: none;
     padding: 0;
-    margin: $default-spacing 0 $default-spacing 0;
+    margin: $default-spacing / 2 0 $default-spacing 0;
     display: flex;
     flex-direction: column;
     align-items: center;
