@@ -28,7 +28,7 @@ $hover-color:       $primary-color;
       justify-content: center;
 
       &:first-child {
-        animation: spin 8s linear infinite;
+        animation: scale 8s linear infinite;
         img {
           width: $default-spacing * 3;
           padding-left: 0.05em;
@@ -105,6 +105,19 @@ $hover-color:       $primary-color;
 }
 
 @keyframes spin {
-  90% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  90% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes scale {
+  80% {
+    transform: scale(1);
+  }
+  90% {
+    transform: scale(1.1);
+  }
 }
