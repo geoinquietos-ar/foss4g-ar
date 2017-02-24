@@ -12,6 +12,8 @@ import '../styles/main.scss';
 import '../styles/navbar.scss';
 import '../styles/banner.scss';
 import '../styles/venue.scss';
+import '../styles/calendar.scss';
+import '../styles/faqs.scss';
 import '../styles/footer.scss';
 
 import logo from '../images/iso.svg';
