@@ -59,16 +59,16 @@ h4 {
 h5 {
   font-size: 1.5em;
   color: $light-color;
-  margin-top: $default-spacing * 2;
-  margin-bottom: $default-spacing * 2;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .button {
-  padding: $default-spacing;
-  padding-bottom: $default-spacing / 2;
+  padding: 0.5em;
+  padding-bottom: 0.25em;
   text-decoration: none;
   transition-duration: 0.3s;
-  border-bottom: $default-spacing / 2 solid;
+  border-bottom: 0.25em solid;
   color: $dark-color;
   border-radius: $border-radius;
 
@@ -176,5 +176,21 @@ a {
       padding-left: $default-spacing;
       padding-right: $default-spacing;
     }
+
+    ul {
+      list-style-position: inside;
+
+      li:before {
+        margin-left: -$default-spacing;
+      }
+    }
+  }
+
+  .button {
+    border-radius: $border-radius / 2;
+  }
+
+  .leaflet-control-zoom {
+    display: none;
   }
 }
