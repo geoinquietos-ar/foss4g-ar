@@ -3,6 +3,7 @@ import L from 'leaflet';
 import navbar from '../templates/navbar.hbs';
 import banner from '../templates/banner.hbs';
 import about from '../templates/about.hbs';
+import calendar from '../templates/calendar.hbs';
 import venue from '../templates/venue.hbs';
 import footer from '../templates/footer.hbs';
 
@@ -30,6 +31,8 @@ document.body.insertAdjacentHTML('beforeend', banner({
 }));
 
 document.body.insertAdjacentHTML('beforeend', about());
+
+document.body.insertAdjacentHTML('beforeend', calendar());
 
 document.body.insertAdjacentHTML('beforeend', venue());
 const map = L.map('venueMap', {
