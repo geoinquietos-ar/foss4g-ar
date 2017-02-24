@@ -5,6 +5,7 @@ import banner from '../templates/banner.hbs';
 import about from '../templates/about.hbs';
 import calendar from '../templates/calendar.hbs';
 import venue from '../templates/venue.hbs';
+import faqs from '../templates/faqs.hbs';
 import footer from '../templates/footer.hbs';
 
 import '../styles/main.scss';
@@ -48,5 +49,7 @@ L.circle([-34.57158, -58.43926], 200, {
   color: '#44C0F0',
   fillOpacity: 0.8,
 }).addTo(map);
+
+document.body.insertAdjacentHTML('beforeend', faqs());
 
 document.body.insertAdjacentHTML('beforeend', footer());
