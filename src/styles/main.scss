@@ -116,6 +116,22 @@ h5 {
   }
 }
 
+.ribbon {
+  display: inline-block;
+  position: relative;
+  top: -11px;
+  right: 43px;
+  height: 0;
+  line-height: 16px;
+  font-size: 0.5em;
+  font-weight: bold;
+  color: $light-color;
+  border-bottom: 15px solid $alert-color;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  transform: rotate(45deg);
+}
+
 section {
   padding: 0 $default-spacing * 6 $default-spacing * 6 $default-spacing * 6;
   border-top: $default-spacing / 2 solid $accent-color;
