@@ -119,16 +119,16 @@ h5 {
 .ribbon {
   display: inline-block;
   position: relative;
-  top: -11px;
-  right: 43px;
+  top: -1em;
+  right: 4.3em;
   height: 0;
-  line-height: 16px;
+  line-height: 1.7em;
   font-size: 0.5em;
   font-weight: bold;
   color: $light-color;
-  border-bottom: 15px solid $alert-color;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
+  border-bottom: 1.5em solid $alert-color;
+  border-left: 1.5em solid transparent;
+  border-right: 1.5em solid transparent;
   transform: rotate(45deg);
 }
 
