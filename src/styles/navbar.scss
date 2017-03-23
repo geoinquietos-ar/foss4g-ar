@@ -6,8 +6,8 @@ $hover-color:       $primary-color;
 
 .navbar {
   position: fixed;
-  width: 3em;
-  top: 0;
+  width: $default-spacing * 6;
+  top: $default-spacing / 2;
   left: 0;
   text-align: center;
   height: 100%;
@@ -15,23 +15,22 @@ $hover-color:       $primary-color;
   ul {
     list-style-type: none;
     padding: 0;
-    margin: 0.5em 0 0.5em 0;
+    margin: $default-spacing / 2 0 $default-spacing 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     li {
       margin: 0;
-      padding: 0.5em 0 0.5em 0;
+      padding: $default-spacing 0 $default-spacing 0;
       width: 100%;
       display: flex;
       justify-content: center;
 
       &:first-child {
-        display: none;
-
+        animation: scale 8s linear infinite;
         img {
-          width: 1.5em;
+          width: $default-spacing * 3;
           padding-left: 0.05em;
         }
       }
@@ -41,16 +40,17 @@ $hover-color:       $primary-color;
         position: relative;
         text-decoration: none;
         color: $item-color;
+        font-size: 0.8em;
 
         div {
           background: $item-color;
           border-radius: 100%;
-          height: 1em;
-          width: 1em;
+          height: $default-spacing * 2;
+          width: $default-spacing * 2;
         }
 
         span {
-          line-height: 2em;
+          line-height: $default-spacing * 4;
           transition: opacity 0.5s;
           background: $hover-background;
           border-top-right-radius: $border-radius;
@@ -58,9 +58,9 @@ $hover-color:       $primary-color;
           color: $hover-color;
           left: -3000px;
           opacity: 0;
-          padding: 0.2em 0.5em 0 0.5em;
+          padding: 0  $default-spacing 0  $default-spacing;
           position: absolute;
-          top: -0.5em;
+          top: -$default-spacing;
           white-space: nowrap;
 
           &::after {
@@ -73,8 +73,8 @@ $hover-color:       $primary-color;
             position: absolute;
             pointer-events: none;
             border-right-color: $hover-background;
-            border-width: 0.5em;
-            margin-top: -0.5em;
+            border-width: $default-spacing;
+            margin-top: -$default-spacing;
           }
         }
 
@@ -84,7 +84,7 @@ $hover-color:       $primary-color;
           }
 
           span {
-            left: 2em;
+            left: $default-spacing * 4;
             opacity: 1;
           }
         }
@@ -94,12 +94,30 @@ $hover-color:       $primary-color;
 
   &:hover {
     transition: background-color 0.5s ease;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba($dark-color, 0.85);
   }
 }
 
 @include tablet {
   .navbar {
     display: none;
+  }
+}
+
+@keyframes spin {
+  90% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes scale {
+  80% {
+    transform: scale(1);
+  }
+  90% {
+    transform: scale(1.1);
   }
 }

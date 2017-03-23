@@ -1,15 +1,17 @@
 @import '_variables.scss';
 
 .banner {
-  background-image: url(../images/background.png);
-  background-size: cover;
-  background-color: $dark-color;
-  background-position: center;
-
   text-align: center;
+  justify-content: center;
+
+  h1 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
 
   .logo {
-    width: 12em;
+    width: 3em;
+    margin-bottom: 2em;
   }
 
   .organizers {
@@ -24,6 +26,33 @@
 
     .osm-ar {
       margin-top: 0.8em;
+    }
+  }
+
+  .supporters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    img {
+      max-height: 5em;
+      padding: 1em;
+    }
+  }
+}
+
+@include tablet {
+  .banner {
+    .organizers {
+      img {
+        max-height: 5em;
+      }
+    }
+
+    .supporters {
+      img {
+        max-height: 3em;
+      }
     }
   }
 }

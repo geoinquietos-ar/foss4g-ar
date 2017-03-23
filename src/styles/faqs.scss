@@ -1,0 +1,39 @@
+@import '_variables.scss';
+
+.faqs {
+  color: $light-color;
+
+  dl {
+
+    dt {
+      border-left: 1px solid $info-color;
+      padding: 0.5em;
+      margin-bottom: 0.5em;
+      border-top-right-radius: $border-radius;
+
+      &:hover {
+        border-bottom: none;
+        margin-bottom: 0;
+        background-color: $info-color;
+        color: $dark-color;
+
+        & + dd {
+          display: block;
+          margin-bottom: 0.5em;
+        }
+      }
+    }
+
+    dd {
+      display: none;
+      background-color: rgba($info-color, 0.2);
+      border-left: 1px solid $info-color;
+      border-bottom-right-radius: $border-radius;
+      border-top: none;
+      margin-left: 0;
+      padding: 0.5em;
+      margin-bottom: 0.5em;
+      font-size: 0.9em;
+    }
+  }
+}

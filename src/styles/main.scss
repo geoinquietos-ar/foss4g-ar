@@ -12,44 +12,155 @@ html, body {
 body {
   font-family: $font-family-base;
   font-size: $font-size-base;
-  background-color: $primary-color;
   flex-direction: column;
   align-items: center;
+  background-color: $dark-color;
+  background-image: url(../images/iso.svg);
+  background-size: 120% auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  justify-content: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $font-family-alt;
+  line-height: 1em;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4.5em;
   color: $accent-color;
 }
 
 h2 {
-  font-size: 2.6em;
+  font-size: 3.2em;
   color: $info-color;
 }
 
 h3 {
-  font-size: 2.2em;
-  color: $soft-color;
+  font-size: 2em;
+  color: $dark-color;
+  background-color: $accent-color;
+  padding: 0.1em 0.3em 0.3em 0.3em;
+  margin-top: 0;
+  text-align: center;
+  border-bottom-left-radius: $border-radius * 2;
+  border-bottom-right-radius: $border-radius * 2;
 }
 
 h4 {
-  font-size: 1.8em;
-  color: $info-color;
-  margin: 1em 0 1em 0;
+  font-size: 2em;
+  color: $soft-color;
 }
 
 h5 {
   font-size: 1.5em;
   color: $light-color;
-  margin: 0.5em 0 0.5em 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.button {
+  padding: 0.5em;
+  padding-bottom: 0.25em;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  border-bottom: 0.25em solid;
+  color: $dark-color;
+  border-radius: $border-radius;
+
+  &:hover {
+    border-color: $dark-color;
+  }
+}
+
+.button-primary {
+  background: $primary-color;
+  border-color: $primary-dark;
+  color: $light-color;
+
+  &:hover {
+    background: $primary-dark;
+    border-color: $light-color;
+  }
+
+}
+
+.button-accent {
+  background: $accent-color;
+  border-color: $accent-dark;
+
+  &:hover {
+    background: $accent-dark;
+  }
+}
+
+.button-info {
+  background: $info-color;
+  border-color: $info-dark;
+
+  &:hover {
+    background: $info-dark;
+  }
+}
+
+.button-soft {
+  background: $soft-color;
+  border-color: $soft-dark;
+
+  &:hover {
+    background: $soft-dark;
+  }
+}
+
+.ribbon {
+  display: inline-block;
+  position: relative;
+  top: -1em;
+  right: 4.3em;
+  height: 0;
+  line-height: 1.7em;
+  font-size: 0.5em;
+  font-weight: bold;
+  color: $light-color;
+  border-bottom: 1.5em solid $alert-color;
+  border-left: 1.5em solid transparent;
+  border-right: 1.5em solid transparent;
+  transform: rotate(45deg);
 }
 
 section {
-  padding: 2em 2em 2em 4em;
+  padding: 0 $default-spacing * 6 $default-spacing * 6 $default-spacing * 6;
+  border-top: $default-spacing / 2 solid $accent-color;
+
+  & > * {
+    padding-left: $default-spacing * 2;
+    padding-right: $default-spacing * 2;
+  }
+
+  ul {
+    list-style-position: inside;
+
+    li:before {
+      content: '';
+      display: inline-block;
+      margin-left: -$default-spacing * 2;
+    }
+  }
+
+  &:nth-child(odd) {
+    background-color: rgba($dark-color, 0.85);
+  }
+
+  &:nth-child(even) {
+    background-color: $dark-color;
+  }
 }
 
 p, ul {
-  font-family: $font-family-alt;
   color: $light-color;
 
   strong {
@@ -60,18 +171,42 @@ p, ul {
 a {
   color: $info-color;
   text-decoration: none;
-
-  &:visited {
-    color: $info-color;
-  }
 }
 
 @include tablet {
+
   body {
-    font-size: $font-size-base * 0.75;
+    font-size: $font-size-base * 0.5;
+    background-size: auto 150%;
+  }
+
+  h1 {
+    font-size: 4em;
   }
 
   section {
-    padding-left: 2em;
-  }  
+    padding-left: $default-spacing;
+    padding-right: $default-spacing;
+
+    & > * {
+      padding-left: $default-spacing;
+      padding-right: $default-spacing;
+    }
+
+    ul {
+      list-style-position: inside;
+
+      li:before {
+        margin-left: -$default-spacing;
+      }
+    }
+  }
+
+  .button {
+    border-radius: $border-radius / 2;
+  }
+
+  .leaflet-control-zoom {
+    display: none;
+  }
 }

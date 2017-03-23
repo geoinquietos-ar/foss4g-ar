@@ -1,0 +1,17 @@
+@import '_variables.scss';
+
+.calendar {
+  table {
+    color: $light-color;
+
+    td, th {
+      padding: 1em;
+    }
+
+    th {
+      color: $accent-color;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+}

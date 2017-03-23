@@ -5,10 +5,18 @@ footer {
   background-size: cover;
   background-color: $dark-color;
   background-position: top center;
+  font-size: 0.8em;
 
-  padding: 1em 2em 1em 4em;
+  padding: $default-spacing * 2 $default-spacing * 4 $default-spacing $default-spacing * 8;
 
   ul {
-    font-size: 0.8em;
+    list-style: none;
+    padding: 0;
+  }
+}
+
+@include tablet {
+  footer {
+    padding: $default-spacing $default-spacing * 2 $default-spacing / 2 $default-spacing * 2.5;
   }
 }

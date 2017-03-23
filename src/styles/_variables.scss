@@ -4,12 +4,19 @@ $info-color:    #44C0F0 !default;
 $soft-color:    #A4D6D5 !default;
 $light-color:   #EEEEEE !default;
 $dark-color:    #333333 !default;
+$alert-color:   #E60000 !default;
 
-$font-family-base: 'GlacialIndifferenceRegular', Sans-Serif !default;
-$font-family-alt:  'OrkneyRegular', Sans-Serif !default;
-$font-size-base:   18px !default;
+$primary-dark: darken($primary-color, 10%) !default;
+$accent-dark:  darken($accent-color, 20%) !default;
+$info-dark:    darken($info-color, 20%) !default;
+$soft-dark:    darken($soft-color, 30%) !default;
 
-$border-radius: 0.25em;
+$font-family-base: 'OrkneyRegular', Sans-Serif !default;
+$font-family-alt: 'GlacialIndifferenceRegular', Sans-Serif !default;
+$font-size-base: 20px !default;
+
+$default-spacing: 10px;
+$border-radius: $default-spacing / 2;
 
 $mobile-width: 640px;
 $tablet-width: 768px;
