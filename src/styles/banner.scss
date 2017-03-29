@@ -39,16 +39,6 @@
       padding: 1em;
     }
   }
-
-  .supporters-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-    img {
-      max-height: 10em;
-    }
-  }
 }
 
 @include tablet {

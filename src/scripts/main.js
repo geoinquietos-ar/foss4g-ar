@@ -5,7 +5,7 @@ import banner from '../templates/banner.hbs';
 import about from '../templates/about.hbs';
 import calendar from '../templates/calendar.hbs';
 import venue from '../templates/venue.hbs';
-import sponsors from '../templates/sponsors.hbs';
+import supporters from '../templates/supporters.hbs';
 import faqs from '../templates/faqs.hbs';
 import footer from '../templates/footer.hbs';
 
@@ -14,6 +14,7 @@ import '../styles/navbar.scss';
 import '../styles/banner.scss';
 import '../styles/venue.scss';
 import '../styles/calendar.scss';
+import '../styles/supporters.scss';
 import '../styles/faqs.scss';
 import '../styles/footer.scss';
 
@@ -57,7 +58,7 @@ L.circle([-34.57158, -58.43926], 200, {
   fillOpacity: 0.8,
 }).addTo(map);
 
-document.body.insertAdjacentHTML('beforeend', sponsors({
+document.body.insertAdjacentHTML('beforeend', supporters({
   ideraLogo,
 }));
 
