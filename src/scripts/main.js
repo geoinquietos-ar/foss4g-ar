@@ -56,7 +56,7 @@ document.body.insertAdjacentHTML('beforeend', venue());
 const map = L.map('venueMap', {
   scrollWheelZoom: false,
   center: [-34.57158, -58.43926],
-  zoom: 14,
+  zoom: 15,
 });
 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 18,
@@ -75,6 +75,8 @@ var polygon = L.polygon([
   [-34.57109, -58.43886],
   [-34.57169, -58.43822],
   [-34.57259, -58.43947]
+  .bindPopup('<b>Instituto Geográfico Nacional</b><br>Avenida Cabildo 301, Palermo, CABA')
+  .openPopup();
 ]).addTo(map);
 
 document.body.insertAdjacentHTML('beforeend', sponsors());
