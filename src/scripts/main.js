@@ -5,6 +5,7 @@ import banner from '../templates/banner.hbs';
 import about from '../templates/about.hbs';
 import calendar from '../templates/calendar.hbs';
 import venue from '../templates/venue.hbs';
+import supporters from '../templates/supporters.hbs';
 import faqs from '../templates/faqs.hbs';
 import footer from '../templates/footer.hbs';
 
@@ -14,6 +15,7 @@ import '../styles/banner.scss';
 import '../styles/about.scss';
 import '../styles/venue.scss';
 import '../styles/calendar.scss';
+import '../styles/supporters.scss';
 import '../styles/faqs.scss';
 import '../styles/footer.scss';
 
@@ -23,6 +25,7 @@ import osmArLogo from '../images/osm-ar.png';
 import ignLogo from '../images/ign.png';
 import osgeoLogo from '../images/osgeo.png';
 import cacLogo from '../images/cac.png';
+import ideraLogo from '../images/idera.png';
 
 document.body.insertAdjacentHTML('beforeend', navbar({
   logo,
@@ -62,6 +65,10 @@ L.circle([-34.57158, -58.43926], 200, {
   color: '#44C0F0',
   fillOpacity: 0.8,
 }).addTo(map);
+
+document.body.insertAdjacentHTML('beforeend', supporters({
+  ideraLogo,
+}));
 
 document.body.insertAdjacentHTML('beforeend', faqs());
 document.querySelectorAll('.faqs dt').forEach((element) => {
