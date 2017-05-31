@@ -179,11 +179,6 @@ a {
     padding-left: $default-spacing;
     padding-right: $default-spacing;
 
-    & > * {
-      padding-left: $default-spacing;
-      padding-right: $default-spacing;
-    }
-
     ul {
       list-style-position: inside;
 
