@@ -43,15 +43,19 @@ h3 {
   font-size: 2em;
   color: $dark-color;
   background-color: $accent-color;
-  padding: 0.1em 0.3em 0.3em 0.3em;
+  padding: 0.3em 0.3em 0.3em 0.3em;
   margin-top: 0;
   text-align: center;
   border-radius: $border-radius * 2;
 }
 
 h4 {
-  font-size: 2em;
-  color: $soft-color;
+  font-size: 1.5em;
+  color: $info-color;
+  padding: 0.3em 0.3em 0.3em 0;
+  border-bottom: 1px solid $info-color;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 
 h5 {
@@ -69,6 +73,7 @@ h5 {
   border-bottom: 0.25em solid;
   color: $dark-color;
   border-radius: $border-radius;
+  display: inline-block;
 
   &:hover {
     border-color: $dark-color;
@@ -114,22 +119,6 @@ h5 {
   }
 }
 
-.ribbon {
-  display: inline-block;
-  position: relative;
-  top: -1em;
-  right: 4.3em;
-  height: 0;
-  line-height: 1.7em;
-  font-size: 0.5em;
-  font-weight: bold;
-  color: $light-color;
-  border-bottom: 1.5em solid $alert-color;
-  border-left: 1.5em solid transparent;
-  border-right: 1.5em solid transparent;
-  transform: rotate(45deg);
-}
-
 section {
   background-color: $dark-color;
   background-size: auto 75%;
@@ -151,6 +140,7 @@ section {
 
 ul {
   list-style: none;
+  padding-left: 0;
 }
 
 p, ul {

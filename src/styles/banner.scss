@@ -18,7 +18,29 @@ section.banner {
 
   h2 {
     line-height: normal;
-    margin: 0;
+  }
+
+  h3 {
+    background-color: transparent;
+    font-size: 2.5em;
+    color: $soft-color;
+  }
+
+  .ribbon {
+    display: inline-block;
+    position: relative;
+    top: -1em;
+    right: 4.7em;
+    height: 0;
+    line-height: 1.7em;
+    font-size: 0.5em;
+    font-weight: bold;
+    color: $light-color;
+    border-bottom: 1.5em solid $alert-color;
+    border-left: 1.5em solid transparent;
+    border-right: 1.5em solid transparent;
+    transform: rotate(45deg);
+    margin-right: -6em;
   }
 
   .organizers {

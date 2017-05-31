@@ -3,15 +3,25 @@
 .calendar {
   table {
     color: $light-color;
+    width: 100%;
 
     td, th {
-      padding: 1em;
+      padding: 0.5em;
+      border-bottom: 1px dashed $accent-color;
+      height: 2em;
+      width: 20%;
     }
 
     th {
       color: $accent-color;
       font-weight: bold;
       text-align: left;
+
+      &:first-child {
+        padding-left: 0;
+        padding-right: 2em;
+        width: 40%;
+      }
     }
   }
 }
