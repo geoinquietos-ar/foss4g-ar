@@ -62,10 +62,20 @@ L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 18,
   attribution: '&copy; <a href="http://openstreetmap.org">Colaboradores de OpenStreetMap</a>',
 }).addTo(map);
-L.circle([-34.57158, -58.43926], 200, {
-  color: '#44C0F0',
-  fillOpacity: 0.8,
-}).addTo(map);
+var polygon = L.polygon([
+  [-34.57198, -58.44055],
+  [-34.57157, -58.44022],
+  [-34.57133, -58.44064],
+  [-34.57073, -58.43954],
+  [-34.57096, -58.43930],
+  [-34.57072, -58.43874],
+  [-34.57096, -58.43848],
+  [-34.57110, -58.43867],
+  [-34.57102, -58.43875],
+  [-34.57109, -58.43886],
+  [-34.57169, -58.43822],
+  [-34.57259, -58.43947]
+]).addTo(map);
 
 document.body.insertAdjacentHTML('beforeend', sponsors());
 
