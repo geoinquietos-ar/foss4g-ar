@@ -1,0 +1,25 @@
+section.about {
+  .organizers {
+    display: flex;
+    flex-direction: row;
+
+    img {
+      max-height: 5em;
+      padding: 1em;
+    }
+
+    .osm-ar {
+      margin-top: 0.8em;
+    }
+  }
+
+  .supporters {
+    display: flex;
+    flex-direction: row;
+
+    img {
+      max-height: 3em;
+      padding: 1em;
+    }
+  }
+}

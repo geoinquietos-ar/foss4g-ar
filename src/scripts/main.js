@@ -11,6 +11,7 @@ import footer from '../templates/footer.hbs';
 import '../styles/main.scss';
 import '../styles/navbar.scss';
 import '../styles/banner.scss';
+import '../styles/about.scss';
 import '../styles/venue.scss';
 import '../styles/calendar.scss';
 import '../styles/faqs.scss';
@@ -36,7 +37,14 @@ document.body.insertAdjacentHTML('beforeend', banner({
   cacLogo,
 }));
 
-document.body.insertAdjacentHTML('beforeend', about());
+document.body.insertAdjacentHTML('beforeend', about({
+  logo,
+  geoinquietosLogo,
+  osmArLogo,
+  ignLogo,
+  osgeoLogo,
+  cacLogo,
+}));
 
 document.body.insertAdjacentHTML('beforeend', calendar());
 
@@ -56,5 +64,11 @@ L.circle([-34.57158, -58.43926], 200, {
 }).addTo(map);
 
 document.body.insertAdjacentHTML('beforeend', faqs());
+document.querySelectorAll('.faqs dt').forEach((element) => {
+  element.addEventListener('click', () => {
+    document.querySelector('.faqs dt.active').classList.remove('active');
+    element.classList.add('active');
+  });
+});
 
 document.body.insertAdjacentHTML('beforeend', footer());

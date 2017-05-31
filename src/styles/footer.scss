@@ -1,10 +1,7 @@
 @import '_variables.scss';
 
 footer {
-  background-image: url(../images/background.png);
-  background-size: cover;
   background-color: $dark-color;
-  background-position: top center;
   font-size: 0.8em;
 
   padding: $default-spacing * 2 $default-spacing * 4 $default-spacing $default-spacing * 8;

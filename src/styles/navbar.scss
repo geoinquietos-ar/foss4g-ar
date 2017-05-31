@@ -1,8 +1,8 @@
 @import '_variables.scss';
 
 $item-color:        $accent-color;
-$hover-background:  $accent-color;
-$hover-color:       $primary-color;
+$hover-background:  $info-color;
+$hover-color:       $dark-color;
 
 .navbar {
   position: fixed;
@@ -28,11 +28,15 @@ $hover-color:       $primary-color;
       justify-content: center;
 
       &:first-child {
-        animation: scale 8s linear infinite;
+        animation: scale 5s linear infinite;
         img {
-          width: $default-spacing * 3;
+          width: $default-spacing * 2.5;
           padding-left: 0.05em;
         }
+      }
+
+      &:not(:first-child) {
+        display: none;
       }
 
       a {
@@ -93,8 +97,11 @@ $hover-color:       $primary-color;
   }
 
   &:hover {
-    transition: background-color 0.5s ease;
-    background-color: rgba($dark-color, 0.85);
+    ul {
+      li {
+        display: inherit;
+      }
+    }
   }
 }
 
@@ -118,6 +125,6 @@ $hover-color:       $primary-color;
     transform: scale(1);
   }
   90% {
-    transform: scale(1.1);
+    transform: scale(1.2);
   }
 }

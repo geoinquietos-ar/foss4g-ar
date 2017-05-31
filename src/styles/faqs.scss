@@ -6,34 +6,37 @@
   dl {
 
     dt {
-      border-left: 1px solid $info-color;
       padding: 0.5em;
       margin-bottom: 0.5em;
+      border-top-left-radius: $border-radius;
       border-top-right-radius: $border-radius;
+      cursor: pointer;
 
-      &:hover {
+      &.active {
         border-bottom: none;
         margin-bottom: 0;
         background-color: $info-color;
         color: $dark-color;
 
         & + dd {
-          display: block;
+          max-height: 1000px;
           margin-bottom: 0.5em;
+          transition: max-height 2.5s;
+          padding: 0.5em;
         }
       }
     }
 
     dd {
-      display: none;
+      max-height: 0px;
+      overflow: hidden;
       background-color: rgba($info-color, 0.2);
-      border-left: 1px solid $info-color;
+      border-bottom-left-radius: $border-radius;
       border-bottom-right-radius: $border-radius;
       border-top: none;
       margin-left: 0;
-      padding: 0.5em;
-      margin-bottom: 0.5em;
       font-size: 0.9em;
+      pointer-events: none;
     }
   }
 }
