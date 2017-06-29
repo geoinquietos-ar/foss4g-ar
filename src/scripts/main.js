@@ -5,6 +5,7 @@ import banner from '../templates/banner.hbs';
 import about from '../templates/about.hbs';
 import calendar from '../templates/calendar.hbs';
 import venue from '../templates/venue.hbs';
+import speakers from '../templates/speakers.hbs';
 import sponsors from '../templates/sponsors.hbs';
 import faqs from '../templates/faqs.hbs';
 import footer from '../templates/footer.hbs';
@@ -15,6 +16,7 @@ import '../styles/banner.scss';
 import '../styles/about.scss';
 import '../styles/venue.scss';
 import '../styles/calendar.scss';
+import '../styles/speakers.scss';
 import '../styles/sponsors.scss';
 import '../styles/faqs.scss';
 import '../styles/footer.scss';
@@ -26,6 +28,9 @@ import ignLogo from '../images/ign.png';
 import osgeoLogo from '../images/osgeo.png';
 import cacLogo from '../images/cac.png';
 import ideraLogo from '../images/idera.png';
+import avatarMaria from '../images/Maria_brovelli.jpeg';
+import avatarVictor from '../images/victor_olaya.jpg';
+import avatarJorge from '../images/jorge_sanz.jpg';
 
 document.body.insertAdjacentHTML('beforeend', navbar({
   logo,
@@ -76,6 +81,12 @@ L.polygon([
   [-34.57169, -58.43822],
   [-34.57259, -58.43947],
 ]).addTo(map).bindPopup('<b>Instituto Geográfico Nacional</b><br>Avenida Cabildo 301, Palermo, CABA').openPopup();
+
+document.body.insertAdjacentHTML('beforeend', speakers({
+  avatarMaria,
+  avatarVictor,
+  avatarJorge,
+}));
 
 document.body.insertAdjacentHTML('beforeend', sponsors());
 
