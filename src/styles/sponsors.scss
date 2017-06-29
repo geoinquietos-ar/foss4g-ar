@@ -1,5 +1,14 @@
 .sponsors {
-  img {
-    max-height: 10em;
+  .logos-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 3em;
+
+    img {
+      height: 6em;
+      margin: 1em;
+    }
   }
 }

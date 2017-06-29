@@ -26,6 +26,8 @@ import ignLogo from '../images/ign.png';
 import osgeoLogo from '../images/osgeo.png';
 import cacLogo from '../images/cac.png';
 import ideraLogo from '../images/idera.png';
+import logoCarto from '../images/carto.png';
+import logoBoundless from '../images/boundless.svg';
 
 document.body.insertAdjacentHTML('beforeend', navbar({
   logo,
@@ -77,7 +79,10 @@ L.polygon([
   [-34.57259, -58.43947],
 ]).addTo(map).bindPopup('<b>Instituto Geográfico Nacional</b><br>Avenida Cabildo 301, Palermo, CABA').openPopup();
 
-document.body.insertAdjacentHTML('beforeend', sponsors());
+document.body.insertAdjacentHTML('beforeend', sponsors({
+  logoCarto,
+  logoBoundless,
+}));
 
 document.body.insertAdjacentHTML('beforeend', faqs());
 document.querySelectorAll('.faqs dt').forEach((element) => {
