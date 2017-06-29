@@ -1,0 +1,30 @@
+@import '_variables.scss';
+
+.speakers {
+  .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .speaker {
+    margin: 0em 2em 2em 2em;
+    text-align: center;
+
+    .img-circle {
+      border-radius: 50%;
+      height: 10em;
+    }
+
+    .speaker-name {
+      font-size: 1.2em;
+      margin: 0.5em;
+    }
+
+    .speaker-org {
+      font-style: italic;
+      margin: 0;
+    }
+  }
+}
