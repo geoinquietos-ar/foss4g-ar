@@ -84,17 +84,16 @@ L.polygon([
   [-34.57259, -58.43947],
 ]).addTo(map).bindPopup('<b>Instituto Geográfico Nacional</b><br>Avenida Cabildo 301, Palermo, CABA').openPopup();
 
-document.body.insertAdjacentHTML('beforeend', sponsors({
-  logoCarto,
-  logoBoundless,
-}));
 document.body.insertAdjacentHTML('beforeend', speakers({
   avatarMaria,
   avatarVictor,
   avatarJorge,
 }));
 
-document.body.insertAdjacentHTML('beforeend', sponsors());
+document.body.insertAdjacentHTML('beforeend', sponsors({
+  logoCarto,
+  logoBoundless,
+}));
 
 document.body.insertAdjacentHTML('beforeend', faqs());
 document.querySelectorAll('.faqs dt').forEach((element) => {
