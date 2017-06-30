@@ -1,12 +1,7 @@
 @import '_variables.scss';
 
 section.sponsors {
-  background-color: $light-color;
-  color: $dark-color;
-
-  p, ul {
-    color: $dark-color;
-  }
+  background-image: none;
 
   .silver {
     display: flex;
