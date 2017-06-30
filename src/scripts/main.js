@@ -28,6 +28,9 @@ import cacLogo from '../images/cac.png';
 import ideraLogo from '../images/idera.png';
 import logoCarto from '../images/carto.png';
 import logoBoundless from '../images/boundless.png';
+import avatarMaria from '../images/Maria_brovelli.jpeg';
+import avatarVictor from '../images/victor_olaya.jpg';
+import avatarJorge from '../images/jorge_sanz.jpg';
 
 document.body.insertAdjacentHTML('beforeend', navbar({
   logo,
@@ -83,6 +86,13 @@ document.body.insertAdjacentHTML('beforeend', sponsors({
   logoCarto,
   logoBoundless,
 }));
+document.body.insertAdjacentHTML('beforeend', speakers({
+  avatarMaria,
+  avatarVictor,
+  avatarJorge,
+}));
+
+document.body.insertAdjacentHTML('beforeend', sponsors());
 
 document.body.insertAdjacentHTML('beforeend', faqs());
 document.querySelectorAll('.faqs dt').forEach((element) => {
