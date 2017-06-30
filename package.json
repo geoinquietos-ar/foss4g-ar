@@ -10,7 +10,8 @@
   "scripts": {
     "serve": "webpack-dev-server --hot --inline",
     "build": "NODE_ENV='production' webpack",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist",
+    "deploy-upstream": "npm run build && gh-pages -d dist -r git@github.com:geoinquietos-ar/foss4g-ar.git"
   },
   "author": "Mauricio Miranda <maurimiranda@gmail.com>",
   "license": "MIT",
