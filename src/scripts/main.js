@@ -27,7 +27,7 @@ import osgeoLogo from '../images/osgeo.png';
 import cacLogo from '../images/cac.png';
 import ideraLogo from '../images/idera.png';
 import logoCarto from '../images/carto.png';
-import logoBoundless from '../images/boundless.svg';
+import logoBoundless from '../images/boundless.png';
 
 document.body.insertAdjacentHTML('beforeend', navbar({
   logo,
