@@ -1,14 +1,20 @@
-.sponsors {
-  .logos-box {
+@import '_variables.scss';
+
+section.sponsors {
+  background-image: none;
+
+  .silver {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
+    align-items: center;
 
     img {
-      height: 6em;
-      margin: 1em;
+      max-width: 20em;
+      max-height: 6em;
+      padding: 1em;
     }
   }
 }
