@@ -1,25 +1,14 @@
-@import '_variables.scss';
-
-section.sponsors {
-  background-color: $light-color;
-  color: $dark-color;
-
-  p, ul {
-    color: $dark-color;
-  }
-
-  .silver {
+.sponsors {
+  .logos-box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 2em;
-    align-items: center;
+    margin-bottom: 3em;
 
     img {
-      max-width: 20em;
-      max-height: 6em;
-      padding: 1em;
+      height: 6em;
+      margin: 1em;
     }
   }
 }
