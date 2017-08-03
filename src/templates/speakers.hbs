@@ -1,6 +1,6 @@
 <section id="oradores" class="speakers">
   <h3>Charlas plenarias</h3>
-  <div class="content">
+  <div class="keynotes">
     <div class="speaker">
       <img src="{{avatarMaria}}" alt="maria" class="img-circle" />
       <p class="speaker-name">María Brovelli</p>
@@ -21,5 +21,14 @@
       <p class="speaker-name">Jeff McKenna</p>
       <p class="speaker-org">OSGeo</p>
     </div>
+  </div>
+  <h3>Propuestas aceptadas</h3>
+  <div class="talks">
+    {{#each talks}}
+      <div class="talk">
+        <h5>{{title}}</h5>
+        <p>{{name}}</p>
+      </div>
+    {{/each}}
   </div>
 </section>

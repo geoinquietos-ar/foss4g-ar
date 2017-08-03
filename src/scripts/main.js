@@ -37,6 +37,8 @@ import avatarVictor from '../images/victor_olaya.jpg';
 import avatarJorge from '../images/jorge_sanz.jpg';
 import avatarJeff from '../images/jeff_mckenna.jpeg';
 
+import talks from '../content/talks.json';
+
 document.body.insertAdjacentHTML('beforeend', navbar({
   logo,
 }));
@@ -92,6 +94,7 @@ document.body.insertAdjacentHTML('beforeend', speakers({
   avatarVictor,
   avatarJorge,
   avatarJeff,
+  talks: talks.filter(talk => talk.state === 'accepted'),
 }));
 
 document.body.insertAdjacentHTML('beforeend', sponsors({
