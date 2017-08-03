@@ -22,6 +22,7 @@ import '../styles/faqs.scss';
 import '../styles/footer.scss';
 
 import logo from '../images/iso.svg';
+
 import geoinquietosLogo from '../images/geoinquietos-ar.png';
 import osmArLogo from '../images/osm-ar.png';
 import ignLogo from '../images/ign.png';
@@ -30,9 +31,11 @@ import cacLogo from '../images/cac.png';
 import ideraLogo from '../images/idera.png';
 import logoCarto from '../images/carto.png';
 import logoBoundless from '../images/boundless.png';
+
 import avatarMaria from '../images/Maria_brovelli.jpeg';
 import avatarVictor from '../images/victor_olaya.jpg';
 import avatarJorge from '../images/jorge_sanz.jpg';
+import avatarJeff from '../images/jeff_mckenna.jpeg';
 
 document.body.insertAdjacentHTML('beforeend', navbar({
   logo,
@@ -88,6 +91,7 @@ document.body.insertAdjacentHTML('beforeend', speakers({
   avatarMaria,
   avatarVictor,
   avatarJorge,
+  avatarJeff,
 }));
 
 document.body.insertAdjacentHTML('beforeend', sponsors({

@@ -31,7 +31,7 @@ module.exports = {
   },
   devtool: 'source-map',
   resolve: {
-    extensions: ['', '.js', '.css', '.scss'],
+    extensions: ['.js', '.css', '.scss'],
     alias: {
       leafletCSS: path.join(__dirname, '/node_modules/leaflet/dist/leaflet.css'),
     },
@@ -50,7 +50,9 @@ module.exports = {
       {
         test: /\.scss$/,
         exclude: /node_modules/,
-        loader: ExtractTextPlugin.extract(['css?sourceMap', 'sass?sourceMap']),
+        loader: ExtractTextPlugin.extract({
+          use: ['css-loader', 'sass-loader']
+        })
       },
       {
         test: /\.(jpg|jpeg|gif|png|ico|svg)$/,
