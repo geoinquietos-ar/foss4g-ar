@@ -238,14 +238,16 @@ section.banner {
     background-color: transparent;
     font-size: 2.5em;
     color: #A4D6D5; }
+  section.banner .button {
+    font-size: 1.5em; }
   section.banner .ribbon {
     display: inline-block;
     position: relative;
-    top: -1em;
-    right: 4.7em;
+    top: -1.1em;
+    right: 4.5em;
     height: 0;
     line-height: 1.7em;
-    font-size: 0.5em;
+    font-size: 0.75em;
     font-weight: bold;
     color: #EEEEEE;
     border-bottom: 1.5em solid #E60000;
