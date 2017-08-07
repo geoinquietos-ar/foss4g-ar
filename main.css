@@ -929,24 +929,42 @@ section.about .supporters {
       padding-left: 0;
       padding-right: 2em;
       width: 40%; }
-.speakers .content {
+.speakers .keynotes {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center; }
+  .speakers .keynotes .speaker {
+    margin: 0em 2em 2em 2em;
+    text-align: center; }
+    .speakers .keynotes .speaker .img-circle {
+      border-radius: 50%;
+      height: 10em; }
+    .speakers .keynotes .speaker .speaker-name {
+      font-size: 1.2em;
+      margin: 0.5em;
+      color: #F3DC56; }
+    .speakers .keynotes .speaker .speaker-org {
+      font-style: italic;
+      margin: 0; }
 
-.speakers .speaker {
-  margin: 0em 2em 2em 2em;
-  text-align: center; }
-  .speakers .speaker .img-circle {
-    border-radius: 50%;
-    height: 10em; }
-  .speakers .speaker .speaker-name {
-    font-size: 1.2em;
-    margin: 0.5em; }
-  .speakers .speaker .speaker-org {
-    font-style: italic;
-    margin: 0; }
+.speakers .talks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .speakers .talks .talk {
+    font-size: 0.8em;
+    width: 15em;
+    padding: 1em;
+    margin: 0.2em;
+    background-color: rgba(238, 238, 238, 0.15);
+    text-align: center; }
+    .speakers .talks .talk h5 {
+      font-size: 1.2em;
+      margin: 0; }
+    .speakers .talks .talk p {
+      color: #A4D6D5; }
 section.sponsors {
   background-image: none; }
   section.sponsors .silver {
