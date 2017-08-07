@@ -94,7 +94,7 @@ document.body.insertAdjacentHTML('beforeend', speakers({
   avatarVictor,
   avatarJorge,
   avatarJeff,
-  talks: talks.filter(talk => talk.confirmed === true),
+  talks: talks.filter(talk => talk.confirmed === true).sort(() => Math.random() - 0.5),
 }));
 
 document.body.insertAdjacentHTML('beforeend', sponsors({
