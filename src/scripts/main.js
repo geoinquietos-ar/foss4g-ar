@@ -101,6 +101,7 @@ document.body.insertAdjacentHTML('beforeend', speakers({
 document.body.insertAdjacentHTML('beforeend', sponsors({
   logoCarto,
   logoBoundless,
+  logoCambalache,
 }));
 
 document.body.insertAdjacentHTML('beforeend', faqs());
