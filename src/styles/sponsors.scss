@@ -17,4 +17,18 @@ section.sponsors {
       padding: 1em;
     }
   }
+  .bronze {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2em;
+    align-items: center;
+
+    img {
+      max-width: 13em;
+      max-height: 4em;
+      padding: 1em;
+    }
+  }
 }

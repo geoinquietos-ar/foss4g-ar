@@ -31,6 +31,7 @@ import cacLogo from '../images/cac.png';
 import ideraLogo from '../images/idera.png';
 import logoCarto from '../images/carto.png';
 import logoBoundless from '../images/boundless.png';
+import logoCambalache from '../images/cambalache.png';
 
 import avatarMaria from '../images/Maria_brovelli.jpeg';
 import avatarVictor from '../images/victor_olaya.jpg';
@@ -100,6 +101,7 @@ document.body.insertAdjacentHTML('beforeend', speakers({
 document.body.insertAdjacentHTML('beforeend', sponsors({
   logoCarto,
   logoBoundless,
+  logoCambalache,
 }));
 
 document.body.insertAdjacentHTML('beforeend', faqs());
