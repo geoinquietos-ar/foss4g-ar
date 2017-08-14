@@ -37,6 +37,7 @@ import avatarMaria from '../images/Maria_brovelli.jpeg';
 import avatarVictor from '../images/victor_olaya.jpg';
 import avatarJorge from '../images/jorge_sanz.jpg';
 import avatarJeff from '../images/jeff_mckenna.jpeg';
+import avatarDelawen from '../images/maria_arias.jpg';
 
 import talks from '../content/talks.json';
 
@@ -95,6 +96,7 @@ document.body.insertAdjacentHTML('beforeend', speakers({
   avatarVictor,
   avatarJorge,
   avatarJeff,
+  avatarDelawen,
   talks: talks.filter(talk => talk.confirmed === true).sort(() => Math.random() - 0.5),
 }));
 
