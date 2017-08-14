@@ -68,6 +68,22 @@ document.body.insertAdjacentHTML('beforeend', about({
 
 document.body.insertAdjacentHTML('beforeend', calendar());
 
+document.body.insertAdjacentHTML('beforeend', speakers({
+  avatarMaria,
+  avatarVictor,
+  avatarJorge,
+  avatarJeff,
+  avatarDelawen,
+  talks: talks.filter(talk => talk.confirmed === true).sort(() => Math.random() - 0.5),
+}));
+
+document.body.insertAdjacentHTML('beforeend', sponsors({
+  logoCarto,
+  logoBoundless,
+  logoCambalache,
+  logoGeoCAT,
+}));
+
 document.body.insertAdjacentHTML('beforeend', venue());
 const map = L.map('venueMap', {
   scrollWheelZoom: false,
@@ -92,22 +108,6 @@ L.polygon([
   [-34.57169, -58.43822],
   [-34.57259, -58.43947],
 ]).addTo(map).bindPopup('<b>Instituto Geográfico Nacional</b><br>Avenida Cabildo 301, Palermo, CABA').openPopup();
-
-document.body.insertAdjacentHTML('beforeend', speakers({
-  avatarMaria,
-  avatarVictor,
-  avatarJorge,
-  avatarJeff,
-  avatarDelawen,
-  talks: talks.filter(talk => talk.confirmed === true).sort(() => Math.random() - 0.5),
-}));
-
-document.body.insertAdjacentHTML('beforeend', sponsors({
-  logoCarto,
-  logoBoundless,
-  logoCambalache,
-  logoGeoCAT,
-}));
 
 document.body.insertAdjacentHTML('beforeend', faqs());
 document.querySelectorAll('.faqs dt').forEach((element) => {
