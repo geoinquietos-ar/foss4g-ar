@@ -29,14 +29,17 @@ import ignLogo from '../images/ign.png';
 import osgeoLogo from '../images/osgeo.png';
 import cacLogo from '../images/cac.png';
 import ideraLogo from '../images/idera.png';
+
 import logoCarto from '../images/carto.png';
 import logoBoundless from '../images/boundless.png';
 import logoCambalache from '../images/cambalache.png';
+import logoGeoCAT from '../images/geocat.png';
 
 import avatarMaria from '../images/Maria_brovelli.jpeg';
 import avatarVictor from '../images/victor_olaya.jpg';
 import avatarJorge from '../images/jorge_sanz.jpg';
 import avatarJeff from '../images/jeff_mckenna.jpeg';
+import avatarDelawen from '../images/maria_arias.jpg';
 
 import talks from '../content/talks.json';
 
@@ -65,6 +68,22 @@ document.body.insertAdjacentHTML('beforeend', about({
 
 document.body.insertAdjacentHTML('beforeend', calendar());
 
+document.body.insertAdjacentHTML('beforeend', speakers({
+  avatarMaria,
+  avatarVictor,
+  avatarJorge,
+  avatarJeff,
+  avatarDelawen,
+  talks: talks.filter(talk => talk.confirmed === true).sort(() => Math.random() - 0.5),
+}));
+
+document.body.insertAdjacentHTML('beforeend', sponsors({
+  logoCarto,
+  logoBoundless,
+  logoCambalache,
+  logoGeoCAT,
+}));
+
 document.body.insertAdjacentHTML('beforeend', venue());
 const map = L.map('venueMap', {
   scrollWheelZoom: false,
@@ -89,20 +108,6 @@ L.polygon([
   [-34.57169, -58.43822],
   [-34.57259, -58.43947],
 ]).addTo(map).bindPopup('<b>Instituto Geográfico Nacional</b><br>Avenida Cabildo 301, Palermo, CABA').openPopup();
-
-document.body.insertAdjacentHTML('beforeend', speakers({
-  avatarMaria,
-  avatarVictor,
-  avatarJorge,
-  avatarJeff,
-  talks: talks.filter(talk => talk.confirmed === true).sort(() => Math.random() - 0.5),
-}));
-
-document.body.insertAdjacentHTML('beforeend', sponsors({
-  logoCarto,
-  logoBoundless,
-  logoCambalache,
-}));
 
 document.body.insertAdjacentHTML('beforeend', faqs());
 document.querySelectorAll('.faqs dt').forEach((element) => {
