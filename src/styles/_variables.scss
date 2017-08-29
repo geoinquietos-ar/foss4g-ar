@@ -23,6 +23,8 @@ $tablet-width: 768px;
 $desktop-width: 1024px;
 $large-desktop-width: 1600px;
 
+$splitter-border: 1px solid lighten($dark-color, 10%);
+
 @mixin mobile {
   @media (max-width: #{$mobile-width}) {
     @content;
