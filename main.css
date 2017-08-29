@@ -974,8 +974,10 @@ section.sponsors {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 2em;
-    align-items: center; }
+    margin-bottom: 1em;
+    align-items: center;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #4d4d4d; }
     section.sponsors .silver img {
       max-width: 20em;
       max-height: 6em;
@@ -986,7 +988,9 @@ section.sponsors {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 2em;
-    align-items: center; }
+    align-items: center;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #4d4d4d; }
     section.sponsors .bronze img {
       max-width: 13em;
       max-height: 4em;
