@@ -34,6 +34,8 @@ import logoCarto from '../images/carto.png';
 import logoBoundless from '../images/boundless.png';
 import logoCambalache from '../images/cambalache.png';
 import logoGeoCAT from '../images/geocat.png';
+import logoUNP from '../images/unp.png';
+import logoAerolineas from '../images/aa.jpg';
 
 import avatarMaria from '../images/Maria_brovelli.jpeg';
 import avatarVictor from '../images/victor_olaya.jpg';
@@ -82,6 +84,8 @@ document.body.insertAdjacentHTML('beforeend', sponsors({
   logoBoundless,
   logoCambalache,
   logoGeoCAT,
+  logoUNP,
+  logoAerolineas,
 }));
 
 document.body.insertAdjacentHTML('beforeend', venue());
