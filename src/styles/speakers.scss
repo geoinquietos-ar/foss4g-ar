@@ -53,4 +53,42 @@
       }
     }
   }
+
+  .agenda {
+    table {
+      font-size: 0.8em;
+      color: $dark-color;
+      width: 100%;
+      text-align: center;
+
+      td, th {
+        width: 25%;
+
+        p {
+          color: $dark-color;
+        }
+      }
+
+      th {
+        color: $accent-color;
+      }
+
+      td {
+        background-color: $info-color;
+
+        &.break {
+          background-color: $light-color;
+        }
+
+        &.keynote {
+          background-color: $accent-color;
+        }
+
+        p.speaker {
+          font-size: 0.9em;
+          font-style: italic;
+        }
+      }
+    }
+  }
 }
