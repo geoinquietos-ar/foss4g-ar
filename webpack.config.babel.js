@@ -59,7 +59,8 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'file-loader',
       },
-      { test: /\.(eot|svg|ttf|otf|woff|woff2)$/,
+      {
+        test: /\.(eot|ttf|otf|woff|woff2)$/,
         exclude: /node_modules/,
         loader: 'file-loader',
       },
