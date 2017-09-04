@@ -21,7 +21,7 @@ import '../styles/sponsors.scss';
 import '../styles/faqs.scss';
 import '../styles/footer.scss';
 
-import logo from '../images/iso.svg';
+import logo from '../images/iso.png';
 
 import geoinquietosLogo from '../images/geoinquietos-ar.png';
 import osmArLogo from '../images/osm-ar.png';
