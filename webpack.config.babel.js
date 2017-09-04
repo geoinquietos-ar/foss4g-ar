@@ -51,11 +51,15 @@ module.exports = {
         test: /\.scss$/,
         exclude: /node_modules/,
         loader: ExtractTextPlugin.extract({
-          use: ['css-loader', 'sass-loader']
-        })
+          use: ['css-loader', 'sass-loader'],
+        }),
       },
       {
         test: /\.(jpg|jpeg|gif|png|ico|svg)$/,
+        exclude: /node_modules/,
+        loader: 'file-loader',
+      },
+      { test: /\.(eot|svg|ttf|otf|woff|woff2)$/,
         exclude: /node_modules/,
         loader: 'file-loader',
       },
