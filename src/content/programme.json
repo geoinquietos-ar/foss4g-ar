@@ -305,38 +305,38 @@
       },
       {
         "talks": [{
-          "title": "",
-          "speaker": ""
+          "title": "Alcance y frecuencia del transporte público, según los barrios populares en la ciudad de Comodoro Rivadavia.",
+          "speaker": "Andrea Trovant"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Citylines.co: la construcción de una plataforma colaborativa de datos geográficos",
+          "speaker": "Bruno Salerno"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Software libres para la construcción de una Infraestructura de Datos Espaciales (IDE) como herramienta de análisis socioterritorial: el caso de la IDE del Instituto de Geografía de la UNLPam",
+          "speaker": "Juan Pablo Bossa"
         }]
       },
       {
         "talks": [{
-          "title": "",
-          "speaker": ""
+          "title": "El Instituto de Geografía Tropical de Cuba y los sistemas de información geográfica. Una contribución desde la ciencia a la sostenibilidad del desarrollo.",
+          "speaker": "Daimar Cánovas"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Construcción de territoro en la comunidad universitaria de Moreno",
+          "speaker": "Mario Ignacio Fèvre"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Creando Mapas de Web Interactivos con Datos Abiertos Para Entender Mejor a las Ciudades y Conectar con Ciudadanos y Turistas",
+          "speaker": "Misha Chakrabarti"
         }]
       },
       {
         "talks": [{
-          "title": "",
-          "speaker": ""
+          "title": "Cartografía social de la percepción emotiva del territorio",
+          "speaker": "Gonzalo Martinez Troncoso"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Open Source, Real-Time, Billion Object Spatio-Temporal Search Plaform",
+          "speaker": "Lennin Suescun"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Charla de los cubanos, pedir título",
+          "speaker": "Cubanos varios"
         }]
       },
       {
@@ -354,26 +354,26 @@
       },
       {
         "talks": [{
-          "title": "",
-          "speaker": ""
+          "title": "Simulación espacial para la restauración",
+          "speaker": "Felipe Sodre Barros"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Cura de enfermedades del sistema de recaudación municipal en Paraguay, con el uso del poha ñana SIG",
+          "speaker": "Atahualpa Ayala"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Los SIG para mejorar el sistema de transporte y movilidad urbana en Comodoro Rivadavia",
+          "speaker": "Bianca Freddo, Darío Masutti, Erik Jacamo"
         }]
       },
       {
         "talks": [{
-          "title": "",
-          "speaker": ""
+          "title": "Segmentación Automática para el Censo 2020",
+          "speaker": "Hernán Alperín"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Sistema de Edición Cartográfico Forestal Colaborativo",
+          "speaker": "Matías Gaute"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Territorio, ordenamiento y el uso de datos geográficos para la gestión del riesgo de desastres",
+          "speaker": "Cristina Massera, Brenda Williams, Martín Torres"
         }]
       },
       {
@@ -384,26 +384,20 @@
       },
       {
         "talks": [{
-          "title": "",
-          "speaker": ""
+          "title": "Los SIG en la emergencia climatica",
+          "speaker": "Bianca Freddo"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Plataformas y SIG libres para la accesibilidad a salud",
+          "speaker": "Leonardo Javier Schuler"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Análisis espacial del temporal (marzo/abril 2017) en la ciudad de Comodoro Rivadavia a través de imágenes ráster",
+          "speaker": "Martín Torres, Brenda Williams, Denis Monaldi, Mauro Vasconcel"
         }]
       },
       {
         "talks": [{
-          "title": "",
-          "speaker": ""
-        },{
-          "title": "",
-          "speaker": ""
-        },{
-          "title": "",
-          "speaker": ""
+          "title": "Cierre",
+          "type": "break"
         }]
       }
     ]
