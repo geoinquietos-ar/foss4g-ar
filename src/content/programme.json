@@ -1,6 +1,10 @@
 [
   {
-    "title": "Martes",
+    "title": "Lunes 23",
+    "description": "Evento especial <a href='http://www.geoforall.org/'>Geo4All</a> para universidades.<br/>Si formás parte de una universidad y te interesa el evento, escribinos a <a href='mailto:info@foss4g-ar.org?subject=geo4all'>info@foss4g-ar.org</a>"
+  },
+  {
+    "title": "Martes 24",
     "rooms": ["Aula 1", "Aula 2", "Aula 3"],
     "schedule": [
       "08:30 - 09:00",
@@ -54,7 +58,7 @@
     ]
   },
   {
-    "title": "Miércoles",
+    "title": "Miércoles 25",
     "rooms": ["Aula 1", "Aula 2", "Aula 3"],
     "schedule": [
       "08:30 - 09:00",
@@ -108,7 +112,7 @@
     ]
   },
   {
-    "title": "Jueves",
+    "title": "Jueves 26",
     "rooms": ["Sala 1", "Sala 2", "Sala 3"],
     "schedule": [
       "09:00 - 10:00",
@@ -245,7 +249,7 @@
     ]
   },
   {
-    "title": "Viernes",
+    "title": "Viernes 27",
     "rooms": ["Sala 1", "Sala 2", "Sala 3"],
     "schedule": [
       "09:00 - 10:00",
@@ -375,5 +379,9 @@
         }]
       }
     ]
+  },
+  {
+    "title": "Sábado 28",
+    "description": "Mapatón + Hackatón.<br/>Si trabajás con datos/mapas libres y tenés alguna propuesta para el mapatón/hackatón, escribinos a <a href='mailto:info@foss4g-ar.org?subject=hackaton'>info@foss4g-ar.org</a>"
   }
 ]
