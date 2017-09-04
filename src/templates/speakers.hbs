@@ -49,10 +49,10 @@
         </tr>
         {{#each schedule}}
           <tr>
-            <th>{{this}}</th>
+            <th class="schedule">{{this}}</th>
             {{#with (lookup ../tracks @index) as |track|}}
               {{#each track.talks}}
-                <td {{#if type}}colspan="3"{{/if}} class="{{type}}">
+                <td {{#if type}}colspan="3" class="{{type}}"{{else}}class="talk"{{/if}} >
                   <p class="title">{{title}}</p>
                   <p class="speaker">{{speaker}}</p>
                 </td>

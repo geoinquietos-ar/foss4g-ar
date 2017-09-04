@@ -62,8 +62,7 @@
       text-align: center;
 
       td, th {
-        width: 25%;
-
+        padding: 0 1em 0 1em;
         p {
           color: $dark-color;
         }
@@ -71,10 +70,18 @@
 
       th {
         color: $accent-color;
+
+        &.schedule {
+          white-space: nowrap;
+        }
       }
 
       td {
         background-color: $info-color;
+
+        &.talk {
+          width: 33%;
+        }
 
         &.break {
           background-color: $light-color;

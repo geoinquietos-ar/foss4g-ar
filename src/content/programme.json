@@ -1,0 +1,411 @@
+[
+  {
+    "title": "Martes",
+    "rooms": ["Aula 1", "Aula 2", "Aula 3"],
+    "schedule": [
+      "08:30 - 09:00",
+      "09:00 - 13:00",
+      "13:00 - 14:30",
+      "14:30 - 18:00"
+    ],
+    "tracks": [
+      {
+        "talks": [{
+          "title": "Acreditación",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Introducción a GeoNetwork",
+          "speaker": "Ariel Anthieni",
+          "link": ""
+        },{
+          "title": "Introducción a QGIS",
+          "speaker": "Federico Gazaba",
+          "link": ""
+        },{
+          "title": "Carto Builder",
+          "speaker": "Jorge Sanz",
+          "link": ""
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Almuerzo",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "GeoNetwork Avanzado",
+          "speaker": "María Arias de Reyna",
+          "link": ""
+        },{
+          "title": "QGIS Superavanzado",
+          "speaker": "Victor Olaya",
+          "link": ""
+        },{
+          "title": "Introduction to MapServer",
+          "speaker": "Jeff McKenna",
+          "link": ""
+        }]
+      }
+    ]
+  },
+  {
+    "title": "Miércoles",
+    "rooms": ["Aula 1", "Aula 2", "Aula 3"],
+    "schedule": [
+      "08:30 - 09:00",
+      "09:00 - 13:00",
+      "13:00 - 14:30",
+      "14:30 - 18:00"
+    ],
+    "tracks": [
+      {
+        "talks": [{
+          "title": "Acreditación",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "PostGIS",
+          "speaker": "Manuel Retamozo",
+          "link": ""
+        },{
+          "title": "Personalización de GeoNode",
+          "speaker": "Nicolás Perez",
+          "link": ""
+        },{
+          "title": "Introducción a GeoServer",
+          "speaker": "Cristian Zamar",
+          "link": ""
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Almuerzo",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "pgRouting",
+          "speaker": "Vicky Vergara",
+          "link": ""
+        },{
+          "title": "Teledetección con QGIS",
+          "speaker": "Felipe Barros",
+          "link": ""
+        },{
+          "title": "Generación y publicación de tiles vectoriales",
+          "speaker": "Gonzalo Perez",
+          "link": ""
+        }]
+      }
+    ]
+  },
+  {
+    "title": "Jueves",
+    "rooms": ["Sala 1", "Sala 2", "Sala 3"],
+    "schedule": [
+      "09:00 - 10:00",
+      "10:00 - 10:30",
+      "10:30 - 11:00",
+      "11:00 - 11:30",
+      "11:30 - 12:00",
+      "12:00 - 12:30",
+      "12:30 - 13:00",
+      "13:00 - 14:30",
+      "14:30 - 15:00",
+      "15:00 - 15:30",
+      "15:30 - 16:00",
+      "16:00 - 16:30",
+      "16:30 - 17:00",
+      "17:00 - 17:30"
+    ],
+    "tracks": [
+      {
+        "talks": [{
+          "title": "Acreditación",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Apertura",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Como hacer mejores usuarios de SIG",
+          "speaker": "Victor Olaya",
+          "type": "keynote"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Coffee Break",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Carto 2017",
+          "speaker": "Jorge Sanz"
+        },{
+          "title": "Panel sobre #GeoChicas Rol y participación de las mujeres en comunidades tecnológicas",
+          "speaker": "Selene Yang"
+        },{
+          "title": "",
+          "speaker": ""
+        }]
+      },
+      {
+        "talks": [{
+          "title": "The State of MapServer: Strong, Stable & Fast",
+          "speaker": "Jeff McKenna"
+        },{
+          "title": "Integración de Sistemas para la Indicación de Destinos para Servicios de Emergencias",
+          "speaker": "Carlos Brys"
+        },{
+          "title": "",
+          "speaker": ""
+        }]
+      },
+      {
+        "talks": [{
+          "title": "El estado del arte de QGIS",
+          "speaker": "Victor Olaya"
+        },{
+          "title": "Cartografía participativa: comprensión y percepción del territorio de estudiantes de primaria mediante geomática libre",
+          "speaker": "Iván Ignacio Rojas Briones"
+        },{
+          "title": "",
+          "speaker": ""
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Almuerzo",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "¿Qué onda con la diversidad?",
+          "speaker": "María Arias de Reyna",
+          "type": "keynote"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Geonetwork como Nodo IDE sobre Docker",
+          "speaker": "Ariel Anthieni"
+        },{
+          "title": "OSM en la IDE Pergamino",
+          "speaker": "IDE Pergamino"
+        },{
+          "title": "",
+          "speaker": ""
+        }]
+      },
+      {
+        "talks": [{
+          "title": "El estado del arte de GeoNetwork",
+          "speaker": "María Arias de Reyna"
+        },{
+          "title": "¿Quién mapeó la Argentina? Una exploración del archivo histórico de OpenStreetMap para comprender el conjunto de contribuyentes activos en el país.",
+          "speaker": "Sterling Quinn"
+        },{
+          "title": "",
+          "speaker": ""
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Coffee Break",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "El camino más corto en la base de datos y más con pgRouting ",
+          "speaker": "Vicky Vergara"
+        },{
+          "title": "Mapbox loves OpenStreetMap",
+          "speaker": "Pilar Serrano"
+        },{
+          "title": "",
+          "speaker": ""
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Building a spatio-temporal search platform with Registry",
+          "speaker": "Jorge Martinez"
+        },{
+          "title": "Validación: Asegurando la calidad de los datos agregados en OpenStreetMap",
+          "speaker": "Karito Tenorio"
+        },{
+          "title": "",
+          "speaker": ""
+        }]
+      }
+    ]
+  },
+  {
+    "title": "Viernes",
+    "rooms": ["Sala 1", "Sala 2", "Sala 3"],
+    "schedule": [
+      "09:00 - 10:00",
+      "10:00 - 10:30",
+      "10:30 - 11:00",
+      "11:00 - 11:30",
+      "11:30 - 12:00",
+      "12:00 - 12:30",
+      "12:30 - 13:00",
+      "13:00 - 14:30",
+      "14:30 - 15:00",
+      "15:00 - 15:30",
+      "15:30 - 16:00",
+      "16:00 - 16:30",
+      "16:30 - 17:00",
+      "17:00 - 17:30"
+    ],
+    "tracks": [
+      {
+        "talks": [{
+          "title": "Acreditación",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "OSGeo: current state and perspective",
+          "speaker": "Maria Brovelli",
+          "type": "keynote"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "The Bar is Open (A Message from The OSGeo Bartender)",
+          "speaker": "Jeff McKenna",
+          "type": "keynote"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Coffee Break",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "",
+          "speaker": ""
+        },{
+          "title": "",
+          "speaker": ""
+        },{
+          "title": "",
+          "speaker": ""
+        }]
+      },
+      {
+        "talks": [{
+          "title": "",
+          "speaker": ""
+        },{
+          "title": "",
+          "speaker": ""
+        },{
+          "title": "",
+          "speaker": ""
+        }]
+      },
+      {
+        "talks": [{
+          "title": "",
+          "speaker": ""
+        },{
+          "title": "",
+          "speaker": ""
+        },{
+          "title": "",
+          "speaker": ""
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Almuerzo",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Una serie de cartográficas desdichas",
+          "speaker": "Jorge Sanz",
+          "type": "keynote"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "",
+          "speaker": ""
+        },{
+          "title": "",
+          "speaker": ""
+        },{
+          "title": "",
+          "speaker": ""
+        }]
+      },
+      {
+        "talks": [{
+          "title": "",
+          "speaker": ""
+        },{
+          "title": "",
+          "speaker": ""
+        },{
+          "title": "",
+          "speaker": ""
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Coffee Break",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "",
+          "speaker": ""
+        },{
+          "title": "",
+          "speaker": ""
+        },{
+          "title": "",
+          "speaker": ""
+        }]
+      },
+      {
+        "talks": [{
+          "title": "",
+          "speaker": ""
+        },{
+          "title": "",
+          "speaker": ""
+        },{
+          "title": "",
+          "speaker": ""
+        }]
+      }
+    ]
+  }
+]
