@@ -123,8 +123,7 @@
       "15:00 - 15:30",
       "15:30 - 16:00",
       "16:00 - 16:30",
-      "16:30 - 17:00",
-      "17:00 - 17:30"
+      "16:30 - 17:00"
     ],
     "tracks": [
       {
@@ -160,8 +159,8 @@
           "title": "Panel sobre #GeoChicas Rol y participación de las mujeres en comunidades tecnológicas",
           "speaker": "Selene Yang"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Integración de Sistemas para la Indicación de Destinos para Servicios de Emergencias",
+          "speaker": "Carlos Brys"
         }]
       },
       {
@@ -169,11 +168,11 @@
           "title": "The State of MapServer: Strong, Stable & Fast",
           "speaker": "Jeff McKenna"
         },{
-          "title": "Integración de Sistemas para la Indicación de Destinos para Servicios de Emergencias",
-          "speaker": "Carlos Brys"
+          "title": "Mapbox loves OpenStreetMap",
+          "speaker": "Pilar Serrano"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Cartografía participativa: comprensión y percepción del territorio de estudiantes de primaria mediante geomática libre",
+          "speaker": "Iván Ignacio Rojas Briones"
         }]
       },
       {
@@ -181,8 +180,8 @@
           "title": "El estado del arte de QGIS",
           "speaker": "Victor Olaya"
         },{
-          "title": "Cartografía participativa: comprensión y percepción del territorio de estudiantes de primaria mediante geomática libre",
-          "speaker": "Iván Ignacio Rojas Briones"
+          "title": "Geonetwork como Nodo IDE sobre Docker",
+          "speaker": "Ariel Anthieni"
         },{
           "title": "",
           "speaker": ""
@@ -196,21 +195,14 @@
       },
       {
         "talks": [{
-          "title": "¿Qué onda con la diversidad?",
-          "speaker": "María Arias de Reyna",
-          "type": "keynote"
-        }]
-      },
-      {
-        "talks": [{
-          "title": "Geonetwork como Nodo IDE sobre Docker",
-          "speaker": "Ariel Anthieni"
+          "title": "El camino más corto en la base de datos y más con pgRouting ",
+          "speaker": "Vicky Vergara"
         },{
           "title": "OSM en la IDE Pergamino",
           "speaker": "IDE Pergamino"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Validación: Asegurando la calidad de los datos agregados en OpenStreetMap",
+          "speaker": "Karito Tenorio"
         }]
       },
       {
@@ -221,8 +213,20 @@
           "title": "¿Quién mapeó la Argentina? Una exploración del archivo histórico de OpenStreetMap para comprender el conjunto de contribuyentes activos en el país.",
           "speaker": "Sterling Quinn"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Building a spatio-temporal search platform with Registry",
+          "speaker": "Jorge Martinez"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Simulación espacial para la restauración",
+          "speaker": "Felipe Sodre Barros"
+        },{
+          "title": "Cura de enfermedades del sistema de recaudación municipal en Paraguay con el uso del poha ñana SIG",
+          "speaker": "Atahualpa Ayala"
+        },{
+          "title": "Los SIG para mejorar el sistema de transporte y movilidad urbana en Comodoro Rivadavia",
+          "speaker": "Bianca Freddo, Darío Masutti, Erik Jacamo"
         }]
       },
       {
@@ -233,26 +237,9 @@
       },
       {
         "talks": [{
-          "title": "El camino más corto en la base de datos y más con pgRouting ",
-          "speaker": "Vicky Vergara"
-        },{
-          "title": "Mapbox loves OpenStreetMap",
-          "speaker": "Pilar Serrano"
-        },{
-          "title": "",
-          "speaker": ""
-        }]
-      },
-      {
-        "talks": [{
-          "title": "Building a spatio-temporal search platform with Registry",
-          "speaker": "Jorge Martinez"
-        },{
-          "title": "Validación: Asegurando la calidad de los datos agregados en OpenStreetMap",
-          "speaker": "Karito Tenorio"
-        },{
-          "title": "",
-          "speaker": ""
+          "title": "¿Qué onda con la diversidad?",
+          "speaker": "María Arias de Reyna",
+          "type": "keynote"
         }]
       }
     ]
@@ -273,8 +260,7 @@
       "15:00 - 15:30",
       "15:30 - 16:00",
       "16:00 - 16:30",
-      "16:30 - 17:00",
-      "17:00 - 17:30"
+      "16:30 - 17:00"
     ],
     "tracks": [
       {
@@ -347,25 +333,6 @@
       },
       {
         "talks": [{
-          "title": "Una serie de cartográficas desdichas",
-          "speaker": "Jorge Sanz",
-          "type": "keynote"
-        }]
-      },
-      {
-        "talks": [{
-          "title": "Simulación espacial para la restauración",
-          "speaker": "Felipe Sodre Barros"
-        },{
-          "title": "Cura de enfermedades del sistema de recaudación municipal en Paraguay, con el uso del poha ñana SIG",
-          "speaker": "Atahualpa Ayala"
-        },{
-          "title": "Los SIG para mejorar el sistema de transporte y movilidad urbana en Comodoro Rivadavia",
-          "speaker": "Bianca Freddo, Darío Masutti, Erik Jacamo"
-        }]
-      },
-      {
-        "talks": [{
           "title": "Segmentación Automática para el Censo 2020",
           "speaker": "Hernán Alperín"
         },{
@@ -378,12 +345,6 @@
       },
       {
         "talks": [{
-          "title": "Coffee Break",
-          "type": "break"
-        }]
-      },
-      {
-        "talks": [{
           "title": "Los SIG en la emergencia climatica",
           "speaker": "Bianca Freddo"
         },{
@@ -392,6 +353,19 @@
         },{
           "title": "Análisis espacial del temporal (marzo/abril 2017) en la ciudad de Comodoro Rivadavia a través de imágenes ráster",
           "speaker": "Martín Torres, Brenda Williams, Denis Monaldi, Mauro Vasconcel"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Coffee Break",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Una serie de cartográficas desdichas",
+          "speaker": "Jorge Sanz",
+          "type": "keynote"
         }]
       },
       {
