@@ -53,7 +53,7 @@
             {{#with (lookup ../tracks @index) as |track|}}
               {{#each track.talks}}
                 <td {{#if type}}colspan="3" class="{{type}}"{{else}}class="talk"{{/if}} >
-                  <p class="title">{{title}}</p>
+                  <p class="title" title="{{title}}">{{ellipsis title}}</p>
                   <p class="speaker">{{speaker}}</p>
                 </td>
               {{/each}}
