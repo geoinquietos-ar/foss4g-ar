@@ -84,7 +84,7 @@
           "link": ""
         },{
           "title": "Introducción a GeoServer",
-          "speaker": "Cristian Zamar",
+          "speaker": "",
           "link": ""
         }]
       },
@@ -160,11 +160,11 @@
           "title": "Carto 2017",
           "speaker": "Jorge Sanz"
         },{
-          "title": "Panel sobre #GeoChicas Rol y participación de las mujeres en comunidades tecnológicas",
-          "speaker": "Selene Yang"
+          "title": "El Instituto de Geografía Tropical de Cuba y los sistemas de información geográfica. Una contribución desde la ciencia a la sostenibilidad del desarrollo.",
+          "speaker": "Daimar Cánovas"
         },{
-          "title": "Integración de Sistemas para la Indicación de Destinos para Servicios de Emergencias",
-          "speaker": "Carlos Brys"
+          "title": "Alcance y frecuencia del transporte público, según los barrios populares en la ciudad de Comodoro Rivadavia.",
+          "speaker": "Andrea Trovant"
         }]
       },
       {
@@ -172,23 +172,23 @@
           "title": "The State of MapServer: Strong, Stable & Fast",
           "speaker": "Jeff McKenna"
         },{
-          "title": "Mapbox loves OpenStreetMap",
-          "speaker": "Pilar Serrano"
+          "title": "Integración de Sistemas para la Indicación de Destinos para Servicios de Emergencias",
+          "speaker": "Carlos Brys"
         },{
-          "title": "Cartografía participativa: comprensión y percepción del territorio de estudiantes de primaria mediante geomática libre",
-          "speaker": "Iván Ignacio Rojas Briones"
+          "title": "Software libres para la construcción de una Infraestructura de Datos Espaciales (IDE) como herramienta de análisis socioterritorial: el caso de la IDE del Instituto de Geografía de la UNLPam",
+          "speaker": "Juan Pablo Bossa"
         }]
       },
       {
         "talks": [{
-          "title": "El estado del arte de QGIS",
-          "speaker": "Victor Olaya"
-        },{
           "title": "Geonetwork como Nodo IDE sobre Docker",
           "speaker": "Ariel Anthieni"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Panel sobre #GeoChicas Rol y participación de las mujeres en comunidades tecnológicas",
+          "speaker": "Selene Yang"
+        },{
+          "title": "Creando Mapas de Web Interactivos con Datos Abiertos Para Entender Mejor a las Ciudades y Conectar con Ciudadanos y Turistas",
+          "speaker": "Misha Chakrabarti"
         }]
       },
       {
@@ -202,23 +202,11 @@
           "title": "El camino más corto en la base de datos y más con pgRouting ",
           "speaker": "Vicky Vergara"
         },{
-          "title": "OSM en la IDE Pergamino",
-          "speaker": "IDE Pergamino"
+          "title": "Cartografía participativa: comprensión y percepción del territorio de estudiantes de primaria mediante geomática libre",
+          "speaker": "Iván Ignacio Rojas Briones"
         },{
-          "title": "Validación: Asegurando la calidad de los datos agregados en OpenStreetMap",
-          "speaker": "Karito Tenorio"
-        }]
-      },
-      {
-        "talks": [{
-          "title": "El estado del arte de GeoNetwork",
-          "speaker": "María Arias de Reyna"
-        },{
-          "title": "¿Quién mapeó la Argentina? Una exploración del archivo histórico de OpenStreetMap para comprender el conjunto de contribuyentes activos en el país.",
-          "speaker": "Sterling Quinn"
-        },{
-          "title": "Building a spatio-temporal search platform with Registry",
-          "speaker": "Jorge Martinez"
+          "title": "Cartografía social de la percepción emotiva del territorio",
+          "speaker": "Gonzalo Martinez Troncoso"
         }]
       },
       {
@@ -226,8 +214,20 @@
           "title": "Simulación espacial para la restauración",
           "speaker": "Felipe Sodre Barros"
         },{
+          "title": "¿Quién mapeó la Argentina? Una exploración del archivo histórico de OpenStreetMap para comprender el conjunto de contribuyentes activos en el país.",
+          "speaker": "Sterling Quinn"
+        },{
           "title": "Cura de enfermedades del sistema de recaudación municipal en Paraguay con el uso del poha ñana SIG",
           "speaker": "Atahualpa Ayala"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Segmentación Automática para el Censo 2020",
+          "speaker": "Hernán Alperín"
+        },{
+          "title": "Validación: Asegurando la calidad de los datos agregados en OpenStreetMap",
+          "speaker": "Karito Tenorio"
         },{
           "title": "Los SIG para mejorar el sistema de transporte y movilidad urbana en Comodoro Rivadavia",
           "speaker": "Bianca Freddo, Darío Masutti, Erik Jacamo"
@@ -295,38 +295,40 @@
       },
       {
         "talks": [{
-          "title": "Alcance y frecuencia del transporte público, según los barrios populares en la ciudad de Comodoro Rivadavia.",
-          "speaker": "Andrea Trovant"
+          "title": "El estado del arte de GeoNetwork",
+          "speaker": "María Arias de Reyna"
+        },{
+          "title": "Building a spatio-temporal search platform with Registry",
+          "speaker": "Jorge Martinez"
+        },{
+          "title": "Charla de los cubanos, pedir título",
+          "speaker": "Cubanos varios"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "El estado del arte de QGIS",
+          "speaker": "Victor Olaya"
         },{
           "title": "Citylines.co: la construcción de una plataforma colaborativa de datos geográficos",
           "speaker": "Bruno Salerno"
         },{
-          "title": "Software libres para la construcción de una Infraestructura de Datos Espaciales (IDE) como herramienta de análisis socioterritorial: el caso de la IDE del Instituto de Geografía de la UNLPam",
-          "speaker": "Juan Pablo Bossa"
+          "title": "Territorio, ordenamiento y el uso de datos geográficos para la gestión del riesgo de desastres",
+          "speaker": "Cristina Massera, Brenda Williams, Martín Torres"
+        },{
+
         }]
       },
       {
         "talks": [{
-          "title": "El Instituto de Geografía Tropical de Cuba y los sistemas de información geográfica. Una contribución desde la ciencia a la sostenibilidad del desarrollo.",
-          "speaker": "Daimar Cánovas"
+          "title": "Mapbox loves OpenStreetMap",
+          "speaker": "Pilar Serrano"
         },{
           "title": "Construcción de territoro en la comunidad universitaria de Moreno",
           "speaker": "Mario Ignacio Fèvre"
         },{
-          "title": "Creando Mapas de Web Interactivos con Datos Abiertos Para Entender Mejor a las Ciudades y Conectar con Ciudadanos y Turistas",
-          "speaker": "Misha Chakrabarti"
-        }]
-      },
-      {
-        "talks": [{
-          "title": "Cartografía social de la percepción emotiva del territorio",
-          "speaker": "Gonzalo Martinez Troncoso"
-        },{
-          "title": "Open Source, Real-Time, Billion Object Spatio-Temporal Search Plaform",
-          "speaker": "Lennin Suescun"
-        },{
-          "title": "Charla de los cubanos, pedir título",
-          "speaker": "Cubanos varios"
+          "title": "Plataformas y SIG libres para la accesibilidad a salud",
+          "speaker": "Leonardo Javier Schuler"
         }]
       },
       {
@@ -337,14 +339,14 @@
       },
       {
         "talks": [{
-          "title": "Segmentación Automática para el Censo 2020",
-          "speaker": "Hernán Alperín"
+          "title": "OSM en la IDE Pergamino",
+          "speaker": "IDE Pergamino"
         },{
-          "title": "Sistema de Edición Cartográfico Forestal Colaborativo",
-          "speaker": "Matías Gaute"
+          "title": "Open Source, Real-Time, Billion Object Spatio-Temporal Search Plaform",
+          "speaker": "Lennin Suescun"
         },{
-          "title": "Territorio, ordenamiento y el uso de datos geográficos para la gestión del riesgo de desastres",
-          "speaker": "Cristina Massera, Brenda Williams, Martín Torres"
+          "title": "Análisis espacial del temporal (marzo/abril 2017) en la ciudad de Comodoro Rivadavia a través de imágenes ráster",
+          "speaker": "Martín Torres, Brenda Williams, Denis Monaldi, Mauro Vasconcel"
         }]
       },
       {
@@ -352,11 +354,10 @@
           "title": "Los SIG en la emergencia climatica",
           "speaker": "Bianca Freddo"
         },{
-          "title": "Plataformas y SIG libres para la accesibilidad a salud",
-          "speaker": "Leonardo Javier Schuler"
+          "title": "Sistema de Edición Cartográfico Forestal Colaborativo",
+          "speaker": "Matías Gaute"
         },{
-          "title": "Análisis espacial del temporal (marzo/abril 2017) en la ciudad de Comodoro Rivadavia a través de imágenes ráster",
-          "speaker": "Martín Torres, Brenda Williams, Denis Monaldi, Mauro Vasconcel"
+
         }]
       },
       {
