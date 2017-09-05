@@ -10,7 +10,7 @@
       "08:30 - 09:00",
       "09:00 - 13:00",
       "13:00 - 14:30",
-      "14:30 - 18:00"
+      "14:30 - 18:30"
     ],
     "tracks": [
       {
@@ -184,8 +184,8 @@
           "title": "Geonetwork como Nodo IDE sobre Docker",
           "speaker": "Ariel Anthieni"
         },{
-          "title": "Panel sobre #GeoChicas Rol y participación de las mujeres en comunidades tecnológicas",
-          "speaker": "Selene Yang"
+          "title": "Validación: Asegurando la calidad de los datos agregados en OpenStreetMap",
+          "speaker": "Karito Tenorio"
         },{
           "title": "Creando Mapas de Web Interactivos con Datos Abiertos Para Entender Mejor a las Ciudades y Conectar con Ciudadanos y Turistas",
           "speaker": "Misha Chakrabarti"
@@ -226,8 +226,8 @@
           "title": "Segmentación Automática para el Censo 2020",
           "speaker": "Hernán Alperín"
         },{
-          "title": "Validación: Asegurando la calidad de los datos agregados en OpenStreetMap",
-          "speaker": "Karito Tenorio"
+          "title": "Panel sobre #GeoChicas Rol y participación de las mujeres en comunidades tecnológicas",
+          "speaker": "Selene Yang"
         },{
           "title": "Los SIG para mejorar el sistema de transporte y movilidad urbana en Comodoro Rivadavia",
           "speaker": "Bianca Freddo, Darío Masutti, Erik Jacamo"
