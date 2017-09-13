@@ -23,15 +23,15 @@
         "talks": [{
           "title": "Introducción a GeoNetwork",
           "speaker": "Ariel Anthieni",
-          "link": ""
+          "link": "https://www.eventbrite.com.ar/e/taller-introduccion-a-geonetwork-tickets-37386219188"
         },{
           "title": "Introducción a QGIS",
           "speaker": "Federico Gazaba",
-          "link": ""
+          "link": "https://www.eventbrite.com.ar/e/taller-introduccion-a-qgis-tickets-37386314473"
         },{
           "title": "Carto Builder",
           "speaker": "Jorge Sanz",
-          "link": ""
+          "link": "https://www.eventbrite.com.ar/e/taller-carto-builder-tickets-37386484983"
         }]
       },
       {
@@ -44,15 +44,15 @@
         "talks": [{
           "title": "GeoNetwork Avanzado",
           "speaker": "María Arias de Reyna",
-          "link": ""
+          "link": "https://www.eventbrite.com.ar/e/taller-geonetwork-avanzado-tickets-37386525103"
         },{
           "title": "QGIS Superavanzado",
           "speaker": "Victor Olaya",
-          "link": ""
+          "link": "https://www.eventbrite.com.ar/e/taller-qgis-superavanzado-tickets-37386709655"
         },{
           "title": "Introduction to MapServer",
           "speaker": "Jeff McKenna",
-          "link": ""
+          "link": "https://www.eventbrite.com.ar/e/taller-introduccion-a-mapserver-tickets-37386892201"
         }]
       }
     ]
@@ -64,7 +64,7 @@
       "08:30 - 09:00",
       "09:00 - 13:00",
       "13:00 - 14:30",
-      "14:30 - 18:00"
+      "14:30 - 18:30"
     ],
     "tracks": [
       {
@@ -77,15 +77,15 @@
         "talks": [{
           "title": "PostGIS",
           "speaker": "Manuel Retamozo",
-          "link": ""
+          "link": "https://www.eventbrite.com.ar/e/taller-postgis-tickets-37387002531"
         },{
           "title": "Personalización de GeoNode",
           "speaker": "Nicolás Perez",
-          "link": ""
+          "link": "https://www.eventbrite.com.ar/e/taller-personalizacion-de-geonode-y-como-comunicar-una-ide-tickets-37387312458"
         },{
           "title": "Introducción a GeoServer",
-          "speaker": "",
-          "link": ""
+          "speaker": "Martín Dell'Oro",
+          "link": "https://www.eventbrite.com.ar/e/taller-geoserver-tickets-37387332518"
         }]
       },
       {
@@ -98,15 +98,15 @@
         "talks": [{
           "title": "pgRouting",
           "speaker": "Vicky Vergara",
-          "link": ""
+          "link": "https://www.eventbrite.com.ar/e/taller-pgrouting-tickets-37386914267"
         },{
           "title": "Teledetección con QGIS",
           "speaker": "Felipe Barros",
-          "link": ""
+          "link": "https://www.eventbrite.com.ar/e/taller-teledeteccion-con-qgis--tickets-37386986483"
         },{
           "title": "Generación y publicación de tiles vectoriales",
           "speaker": "Gonzalo Perez",
-          "link": ""
+          "link": "https://www.eventbrite.com.ar/e/taller-generacion-y-publicacion-de-tiles-vectoriales-tickets-37387004537"
         }]
       }
     ]
@@ -355,8 +355,8 @@
           "title": "Sistema de Edición Cartográfico Forestal Colaborativo",
           "speaker": "Matías Gaute"
         },{
-          "title": "",
-          "speaker": ""
+          "title": "Servicios abiertos con datos abiertos: un caso de georreferenciación y normalización de direcciones",
+          "speaker": "Natalia Sampietro, Gonzalo Iglesias"
         }]
       },
       {
@@ -382,6 +382,7 @@
   },
   {
     "title": "Sábado 28",
-    "description": "Mapatón + Hackatón.<br/>Si trabajás con datos/mapas libres y tenés alguna propuesta para el mapatón/hackatón, escribinos a <a href='mailto:info@foss4g-ar.org?subject=hackaton'>info@foss4g-ar.org</a>"
+    "description": "Mapatón + Hackatón.<br/>Si trabajás con datos/mapas libres y tenés alguna propuesta para el mapatón/hackatón, escribinos a <a href='mailto:info@foss4g-ar.org?subject=hackaton'>info@foss4g-ar.org</a>",
+    "link": "https://www.eventbrite.com.ar/e/mapaton-hackaton-tickets-37858817743"
   }
 ]

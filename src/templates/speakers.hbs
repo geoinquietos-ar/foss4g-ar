@@ -27,20 +27,14 @@
       <p class="speaker-org">GeoCAT</p>
     </div>
   </div>
-  {{!-- <h3>Presentaciones confirmadas</h3>
-  <div class="talks">
-    {{#each talks}}
-      <div class="talk">
-        <h5>{{title}}</h5>
-        <p>{{name}}</p>
-      </div>
-    {{/each}}
-  </div> --}}
   <h3 id="agenda">Agenda preliminar</h3>
   {{#each programme}}
     <h4>{{title}}</h4>
     {{#if description}}
       <p>{{{description}}}</p>
+    {{/if}}
+    {{#if link}}
+      <a href="{{link}}" target="_blank" class="button button-soft">Inscribite</a>
     {{/if}}
     <div class="agenda">
       <table>
@@ -56,14 +50,17 @@
             {{#with (lookup ../tracks @index) as |track|}}
               {{#each track.talks}}
                 <td {{#if type}}colspan="3" class="{{type}}"{{else}}class="talk"{{/if}} >
-                  <p class="title" title="{{title}}">{{ellipsis title}}</p>
+                  <p class="title" title="{{title}}">
+                    {{#if link}}
+                      <a href="{{link}}" target="_blank" class="button button-info">{{ellipsis title}}</a>
+                    {{else}}
+                      {{ellipsis title}}
+                    {{/if}}
+                  </p>
                   <p class="speaker">{{speaker}}</p>
                 </td>
               {{/each}}
             {{/with}}
-            {{!-- {{#each (lookup ../tracks @index talks)}}
-              <td>{{title}}</td>
-            {{/each}} --}}
           </tr>
         {{/each}}
       </table>
