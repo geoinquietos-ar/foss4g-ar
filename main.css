@@ -1,4 +1,16 @@
-@import url(//fontlibrary.org/face/glacial-indifference);@import url(//fontlibrary.org/face/orkney);html, body {
+@font-face {
+  font-family: 'OrkneyRegular';
+  src: url(01d60c513ac0edd3c290699f36af8ec1.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GlacialIndifferenceRegular';
+  src: url(13dc531a2ffd9ca7eeb500515774fa74.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+html, body {
   height: 100%;
   padding: 0;
   margin: 0; }
@@ -968,6 +980,33 @@ section.about .supporters {
       margin: 0; }
     .speakers .talks .talk p {
       color: #A4D6D5; }
+
+.speakers .agenda table {
+  font-size: 0.8em;
+  color: #333333;
+  width: 100%;
+  text-align: center; }
+  .speakers .agenda table td, .speakers .agenda table th {
+    padding: 0 1em 0 1em; }
+    .speakers .agenda table td p, .speakers .agenda table th p {
+      color: #333333; }
+  .speakers .agenda table th {
+    color: #F3DC56; }
+    .speakers .agenda table th.schedule {
+      white-space: nowrap; }
+  .speakers .agenda table td {
+    background-color: #44C0F0; }
+    .speakers .agenda table td.talk {
+      width: 33%; }
+    .speakers .agenda table td.break {
+      background-color: #EEEEEE; }
+    .speakers .agenda table td.keynote {
+      background-color: #F3DC56; }
+    .speakers .agenda table td p.title {
+      font-weight: bold; }
+    .speakers .agenda table td p.speaker {
+      font-size: 0.9em;
+      font-style: italic; }
 section.sponsors {
   background-image: none; }
   section.sponsors .silver {
