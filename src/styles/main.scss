@@ -1,5 +1,16 @@
-@import url(//fontlibrary.org/face/glacial-indifference);
-@import url(//fontlibrary.org/face/orkney);
+@font-face {
+  font-family: 'OrkneyRegular';
+  src: url('../fonts/OrkneyRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GlacialIndifferenceRegular';
+  src: url('../fonts/GlacialIndifferenceRegular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @import '_variables.scss';
 

@@ -1,0 +1,390 @@
+[
+  {
+    "title": "Lunes 23",
+    "description": "Evento especial <a href='http://www.geoforall.org/'>Geo4All</a> para universidades.<br/>Si formás parte de una universidad y te interesa el evento, escribinos a <a href='mailto:info@foss4g-ar.org?subject=geo4all'>info@foss4g-ar.org</a>"
+  },
+  {
+    "title": "Martes 24",
+    "description": "La inscripción a los talleres es individual. Inscribite haciendo click en el título del taller que te interesa.",
+    "rooms": ["Aula 1", "Aula 2", "Aula 3"],
+    "schedule": [
+      "08:30 - 09:00",
+      "09:00 - 13:00",
+      "13:00 - 14:30",
+      "14:30 - 18:30"
+    ],
+    "tracks": [
+      {
+        "talks": [{
+          "title": "Acreditación",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Introducción a GeoNetwork",
+          "speaker": "Ariel Anthieni",
+          "link": "https://www.eventbrite.com.ar/e/taller-introduccion-a-geonetwork-tickets-37386219188"
+        },{
+          "title": "Introducción a QGIS",
+          "speaker": "Federico Gazaba",
+          "link": "https://www.eventbrite.com.ar/e/taller-introduccion-a-qgis-tickets-37386314473"
+        },{
+          "title": "Carto Builder",
+          "speaker": "Jorge Sanz",
+          "link": "https://www.eventbrite.com.ar/e/taller-carto-builder-tickets-37386484983"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Almuerzo",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "GeoNetwork Avanzado",
+          "speaker": "María Arias de Reyna",
+          "link": "https://www.eventbrite.com.ar/e/taller-geonetwork-avanzado-tickets-37386525103"
+        },{
+          "title": "QGIS Superavanzado",
+          "speaker": "Victor Olaya",
+          "link": "https://www.eventbrite.com.ar/e/taller-qgis-superavanzado-tickets-37386709655"
+        },{
+          "title": "Introduction to MapServer",
+          "speaker": "Jeff McKenna",
+          "link": "https://www.eventbrite.com.ar/e/taller-introduccion-a-mapserver-tickets-37386892201"
+        }]
+      }
+    ]
+  },
+  {
+    "title": "Miércoles 25",
+    "description": "La inscripción a los talleres es individual. Inscribite haciendo click en el título del taller que te interesa.",
+    "rooms": ["Aula 1", "Aula 2", "Aula 3"],
+    "schedule": [
+      "08:30 - 09:00",
+      "09:00 - 13:00",
+      "13:00 - 14:30",
+      "14:30 - 18:30"
+    ],
+    "tracks": [
+      {
+        "talks": [{
+          "title": "Acreditación",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "PostGIS",
+          "speaker": "Manuel Retamozo",
+          "link": "https://www.eventbrite.com.ar/e/taller-postgis-tickets-37387002531"
+        },{
+          "title": "Personalización de GeoNode",
+          "speaker": "Nicolás Perez",
+          "link": "https://www.eventbrite.com.ar/e/taller-personalizacion-de-geonode-y-como-comunicar-una-ide-tickets-37387312458"
+        },{
+          "title": "Introducción a GeoServer",
+          "speaker": "Martín Dell'Oro",
+          "link": "https://www.eventbrite.com.ar/e/taller-geoserver-tickets-37387332518"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Almuerzo",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "pgRouting",
+          "speaker": "Vicky Vergara",
+          "link": "https://www.eventbrite.com.ar/e/taller-pgrouting-tickets-37386914267"
+        },{
+          "title": "Teledetección con QGIS",
+          "speaker": "Felipe Barros",
+          "link": "https://www.eventbrite.com.ar/e/taller-teledeteccion-con-qgis--tickets-37386986483"
+        },{
+          "title": "Generación y publicación de tiles vectoriales",
+          "speaker": "Gonzalo Perez",
+          "link": "https://www.eventbrite.com.ar/e/taller-generacion-y-publicacion-de-tiles-vectoriales-tickets-37387004537"
+        }]
+      }
+    ]
+  },
+  {
+    "title": "Jueves 26",
+    "rooms": ["Sala 1", "Sala 2", "Sala 3"],
+    "schedule": [
+      "09:00 - 10:00",
+      "10:00 - 10:30",
+      "10:30 - 11:00",
+      "11:00 - 11:30",
+      "11:30 - 12:00",
+      "12:00 - 12:30",
+      "12:30 - 13:00",
+      "13:00 - 14:30",
+      "14:30 - 15:00",
+      "15:00 - 15:30",
+      "15:30 - 16:00",
+      "16:00 - 16:30",
+      "16:30 - 17:00"
+    ],
+    "tracks": [
+      {
+        "talks": [{
+          "title": "Acreditación",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Apertura",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Cómo hacer mejores usuarios de SIG",
+          "speaker": "Victor Olaya",
+          "type": "keynote"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Coffee Break",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Carto 2017",
+          "speaker": "Jorge Sanz"
+        },{
+          "title": "El Instituto de Geografía Tropical de Cuba y los sistemas de información geográfica. Una contribución desde la ciencia a la sostenibilidad del desarrollo.",
+          "speaker": "Daimar Cánovas"
+        },{
+          "title": "Alcance y frecuencia del transporte público, según los barrios populares en la ciudad de Comodoro Rivadavia.",
+          "speaker": "Andrea Trovant"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "The State of MapServer: Strong, Stable & Fast",
+          "speaker": "Jeff McKenna"
+        },{
+          "title": "Integración de Sistemas para la Indicación de Destinos para Servicios de Emergencias",
+          "speaker": "Carlos Brys"
+        },{
+          "title": "Software libres para la construcción de una Infraestructura de Datos Espaciales (IDE) como herramienta de análisis socioterritorial: el caso de la IDE del Instituto de Geografía de la UNLPam",
+          "speaker": "Juan Pablo Bossa"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Geonetwork como Nodo IDE sobre Docker",
+          "speaker": "Ariel Anthieni"
+        },{
+          "title": "Validación: Asegurando la calidad de los datos agregados en OpenStreetMap",
+          "speaker": "Karito Tenorio"
+        },{
+          "title": "Creando Mapas de Web Interactivos con Datos Abiertos Para Entender Mejor a las Ciudades y Conectar con Ciudadanos y Turistas",
+          "speaker": "Misha Chakrabarti"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Almuerzo",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "El camino más corto en la base de datos y más con pgRouting ",
+          "speaker": "Vicky Vergara"
+        },{
+          "title": "Cartografía participativa: comprensión y percepción del territorio de estudiantes de primaria mediante geomática libre",
+          "speaker": "Iván Ignacio Rojas Briones"
+        },{
+          "title": "Cartografía social de la percepción emotiva del territorio",
+          "speaker": "Gonzalo Martinez Troncoso"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Simulación espacial para la restauración",
+          "speaker": "Felipe Sodre Barros"
+        },{
+          "title": "¿Quién mapeó la Argentina? Una exploración del archivo histórico de OpenStreetMap para comprender el conjunto de contribuyentes activos en el país.",
+          "speaker": "Sterling Quinn"
+        },{
+          "title": "Cura de enfermedades del sistema de recaudación municipal en Paraguay con el uso del poha ñana SIG",
+          "speaker": "Atahualpa Ayala"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Panel #GeoChicas: rol y participación de las mujeres en comunidades tecnológicas",
+          "speaker": "Selene Yang"
+        },{
+          "title": "OSM en la IDE Pergamino",
+          "speaker": "IDE Pergamino"
+        },{
+          "title": "Los SIG para mejorar el sistema de transporte y movilidad urbana en Comodoro Rivadavia",
+          "speaker": "Bianca Freddo, Darío Masutti, Erik Jacamo"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Coffee Break",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "¿Qué pasa con la diversidad de género?",
+          "speaker": "María Arias de Reyna",
+          "type": "keynote"
+        }]
+      }
+    ]
+  },
+  {
+    "title": "Viernes 27",
+    "rooms": ["Sala 1", "Sala 2", "Sala 3"],
+    "schedule": [
+      "09:00 - 10:00",
+      "10:00 - 10:30",
+      "10:30 - 11:00",
+      "11:00 - 11:30",
+      "11:30 - 12:00",
+      "12:00 - 12:30",
+      "12:30 - 13:00",
+      "13:00 - 14:30",
+      "14:30 - 15:00",
+      "15:00 - 15:30",
+      "15:30 - 16:00",
+      "16:00 - 16:30",
+      "16:30 - 17:00"
+    ],
+    "tracks": [
+      {
+        "talks": [{
+          "title": "Acreditación",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "OSGeo: current state and perspective",
+          "speaker": "Maria Brovelli",
+          "type": "keynote"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "The Bar is Open (A Message from The OSGeo Bartender)",
+          "speaker": "Jeff McKenna",
+          "type": "keynote"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Coffee Break",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "El estado del arte de GeoNetwork",
+          "speaker": "María Arias de Reyna"
+        },{
+          "title": "Building a spatio-temporal search platform with Registry",
+          "speaker": "Jorge Martinez"
+        },{
+          "title": "Charla de los cubanos, pedir título",
+          "speaker": "Cubanos varios"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "El estado del arte de QGIS",
+          "speaker": "Victor Olaya"
+        },{
+          "title": "Citylines.co: la construcción de una plataforma colaborativa de datos geográficos",
+          "speaker": "Bruno Salerno"
+        },{
+          "title": "Territorio, ordenamiento y el uso de datos geográficos para la gestión del riesgo de desastres",
+          "speaker": "Cristina Massera, Brenda Williams, Martín Torres"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Mapbox loves OpenStreetMap",
+          "speaker": "Pilar Serrano"
+        },{
+          "title": "Construcción de territoro en la comunidad universitaria de Moreno",
+          "speaker": "Mario Ignacio Fèvre"
+        },{
+          "title": "Plataformas y SIG libres para la accesibilidad a salud",
+          "speaker": "Leonardo Javier Schuler"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Almuerzo",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Segmentación Automática para el Censo 2020",
+          "speaker": "Hernán Alperín"
+        },{
+          "title": "Open Source, Real-Time, Billion Object Spatio-Temporal Search Plaform",
+          "speaker": "Lennin Suescun"
+        },{
+          "title": "Análisis espacial del temporal (marzo/abril 2017) en la ciudad de Comodoro Rivadavia a través de imágenes ráster",
+          "speaker": "Martín Torres, Brenda Williams, Denis Monaldi, Mauro Vasconcel"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Los SIG en la emergencia climatica",
+          "speaker": "Bianca Freddo"
+        },{
+          "title": "Sistema de Edición Cartográfico Forestal Colaborativo",
+          "speaker": "Matías Gaute"
+        },{
+          "title": "Servicios abiertos con datos abiertos: un caso de georreferenciación y normalización de direcciones",
+          "speaker": "Natalia Sampietro, Gonzalo Iglesias"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Coffee Break",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Una serie de cartográficas desdichas",
+          "speaker": "Jorge Sanz",
+          "type": "keynote"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Cierre",
+          "type": "break"
+        }]
+      }
+    ]
+  },
+  {
+    "title": "Sábado 28",
+    "description": "Mapatón + Hackatón.<br/>Si trabajás con datos/mapas libres y tenés alguna propuesta para el mapatón/hackatón, escribinos a <a href='mailto:info@foss4g-ar.org?subject=hackaton'>info@foss4g-ar.org</a>",
+    "link": "https://www.eventbrite.com.ar/e/mapaton-hackaton-tickets-37858817743"
+  }
+]

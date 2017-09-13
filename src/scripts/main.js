@@ -21,7 +21,7 @@ import '../styles/sponsors.scss';
 import '../styles/faqs.scss';
 import '../styles/footer.scss';
 
-import logo from '../images/iso.svg';
+import logo from '../images/iso.png';
 
 import geoinquietosLogo from '../images/geoinquietos-ar.png';
 import osmArLogo from '../images/osm-ar.png';
@@ -44,6 +44,7 @@ import avatarJeff from '../images/jeff_mckenna.jpeg';
 import avatarDelawen from '../images/maria_arias.jpg';
 
 import talks from '../content/talks.json';
+import programme from '../content/programme.json';
 
 document.body.insertAdjacentHTML('beforeend', navbar({
   logo,
@@ -77,6 +78,7 @@ document.body.insertAdjacentHTML('beforeend', speakers({
   avatarJeff,
   avatarDelawen,
   talks: talks.filter(talk => talk.confirmed === true).sort(() => Math.random() - 0.5),
+  programme,
 }));
 
 document.body.insertAdjacentHTML('beforeend', sponsors({
