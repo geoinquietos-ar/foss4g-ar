@@ -225,11 +225,11 @@
       },
       {
         "talks": [{
-          "title": "Segmentación Automática para el Censo 2020",
-          "speaker": "Hernán Alperín"
-        },{
-          "title": "Panel sobre #GeoChicas Rol y participación de las mujeres en comunidades tecnológicas",
+          "title": "Panel #GeoChicas: rol y participación de las mujeres en comunidades tecnológicas",
           "speaker": "Selene Yang"
+        },{
+          "title": "OSM en la IDE Pergamino",
+          "speaker": "IDE Pergamino"
         },{
           "title": "Los SIG para mejorar el sistema de transporte y movilidad urbana en Comodoro Rivadavia",
           "speaker": "Bianca Freddo, Darío Masutti, Erik Jacamo"
@@ -339,8 +339,8 @@
       },
       {
         "talks": [{
-          "title": "OSM en la IDE Pergamino",
-          "speaker": "IDE Pergamino"
+          "title": "Segmentación Automática para el Censo 2020",
+          "speaker": "Hernán Alperín"
         },{
           "title": "Open Source, Real-Time, Billion Object Spatio-Temporal Search Plaform",
           "speaker": "Lennin Suescun"
