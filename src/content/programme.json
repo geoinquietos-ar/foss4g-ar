@@ -5,6 +5,7 @@
   },
   {
     "title": "Martes 24",
+    "description": "La inscripción a los talleres es individual. Inscribite haciendo click en el título del taller que te interesa.",
     "rooms": ["Aula 1", "Aula 2", "Aula 3"],
     "schedule": [
       "08:30 - 09:00",
@@ -59,6 +60,7 @@
   },
   {
     "title": "Miércoles 25",
+    "description": "La inscripción a los talleres es individual. Inscribite haciendo click en el título del taller que te interesa.",
     "rooms": ["Aula 1", "Aula 2", "Aula 3"],
     "schedule": [
       "08:30 - 09:00",
