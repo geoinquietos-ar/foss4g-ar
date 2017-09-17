@@ -40,7 +40,7 @@ import logoAerolineas from '../images/aa.jpg';
 import avatarMaria from '../images/Maria_brovelli.jpeg';
 import avatarVictor from '../images/victor_olaya.jpg';
 import avatarJorge from '../images/jorge_sanz.jpg';
-import avatarJeff from '../images/jeff_mckenna.jpeg';
+import avatarJeff from '../images/jeffmckenna.jpg';
 import avatarDelawen from '../images/maria_arias.jpg';
 
 import talks from '../content/talks.json';
