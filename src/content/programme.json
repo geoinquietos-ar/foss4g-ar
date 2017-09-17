@@ -85,9 +85,9 @@
           "speaker": "Nicolás Perez",
           "link": "https://www.eventbrite.com.ar/e/taller-personalizacion-de-geonode-y-como-comunicar-una-ide-tickets-37387312458"
         },{
-          "title": "Introducción a GeoServer",
-          "speaker": "Martín Dell'Oro",
-          "link": "https://www.eventbrite.com.ar/e/taller-geoserver-tickets-37387332518"
+          "title": "Teledetección con QGIS",
+          "speaker": "Felipe Barros",
+          "link": "https://www.eventbrite.com.ar/e/taller-teledeteccion-con-qgis--tickets-37386986483"
         }]
       },
       {
@@ -102,9 +102,9 @@
           "speaker": "Vicky Vergara",
           "link": "https://www.eventbrite.com.ar/e/taller-pgrouting-tickets-37386914267"
         },{
-          "title": "Teledetección con QGIS",
-          "speaker": "Felipe Barros",
-          "link": "https://www.eventbrite.com.ar/e/taller-teledeteccion-con-qgis--tickets-37386986483"
+          "title": "Introducción a GeoServer",
+          "speaker": "Martín Dell'Oro",
+          "link": "https://www.eventbrite.com.ar/e/taller-geoserver-tickets-37387332518"
         },{
           "title": "Generación y publicación de tiles vectoriales",
           "speaker": "Gonzalo Perez",
