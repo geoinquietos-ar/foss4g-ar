@@ -49,10 +49,12 @@
             <th class="schedule">{{this}}</th>
             {{#with (lookup ../tracks @index) as |track|}}
               {{#each track.talks}}
-                <td {{#if type}}colspan="3" class="{{type}}"{{else}}class="talk"{{/if}} >
+                <td {{#if type}}colspan="{{../../../rooms.length}}"{{/if}}
+                  class="talk {{#if free}}free{{/if}} {{type}}"
+                  style="width: {{columnWidth ../../../rooms.length}};">
                   <p class="title" title="{{title}}">
                     {{#if link}}
-                      <a href="{{link}}" target="_blank" class="button button-info">{{ellipsis title}}</a>
+                      <a href="{{link}}" target="_blank" class="button button-info">{{ellipsis title}}{{#if free}} (✭){{/if}}</a>
                     {{else}}
                       {{ellipsis title}}
                     {{/if}}
@@ -64,6 +66,9 @@
           </tr>
         {{/each}}
       </table>
+      {{#if footnote}}
+        <p>{{{footnote}}}</p>
+      {{/if}}
     </div>
   {{/each}}
 </section>
