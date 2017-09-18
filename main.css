@@ -993,11 +993,10 @@ section.about .supporters {
   .speakers .agenda table th {
     color: #F3DC56; }
     .speakers .agenda table th.schedule {
-      white-space: nowrap; }
+      white-space: nowrap;
+      max-width: 200px; }
   .speakers .agenda table td {
     background-color: #44C0F0; }
-    .speakers .agenda table td.talk {
-      width: 33%; }
     .speakers .agenda table td.break {
       background-color: #EEEEEE; }
     .speakers .agenda table td.keynote {
