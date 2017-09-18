@@ -49,7 +49,7 @@
             <th class="schedule">{{this}}</th>
             {{#with (lookup ../tracks @index) as |track|}}
               {{#each track.talks}}
-                <td {{#if type}}colspan="3" class="{{type}}"{{else}}class="talk"{{/if}} >
+                <td {{#if type}}colspan="{{../../../rooms.length}}" class="{{type}}"{{else}}class="talk"{{/if}} style="width: {{columnWidth ../../../rooms.length}};">
                   <p class="title" title="{{title}}">
                     {{#if link}}
                       <a href="{{link}}" target="_blank" class="button button-info">{{ellipsis title}}</a>

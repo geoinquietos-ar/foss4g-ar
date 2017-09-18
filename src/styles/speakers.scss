@@ -73,15 +73,12 @@
 
         &.schedule {
           white-space: nowrap;
+          max-width: 200px;
         }
       }
 
       td {
         background-color: $info-color;
-
-        &.talk {
-          width: 33%;
-        }
 
         &.break {
           background-color: $light-color;

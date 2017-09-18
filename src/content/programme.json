@@ -1,7 +1,74 @@
 [
   {
     "title": "Lunes 23",
-    "description": "Evento especial <a href='http://www.geoforall.org/'>Geo4All</a> para universidades.<br/>Si formás parte de una universidad y te interesa el evento, escribinos a <a href='mailto:info@foss4g-ar.org?subject=geo4all'>info@foss4g-ar.org</a>"
+    "description": "Evento especial <a href='http://www.geoforall.org/'>Geo4All</a> para universidades.<br/>Si formás parte de una universidad y te interesa el evento, escribinos a <a href='mailto:info@foss4g-ar.org?subject=geo4all'>info@foss4g-ar.org</a>",
+    "rooms": ["Sala 1"],
+    "schedule": [
+      "09:30 - 09:30",
+      "09:30 - 10:00",
+      "10:00 - 13:00",
+      "13:00 - 14:00",
+      "14:00 - 14:30",
+      "14:30 - 15:00",
+      "15:00 - 15:30",
+      "15:30 - 16:00",
+      "16:00 - 16:30",
+      "16:30 - 17:00"
+    ],
+    "tracks": [
+      {
+        "talks": [{
+          "title": "Acreditación",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Presentación de la iniciativa Geo4All"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Estado de situación de cada Universidad"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Almuerzo",
+          "type": "break"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Resumen de la mañana"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Experiencia de GEOLab en el Politecnico di Milano"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "YouthMappers"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Red académica UN-GGIM"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Espacio de discusión sobre las principales dificultades del uso de software libre en educación e investigación"
+        }]
+      },
+      {
+        "talks": [{
+          "title": "Espacio de discusión sobre la incorporación a la red GeoForAll, creando laboratorios de software libre en las universidades"
+        }]
+      }
+    ]
   },
   {
     "title": "Martes 24",
