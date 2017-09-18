@@ -128,7 +128,8 @@
   {
     "title": "Miércoles 25",
     "description": "La inscripción a los talleres es individual. Inscribite haciendo click en el título del taller que te interesa.",
-    "rooms": ["Aula 1", "Aula 2", "Aula 3"],
+    "footnote": "(✭) Inscripción gratuita",
+    "rooms": ["Aula 1", "Aula 2", "Aula 3", "Aula 4"],
     "schedule": [
       "08:30 - 09:00",
       "09:00 - 13:00",
@@ -155,6 +156,11 @@
           "title": "Teledetección con QGIS",
           "speaker": "Felipe Barros",
           "link": "https://www.eventbrite.com.ar/e/taller-teledeteccion-con-qgis--tickets-37386986483"
+        },{
+          "title": "Mapeo Colaborativo con ID",
+          "speaker": "Carlos Byrs",
+          "link": "https://www.eventbrite.com.ar/e/taller-osm-id-tickets-37859766581",
+          "free": true
         }]
       },
       {
