@@ -235,8 +235,8 @@
           "title": "Carto 2017",
           "speaker": "Jorge Sanz"
         },{
-          "title": "A confirmar",
-          "speaker": "CANCELADO por Ciclón en Cuba. Daimar Cánovas"
+          "title": "Segmentación Automática para el Censo 2020",
+          "speaker": "Hernán Alperín"
         },{
           "title": "Alcance y frecuencia del transporte público, según los barrios populares en la ciudad de Comodoro Rivadavia.",
           "speaker": "Andrea Trovant"
@@ -376,8 +376,8 @@
           "title": "Laboratorio Geoespacial Libre - experiencias en la enseñanza y la investigación en un entorno aberto y colaborativo",
           "speaker": "Silvana Camboim"
         },{
-          "title": "A confirmar",
-          "speaker": "CANCELADO por Ciclón en Cuba. Indira Farrés."
+          "title": "Análisis espacial del temporal (marzo/abril 2017) en la ciudad de Comodoro Rivadavia a través de imágenes ráster",
+          "speaker": "Martín Torres, Brenda Williams, Denis Monaldi, Mauro Vasconcel"
         }]
       },
       {
@@ -412,14 +412,14 @@
       },
       {
         "talks": [{
-          "title": "Segmentación Automática para el Censo 2020",
-          "speaker": "Hernán Alperín"
-        },{
-          "title": "Billion Object Platform (BOP): sistema de búsqueda y transmisión de grandes cantidades de datos espacio-temporales",
-          "speaker": "Lennin Suescun"
-        },{
-          "title": "Análisis espacial del temporal (marzo/abril 2017) en la ciudad de Comodoro Rivadavia a través de imágenes ráster",
-          "speaker": "Martín Torres, Brenda Williams, Denis Monaldi, Mauro Vasconcel"
+            "title": "Billion Object Platform (BOP): sistema de búsqueda y transmisión de grandes cantidades de datos espacio-temporales",
+            "speaker": "Lennin Suescun"
+          },{
+            "title": "Servicios abiertos con datos abiertos: un caso de georreferenciación y normalización de direcciones",
+            "speaker": "Marisol Cardozo, Pilar Mayora, Arturo Peroni"
+          },{
+          "title": "---",
+          "speaker": ""
         }]
       },
       {
@@ -430,8 +430,8 @@
           "title": "Sistema de Edición Cartográfico Forestal Colaborativo",
           "speaker": "Matías Gaute"
         },{
-          "title": "Servicios abiertos con datos abiertos: un caso de georreferenciación y normalización de direcciones",
-          "speaker": "Marisol Cardozo, Pilar Mayora, Arturo Peroni"
+          "title": "---",
+          "speaker": ""
         }]
       },
       {
