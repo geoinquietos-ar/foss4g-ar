@@ -412,8 +412,7 @@
       },
       {
         "talks": [{
-            "title": "Billion Object Platform (BOP): sistema de búsqueda y transmisión de grandes cantidades de datos espacio-temporales",
-            "speaker": "Lennin Suescun"
+            
           },{
             "title": "Servicios abiertos con datos abiertos: un caso de georreferenciación y normalización de direcciones",
             "speaker": "Marisol Cardozo, Pilar Mayora, Arturo Peroni"
