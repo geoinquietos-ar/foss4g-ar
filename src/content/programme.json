@@ -118,9 +118,9 @@
           "speaker": "Victor Olaya",
           "link": "https://www.eventbrite.com.ar/e/taller-qgis-superavanzado-tickets-37386709655"
         },{
-          "title": "Introduction to MapServer",
-          "speaker": "Jeff McKenna",
-          "link": "https://www.eventbrite.com.ar/e/taller-introduccion-a-mapserver-tickets-37386892201"
+          "title": "---",
+          "speaker": "",
+          "link": ""
         }]
       }
     ]
@@ -244,8 +244,8 @@
       },
       {
         "talks": [{
-          "title": "The State of MapServer: Strong, Stable & Fast",
-          "speaker": "Jeff McKenna"
+          "title": "---",
+          "speaker": ""
         },{
           "title": "Integración de Sistemas para la Indicación de Destinos para Servicios de Emergencias",
           "speaker": "Carlos Brys"
@@ -357,8 +357,8 @@
       },
       {
         "talks": [{
-          "title": "The Bar is Open (A Message from The OSGeo Bartender)",
-          "speaker": "Jeff McKenna",
+          "title": "Una comunidad geoinquieta",
+          "speaker": "Geoinquietos",
           "type": "keynote"
         }]
       },
@@ -412,11 +412,12 @@
       },
       {
         "talks": [{
-            
-          },{
-            "title": "Servicios abiertos con datos abiertos: un caso de georreferenciación y normalización de direcciones",
-            "speaker": "Marisol Cardozo, Pilar Mayora, Arturo Peroni"
-          },{
+          "title": "---",
+          "speaker": ""
+        },{
+          "title": "Servicios abiertos con datos abiertos: un caso de georreferenciación y normalización de direcciones",
+          "speaker": "Marisol Cardozo, Pilar Mayora, Arturo Peroni"
+        },{
           "title": "Octave, no es un SIG y sin embargo mapea.",
           "speaker": "Hernán Sala"
         }]
