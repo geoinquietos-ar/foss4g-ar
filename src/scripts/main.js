@@ -30,6 +30,7 @@ import osgeoLogo from '../images/osgeo.png';
 import cacLogo from '../images/cac.png';
 import ideraLogo from '../images/idera.png';
 import conaeLogo from '../images/conae.png';
+import wikimediaArLogo from '../images/wikimedia_ar.png';
 
 import logoCarto from '../images/carto.png';
 import logoBoundless from '../images/boundless.png';
@@ -71,6 +72,7 @@ document.body.insertAdjacentHTML('beforeend', about({
   cacLogo,
   ideraLogo,
   conaeLogo,
+  wikimediaArLogo,
 }));
 
 document.body.insertAdjacentHTML('beforeend', calendar());
