@@ -244,8 +244,8 @@
       },
       {
         "talks": [{
-          "title": "---",
-          "speaker": ""
+          "title": "Octave, no es un SIG y sin embargo mapea.",
+          "speaker": "Hernán Sala"
         },{
           "title": "Integración de Sistemas para la Indicación de Destinos para Servicios de Emergencias",
           "speaker": "Carlos Brys"
@@ -418,8 +418,8 @@
           "title": "Servicios abiertos con datos abiertos: un caso de georreferenciación y normalización de direcciones",
           "speaker": "Marisol Cardozo, Pilar Mayora, Arturo Peroni"
         },{
-          "title": "Octave, no es un SIG y sin embargo mapea.",
-          "speaker": "Hernán Sala"
+          "title": "---",
+          "speaker": ""
         }]
       },
       {
