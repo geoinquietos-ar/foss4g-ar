@@ -1,7 +1,7 @@
 [
   {
     "title": "Lunes 23",
-    "description": "Evento especial <a href='http://www.geoforall.org/'>Geo4All</a> para universidades.<br/>Si formás parte de una universidad y te interesa el evento, escribinos a <a href='mailto:info@foss4g-ar.org?subject=geo4all'>info@foss4g-ar.org</a>",
+    "description": "Evento especial <a href='http://www.geoforall.org/'>Geo4All</a> para universidades.",
     "rooms": ["Sala 1"],
     "schedule": [
       "09:00 - 09:30",
@@ -45,17 +45,20 @@
       },
       {
         "talks": [{
-          "title": "Experiencia de GEOLab en el Politecnico di Milano"
+          "title": "Experiencia de GEOLab en el Politecnico di Milano",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/lunes/Mar%C3%ADa%20Brovelli%20-%20GEOLab_presentation.pdf"
         }]
       },
       {
         "talks": [{
-          "title": "YouthMappers"
+          "title": "YouthMappers",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/lunes/Mar%C3%ADa%20Brovelli%20-%20PoliMappers_171017.pdf"
         }]
       },
       {
         "talks": [{
-          "title": "Red académica UN-GGIM"
+          "title": "Red académica UN-GGIM",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/lunes/Mar%C3%ADa%20Brovelli%20-%20UN-GGIM_FOSS4GAR.pdf"
         }]
       },
       {
@@ -72,7 +75,6 @@
   },
   {
     "title": "Martes 24",
-    "description": "La inscripción a los talleres es individual. Inscribite haciendo click en el título del taller que te interesa.",
     "rooms": ["Aula 1", "Aula 2", "Aula 3"],
     "schedule": [
       "08:30 - 09:00",
@@ -90,16 +92,13 @@
       {
         "talks": [{
           "title": "Introducción a GeoNetwork",
-          "speaker": "Ariel Anthieni",
-          "link": "https://www.eventbrite.com.ar/e/taller-introduccion-a-geonetwork-tickets-37386219188"
+          "speaker": "Ariel Anthieni"
         },{
           "title": "Introducción a QGIS",
-          "speaker": "Federico Gazaba",
-          "link": "https://www.eventbrite.com.ar/e/taller-introduccion-a-qgis-tickets-37386314473"
+          "speaker": "Federico Gazaba"
         },{
           "title": "Carto Builder",
-          "speaker": "Jorge Sanz",
-          "link": "https://www.eventbrite.com.ar/e/taller-carto-builder-tickets-37386484983"
+          "speaker": "Jorge Sanz"
         }]
       },
       {
@@ -111,23 +110,19 @@
       {
         "talks": [{
           "title": "GeoNetwork Avanzado",
-          "speaker": "María Arias de Reyna",
-          "link": "https://www.eventbrite.com.ar/e/taller-geonetwork-avanzado-tickets-37386525103"
+          "speaker": "María Arias de Reyna"
         },{
           "title": "QGIS Superavanzado",
-          "speaker": "Victor Olaya",
-          "link": "https://www.eventbrite.com.ar/e/taller-qgis-superavanzado-tickets-37386709655"
+          "speaker": "Victor Olaya"
         },{
           "title": "Taller QGIS + PostGIS",
-          "speaker": "Horacio Castellaro",
-          "link": "https://www.eventbrite.com.ar/e/taller-qgis-postgis-tickets-39162350645"
+          "speaker": "Horacio Castellaro"
         }]
       }
     ]
   },
   {
     "title": "Miércoles 25",
-    "description": "La inscripción a los talleres es individual. Inscribite haciendo click en el título del taller que te interesa.",
     "footnote": "(✭) Inscripción gratuita",
     "rooms": ["Aula 1", "Aula 2", "Aula 3", "Aula 4"],
     "schedule": [
@@ -146,20 +141,16 @@
       {
         "talks": [{
           "title": "PostGIS",
-          "speaker": "Manuel Retamozo",
-          "link": "https://www.eventbrite.com.ar/e/taller-postgis-tickets-37387002531"
+          "speaker": "Manuel Retamozo"
         },{
           "title": "Personalización de GeoNode",
-          "speaker": "Nicolás Perez",
-          "link": "https://www.eventbrite.com.ar/e/taller-personalizacion-de-geonode-y-como-comunicar-una-ide-tickets-37387312458"
+          "speaker": "Nicolás Perez"
         },{
           "title": "Teledetección con QGIS",
-          "speaker": "Felipe Barros",
-          "link": "https://www.eventbrite.com.ar/e/taller-teledeteccion-con-qgis--tickets-37386986483"
+          "speaker": "Felipe Barros"
         },{
           "title": "Mapeo Colaborativo con ID",
           "speaker": "Carlos Byrs",
-          "link": "https://www.eventbrite.com.ar/e/taller-osm-id-tickets-37859766581",
           "free": true
         }]
       },
@@ -172,16 +163,13 @@
       {
         "talks": [{
           "title": "pgRouting",
-          "speaker": "Vicky Vergara",
-          "link": "https://www.eventbrite.com.ar/e/taller-pgrouting-tickets-37386914267"
+          "speaker": "Vicky Vergara"
         },{
           "title": "Introducción a GeoServer",
-          "speaker": "Martín Dell'Oro",
-          "link": "https://www.eventbrite.com.ar/e/taller-geoserver-tickets-37387332518"
+          "speaker": "Martín Dell'Oro"
         },{
           "title": "Generación y publicación de tiles vectoriales",
-          "speaker": "Gonzalo Perez",
-          "link": "https://www.eventbrite.com.ar/e/taller-generacion-y-publicacion-de-tiles-vectoriales-tickets-37387004537"
+          "speaker": "Gonzalo Perez"
         }]
       }
     ]
@@ -233,37 +221,45 @@
       {
         "talks": [{
           "title": "Carto 2017",
-          "speaker": "Jorge Sanz"
+          "speaker": "Jorge Sanz",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/jueves/sala-1/Jorge%20Sanz%20-%20CARTO2017.pdf"
         },{
           "title": "Segmentación Automática para el Censo 2020",
           "speaker": "Hernán Alperín"
         },{
           "title": "Alcance y frecuencia del transporte público, según los barrios populares en la ciudad de Comodoro Rivadavia.",
-          "speaker": "Andrea Trovant"
+          "speaker": "Andrea Trovant",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/jueves/sala-3/Andrea%20Trovant%20-%20Alcance%20y%20frecuencia%20del%20transporte%20p%C3%BAblico.pdf"
         }]
       },
       {
         "talks": [{
           "title": "Octave, no es un SIG y sin embargo mapea.",
-          "speaker": "Hernán Sala"
+          "speaker": "Hernán Sala",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/jueves/sala-1/Octave%2C%20no%20es%20un%20SIG%20y%20sin%20embargo%20mapea.pdf"
         },{
           "title": "Integración de Sistemas para la Indicación de Destinos para Servicios de Emergencias",
-          "speaker": "Carlos Brys"
+          "speaker": "Carlos Brys",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/jueves/sala-2/Carlos%20Brys%20-%20Integraci%C3%B3n%20de%20Sistemas%20para%20la%20Indicaci%C3%B3n%20de%20D.pdf"
         },{
           "title": "Software libres para la construcción de una Infraestructura de Datos Espaciales (IDE) como herramienta de análisis socioterritorial: el caso de la IDE del Instituto de Geografía de la UNLPam",
-          "speaker": "Juan Pablo Bossa"
+          "speaker": "Juan Pablo Bossa",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/jueves/sala-3/Bossa%20Juan%20Pablo%20-%20Software%20libres%20para%20la%20construcci%C3%B3n.pdf"
         }]
       },
       {
         "talks": [{
           "title": "Geonetwork como Nodo IDE sobre Docker",
-          "speaker": "Ariel Anthieni"
+          "speaker": "Ariel Anthieni",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/jueves/sala-1/Ariel%20Anthieni%20-%20Geonetwork%20como%20Nodo%20IDE%20sobre%20Docker.pdf"
         },{
           "title": "Validación: Asegurando la calidad de los datos agregados en OpenStreetMap",
-          "speaker": "Karito Tenorio"
+          "speaker": "Karito Tenorio",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/jueves/sala-2/Sterling%20Quinn%20-%20Qui%C3%A9nes%20mapean%20la%20Argentina.pdf"
         },{
           "title": "Creando Mapas de Web Interactivos con Datos Abiertos Para Entender Mejor a las Ciudades y Conectar con Ciudadanos y Turistas",
-          "speaker": "Misha Chakrabarti"
+          "speaker": "Misha Chakrabarti",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/jueves/sala-3/Misha%20Chakrabarti%20-%20Creando%20Mapas%20de%20Web%20Interactivos.pdf"
         }]
       },
       {
@@ -278,22 +274,27 @@
           "speaker": "Vicky Vergara"
         },{
           "title": "Cartografía participativa: comprensión y percepción del territorio de estudiantes de primaria mediante geomática libre",
-          "speaker": "Iván Ignacio Rojas Briones"
+          "speaker": "Iván Ignacio Rojas Briones",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/jueves/sala-2/Iv%C3%A1n%20Ignacio%20Rojas%20Briones%20-%20cartografia%20participativa_Chile.pdf"
         },{
           "title": "Cartografía social de la percepción emotiva del territorio",
-          "speaker": "Gonzalo Martinez Troncoso"
+          "speaker": "Gonzalo Martinez Troncoso",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/jueves/sala-3/Gonzalo%20Martinez%20Troncoso%20-%20Cartograf%C3%ADa%20social%20de%20la%20percepci%C3%B3n%20emotiva%20del%20territorio.pdf"
         }]
       },
       {
         "talks": [{
           "title": "Simulación espacial para la restauración",
-          "speaker": "Felipe Sodre Barros"
+          "speaker": "Felipe Sodre Barros",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/jueves/sala-1/Felipe%20Sodre%20Barros%20-%20Simulaci%C3%B3n%20espacial%20para%20la%20restauraci%C3%B3n.pdf"
         },{
           "title": "¿Quién mapeó la Argentina? Una exploración del archivo histórico de OpenStreetMap para comprender el conjunto de contribuyentes activos en el país.",
-          "speaker": "Sterling Quinn"
+          "speaker": "Sterling Quinn",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/jueves/sala-2/Sterling%20Quinn%20-%20Qui%C3%A9nes%20mapean%20la%20Argentina.pdf"
         },{
           "title": "Cura de enfermedades del sistema de recaudación municipal en Paraguay con el uso del poha ñana SIG",
-          "speaker": "Atahualpa Ayala"
+          "speaker": "Atahualpa Ayala",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/jueves/sala-3/Atahualpa%20Ayala%20-%20Caseria%20de%20Mitos%20del%20SIG%20libre.pdf"
         }]
       },
       {
@@ -305,7 +306,8 @@
           "speaker": "IDE Pergamino"
         },{
           "title": "Plataformas y SIG libres para la accesibilidad a salud",
-          "speaker": "Leonardo Javier Schuler"
+          "speaker": "Leonardo Javier Schuler",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/jueves/sala-3/Leonardo%20Schuler%20-%20Plataformas%20y%20SIG%20libres%20para%20la%20accesibilidad%20a%20salud.pdf"
         }]
       },
       {
@@ -377,7 +379,8 @@
           "speaker": "Silvana Camboim"
         },{
           "title": "Análisis espacial del temporal (marzo/abril 2017) en la ciudad de Comodoro Rivadavia a través de imágenes ráster",
-          "speaker": "Martín Torres, Brenda Williams, Denis Monaldi, Mauro Vasconcel"
+          "speaker": "Martín Torres, Brenda Williams, Denis Monaldi, Mauro Vasconcel",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/viernes/sala-3/An%C3%A1lisis%20espacial%20del%20temporal%20marzo-abril%202017%20en%20la%20ciudad%20de%20Comodoro%20Rivadavia%20a%20trav%C3%A9s%20de%20im%C3%A1genes%20r%C3%A1ster.pdf"
         }]
       },
       {
@@ -389,7 +392,8 @@
           "speaker": "Bruno Salerno"
         },{
           "title": "Territorio, ordenamiento y el uso de datos geográficos para la gestión del riesgo de desastres",
-          "speaker": "Cristina Massera, Brenda Williams, Martín Torres"
+          "speaker": "Cristina Massera, Brenda Williams, Martín Torres",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/viernes/sala-3/Territorio%2C%20ordenamiento%20y%20el%20uso%20de%20datos%20geogr%C3%A1ficos%20para%20la%20gesti%C3%B3n%20del%20riesgo%20de%20desastres.pdf"
         }]
       },
       {
@@ -413,7 +417,8 @@
       {
         "talks": [{
           "title": "Uso de Imagenes Satelitales con software libre",
-          "speaker": "Ariel Anthieni"
+          "speaker": "Ariel Anthieni",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/viernes/sala-1/Ariel%20Anthieni%20-%20Uso%20de%20Imagenes%20Satelitales%20con%20SL.pdf"
         },{
           "title": "Servicios abiertos con datos abiertos: un caso de georreferenciación y normalización de direcciones",
           "speaker": "Marisol Cardozo, Pilar Mayora, Arturo Peroni"
@@ -425,7 +430,8 @@
       {
         "talks": [{
           "title": "Los SIG en la emergencia climatica",
-          "speaker": "Bianca Freddo"
+          "speaker": "Bianca Freddo",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/viernes/sala-1/Los%20SIG%20en%20la%20emergencia%20climatica.pdf"
         },{
           "title": "Sistema de Edición Cartográfico Forestal Colaborativo",
           "speaker": "Matías Gaute"
@@ -444,7 +450,8 @@
         "talks": [{
           "title": "Una serie de cartográficas desdichas",
           "speaker": "Jorge Sanz",
-          "type": "keynote"
+          "type": "keynote",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/viernes/Una%20serie%20de%20cartogr%C3%A1ficas%20desdichas.pdf"
         }]
       },
       {
