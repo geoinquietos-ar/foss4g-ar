@@ -300,10 +300,12 @@
       {
         "talks": [{
           "title": "Panel #GeoChicas: rol y participación de las mujeres en comunidades tecnológicas",
-          "speaker": "Selene Yang"
+          "speaker": "Selene Yang",
+          "link": "http://slides.com/lasele/geochicas-en-la-foss4g#/"
         },{
           "title": "OSM en la IDE Pergamino",
-          "speaker": "IDE Pergamino"
+          "speaker": "IDE Pergamino",
+          "link": "https://github.com/juanblas09/foss4g-sotm-ar-2017/raw/master/jueves/sala-2/OSM%20en%20la%20IDE%20Pergamino.svg"
         },{
           "title": "Plataformas y SIG libres para la accesibilidad a salud",
           "speaker": "Leonardo Javier Schuler",
