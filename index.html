@@ -14,18 +14,24 @@
 
     body {
       display: flex;
+      flex-direction: column;
       flex: 1;
       justify-content: center;
       align-items: center;
       background: #555;
+      font-family: sans-serif;
+      color: #fff;
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
     }
 
-    img {
-      width: 50%;
+    .logo {
+      width: 80%;
     }
   </style>
 </head>
 <body>
-  <img src="logo.png" />
+  <img class="logo" src="logo.png" />
 </body>
 </html>
